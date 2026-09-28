@@ -1,0 +1,671 @@
+[
+ {
+  "cells": [
+   "#",
+   "Category",
+   "Component / specification",
+   "Qty",
+   "Unit AED",
+   "Total AED",
+   "Suggested vendor/source",
+   "Purpose"
+  ],
+  "links": []
+ },
+ {
+  "cells": [
+   "1",
+   "Propulsion",
+   "70 mm 12-blade EDF unit, 6S-capable",
+   "2",
+   "225",
+   "450",
+   "Amazon",
+   "Primary thrust source; second unit retained as spare for testing continuity."
+  ],
+  "links": [
+   {
+    "text": "Amazon",
+    "url": "https://www.amazon.ae/POENVFPO-Lightweight-Efficiency-Accessories-Enthusiasts/dp/B0G2YPSDJ6/ref=sr_1_1?dib=eyJ2IjoiMSJ9.z6LsJ2tGaRxkN3D1Tnm7gIIoeWQTgmZDPxlNJlFLjAx04oD3sG__raaSgBu3QEkS1NS8pN3XrspEJCGzNRkpdZNo1BBTE03I4zHShB08pSCdGc6ny2dvhGt0RkkBPGhg.OdDEKIS27JAx76wmCX3USh2KqylYNwhuESw1N8eQpN8&dib_tag=se&keywords=70%2Bmm%2B12-blade%2BEDF%2Bunit%2C%2B6S-capable&qid=1789751609&sr=8-1&ufe=app_do%3Aamzn1.fos.b4f74a7b-9d54-420b-9003-7e54957e6f89&th=1"
+   }
+  ]
+ },
+ {
+  "cells": [
+   "2",
+   "Propulsion",
+   "100 A brushless ESC, 6S compatible",
+   "2",
+   "158",
+   "316",
+   "Amazon",
+   "Drives the EDF motor; one installed and one spare/matched backup."
+  ],
+  "links": [
+   {
+    "text": "Amazon",
+    "url": "https://www.amazon.com/dp/B0D39GH5JF?lv=shuf&channelId=500&plpRedirect=mhFallback&th=1"
+   }
+  ]
+ },
+ {
+  "cells": [
+   "3",
+   "Power",
+   "6S Lipo Battery 4000mAh 22.2V 100C (bench testing) / 6S Lipo Battery 3300mAh 22.2V 120C (flight pack)",
+   "1 / 1",
+   "359 / 290",
+   "649",
+   "Amazon / Amazon",
+   "High-current power source; two batteries support repeat tests and rotation."
+  ],
+  "links": [
+   {
+    "text": "Amazon",
+    "url": "https://www.amazon.ae/Zeee-4000mAh-22-2V-100C-Helicopter/dp/B0F4XFQS5G/ref=sr_1_1?dib=eyJ2IjoiMSJ9.nL4yEhltr5tWKTyOqeOCfmuf16rDNsZDoqk--aIpbCk.z05JdMtETDhAYQm5Lvxnks1URDkQuvepo3J2me7uuxg&dib_tag=se&keywords=Zeee+6S+4000mAh+100C&qid=1789753361&sr=8-1&ufe=app_do%3Aamzn1.fos.b4f74a7b-9d54-420b-9003-7e54957e6f89"
+   },
+   {
+    "text": "Amazon",
+    "url": "https://www.amazon.ae/Zeee-Battery-Connector-Airplane-Helicopter/dp/B0FNMP8STK/ref=sr_1_1?dib=eyJ2IjoiMSJ9.YigvRdXdGfLlgDA15Myj1P-6Nwpb4_Z8HH10B_j7MprGjHj071QN20LucGBJIEps.7g5nwWB96sVdAiD9rrGHEXgH1taEVSrqosyarKxb7AQ&dib_tag=se&keywords=Zeee+6S+3300mAh+120C&qid=1789753442&sr=8-1&ufe=app_do%3Aamzn1.fos.b4f74a7b-9d54-420b-9003-7e54957e6f89"
+   }
+  ]
+ },
+ {
+  "cells": [
+   "4",
+   "Power",
+   "6S balance charger with storage mode",
+   "1",
+   "173",
+   "173",
+   "Amazon",
+   "Safe charging, balancing and storage charging of LiPo packs."
+  ],
+  "links": [
+   {
+    "text": "Amazon",
+    "url": "https://amzn.eu/d/00YRU9iJ"
+   }
+  ]
+ },
+ {
+  "cells": [
+   "5",
+   "Safety",
+   "LiPo fire-resistant charging/storage bag",
+   "1",
+   "28",
+   "28",
+   "Amazon.ae / hobby retailer",
+   "Reduces risk during battery charging, transport and storage."
+  ],
+  "links": [
+   {
+    "text": "Amazon.ae / hobby retailer",
+    "url": "https://amzn.eu/d/0hyYz9iI"
+   }
+  ]
+ },
+ {
+  "cells": [
+   "6",
+   "Instrumentation",
+   "Inline high-current watt/power meter (optional)",
+   "1",
+   "52",
+   "52",
+   "RC electronics supplier",
+   "Bench measurement of voltage, current, power and energy draw."
+  ],
+  "links": [
+   {
+    "text": "RC electronics supplier",
+    "url": "https://amzn.eu/d/0gBDlyTM"
+   }
+  ]
+ },
+ {
+  "cells": [
+   "7",
+   "Instrumentation",
+   "Thrust measurement kit / load-cell stand",
+   "1",
+   "255",
+   "255",
+   "Ali-express",
+   "Static thrust calibration and repeatability checks before closed-loop tests."
+  ],
+  "links": [
+   {
+    "text": "Ali-express",
+    "url": "https://ar.aliexpress.com/item/32997870524.html?gatewayAdapt=glo2ara#nav-review"
+   }
+  ]
+ },
+ {
+  "cells": [
+   "8",
+   "Control",
+   "Pixhawk 6C flight controller, Aluminum casing, PM07 Module",
+   "1",
+   "807.4",
+   "807.4",
+   "Holybro – official manufacturer",
+   "Primary real-time control, IMU sensing, logging and actuator command platform."
+  ],
+  "links": [
+   {
+    "text": "Holybro – official manufacturer",
+    "url": "https://holybro.com/products/pixhawk-6c?variant=42420293599421"
+   }
+  ]
+ },
+ {
+  "cells": [
+   "10",
+   "Power/Control",
+   "2-6S high-current UBEC, 10 A continuous / 15 A peak class",
+   "2",
+   "105",
+   "210",
+   "HobbyWingDirect / Amazon",
+   "Dedicated regulated servo/control power to isolate logic from propulsion noise."
+  ],
+  "links": [
+   {
+    "text": "HobbyWingDirect",
+    "url": "https://www.hobbywingdirect.com/products/ubec-10a"
+   },
+   {
+    "text": "Amazon",
+    "url": "https://www.amazon.ae/CHICIRIS-Adjustable-Waterproof-Performance-Quadcopter/dp/B0HBB71FD7/ref=sr_1_1?crid=1AIGFSA8G4243&dib=eyJ2IjoiMSJ9.XM7Lf2dRLk5vQAncMw_t0Yn6-r_YijLuKZCb--n2Yicn1TyKHaarN5Jklm2IuIc_aPyviqQ4LSdYNQ325AIa7AxHetIp-LcoUr9WPH_9zmARGqLMXnQP3CScr-n1DZ8oO0GrsUZGBomfT83_CvPRduMfuJj6pAJ22lmrNeoYlphz4Q9Q7LXua_Df5PJV7Voo7XuLTtPAJp7M320rs3YtPPRYqMlWq3rE3Rth8KrBGyyWZCLU_jQYtHCBnGPQUfV2Zk-qhXMyLCxYBVZ_WmWLkx3Cdz2LxaTcP9uQtkcY9U0.4iY3ic80HdMLnrTGFw_flCyGfdBPBSebaGZT1PLKma4&dib_tag=se&keywords=UBEC+10A&qid=1789750304&sprefix=ubec+10a%2Caps%2C427&sr=8-1&ufe=app_do%3Aamzn1.fos.b4f74a7b-9d54-420b-9003-7e54957e6f89"
+   }
+  ]
+ },
+ {
+  "cells": [
+   "11",
+   "Safety",
+   "Latching mushroom emergency-stop switch",
+   "1",
+   "31",
+   "31",
+   "RS UAE / industrial supplier",
+   "Immediate operator-accessible shutdown command for bench and tethered tests."
+  ],
+  "links": [
+   {
+    "text": "RS UAE / industrial supplier",
+    "url": "https://amzn.eu/d/0iW9w0GX"
+   }
+  ]
+ },
+ {
+  "cells": [
+   "12",
+   "Safety/Power",
+   "TE Connectivity LEV100-class 100 A DC contactor",
+   "1",
+   "175",
+   "175",
+   "RS UAE",
+   "Hard high-current propulsion isolation controlled by the safety circuit."
+  ],
+  "links": [
+   {
+    "text": "RS UAE",
+    "url": "https://amzn.eu/d/05Eabkha"
+   }
+  ]
+ },
+ {
+  "cells": [
+   "13",
+   "Safety/Power",
+   "Main fuse holder + appropriately rated spare fuses",
+   "1",
+   "47",
+   "47",
+   "RS UAE  and  automotive electrical supplier",
+   "Protects high-current branches from short-circuit and wiring faults."
+  ],
+  "links": [
+   {
+    "text": "RS UAE",
+    "url": "https://amzn.eu/d/0aYNgcaI"
+   },
+   {
+    "text": "automotive electrical supplier",
+    "url": "https://amzn.eu/d/0dQeJM9W"
+   }
+  ]
+ },
+ {
+  "cells": [
+   "14",
+   "Power",
+   "XT90-S anti-spark connector sets",
+   "1",
+   "90",
+   "90",
+   "Amazon",
+   "High-current removable battery connection with reduced connector arcing."
+  ],
+  "links": [
+   {
+    "text": "Amazon",
+    "url": "https://amzn.eu/d/0gTKRxiO"
+   }
+  ]
+ },
+ {
+  "cells": [
+   "15",
+   "Power",
+   "10/12 AWG silicone wire assortment",
+   "1",
+   "156",
+   "156",
+   "10/12 AWG silicone wire assortment",
+   "Low-resistance propulsion and battery wiring."
+  ],
+  "links": [
+   {
+    "text": "10/12 AWG silicone wire assortment",
+    "url": "https://amzn.eu/d/0h1lqBdq"
+   }
+  ]
+ },
+ {
+  "cells": [
+   "16",
+   "Electrical",
+   "Crimp terminals, heat-shrink and braided sleeving kit",
+   "1",
+   "70",
+   "70",
+   "RS UAE / Amazon.ae and  RCS supplier",
+   "Reliable terminations, insulation, abrasion protection and cable management."
+  ],
+  "links": [
+   {
+    "text": "RS UAE / Amazon.ae",
+    "url": "https://amzn.eu/d/04nibuGm"
+   },
+   {
+    "text": "RCS supplier",
+    "url": "https://amzn.eu/d/0gbopxeT"
+   }
+  ]
+ },
+ {
+  "cells": [
+   "17",
+   "Actuation",
+   "40 kg-cm metal-gear digital servo, DS3240-class, 2-pack",
+   "1",
+   "123",
+   "123",
+   "Amazon.ae / robotics supplier",
+   "Two-axis gimbal actuation: pitch and yaw."
+  ],
+  "links": [
+   {
+    "text": "Amazon.ae / robotics supplier",
+    "url": "https://amzn.eu/d/0dhyJcwB"
+   }
+  ]
+ },
+ {
+  "cells": [
+   "18",
+   "Actuation",
+   "Heavy-duty metal servo horns",
+   "1",
+   "66",
+   "66",
+   "Robotics/RC supplier",
+   "Transfers servo torque into the gimbal linkage with less flex than plastic horns."
+  ],
+  "links": [
+   {
+    "text": "Robotics/RC supplier",
+    "url": "https://amzn.eu/d/09Oa1URy"
+   }
+  ]
+ },
+ {
+  "cells": [
+   "19",
+   "Actuation",
+   "Adjustable pushrods + ball-link set",
+   "1",
+   "126",
+   "126",
+   "RC supplier",
+   "Low-play mechanical linkage between servos and gimbal axes."
+  ],
+  "links": [
+   {
+    "text": "RC supplier",
+    "url": "https://amzn.eu/d/0aD0ldEh"
+   }
+  ]
+ },
+ {
+  "cells": [
+   "20",
+   "Mechanics",
+   "625ZZ ball-bearing pack",
+   "1",
+   "45",
+   "45",
+   "Bearing supplier / Amazon.ae",
+   "Low-friction gimbal pivots and repeatable axis alignment."
+  ],
+  "links": [
+   {
+    "text": "Bearing supplier / Amazon.ae",
+    "url": "https://amzn.eu/d/08ORbNQY"
+   }
+  ]
+ },
+ {
+  "cells": [
+   "21",
+   "Mechanics",
+   "Steel pivot shafts / shoulder-bolt set",
+   "1",
+   "98",
+   "98",
+   "RS UAE / fastener supplier",
+   "Metal gimbal pivot hardware; should not be 3D printed."
+  ],
+  "links": [
+   {
+    "text": "RS UAE",
+    "url": "https://amzn.eu/d/030UZwzj"
+   },
+   {
+    "text": "fastener supplier",
+    "url": "https://amzn.eu/d/0851RCnY"
+   }
+  ]
+ },
+ {
+  "cells": [
+   "22",
+   "Structure",
+   "10 x 8 mm Carbon-fibre tubes",
+   "4",
+   "35",
+   "140",
+   "Composite/RC supplier",
+   "Light, stiff structural rails/booms for the testbed."
+  ],
+  "links": [
+   {
+    "text": "Composite/RC supplier",
+    "url": "https://amzn.eu/d/0aSbtn76"
+   }
+  ]
+ },
+ {
+  "cells": [
+   "23",
+   "Structure",
+   "Aluminum extrusion / plate stock for base frame",
+   "1",
+   "220",
+   "220",
+   "Local metal supplier",
+   "Rigid non-printed base and fixture structure for tethered testing."
+  ],
+  "links": []
+ },
+ {
+  "cells": [
+   "24",
+   "Hardware",
+   "Stainless M3/M4/M5 fastener assortment",
+   "1",
+   "47",
+   "47",
+   "RS UAE / local fastener supplier",
+   "Assembly hardware for gimbal, electronics and frame."
+  ],
+  "links": [
+   {
+    "text": "RS UAE / local fastener supplier",
+    "url": "https://amzn.eu/d/01qgPMFi"
+   }
+  ]
+ },
+ {
+  "cells": [
+   "25",
+   "Structure",
+   "Rubber vibration isolators / bobbins",
+   "1",
+   "41",
+   "41",
+   "RS UAE",
+   "Reduces high-frequency EDF vibration reaching control electronics and sensors."
+  ],
+  "links": [
+   {
+    "text": "RS UAE",
+    "url": "https://amzn.eu/d/066wOaaF"
+   }
+  ]
+ },
+ {
+  "cells": [
+   "26",
+   "Safety",
+   "Load-rated tether straps + metal eye bolts",
+   "1",
+   "52",
+   "52",
+   "Strap and eye bolt",
+   "Physical restraint for indoor/tethered experiments; metal load path retained."
+  ],
+  "links": [
+   {
+    "text": "Strap",
+    "url": "https://amzn.eu/d/00J59Snu"
+   },
+   {
+    "text": "eye bolt",
+    "url": "https://amzn.eu/d/0avC805V"
+   }
+  ]
+ },
+ {
+  "cells": [
+   "27",
+   "Safety",
+   "Polycarbonate safety shield material",
+   "1",
+   "130",
+   "130",
+   "Local plastics supplier",
+   "Operator protection around the EDF and rotating gimbal during bench tests."
+  ],
+  "links": []
+ },
+ {
+  "cells": [
+   "28",
+   "Sensors",
+   "Independent IMU breakout (BNO085-class or equivalent)",
+   "1",
+   "111",
+   "111",
+   "Adafruit / electronics supplier",
+   "Reference sensor for validation and cross-checking Pixhawk attitude measurements."
+  ],
+  "links": [
+   {
+    "text": "Adafruit / electronics supplier",
+    "url": "https://www.amazon.ae/BNO085-Precision-Sensor-Interface-Replace/dp/B0F3T788HD"
+   }
+  ]
+ },
+ {
+  "cells": [
+   "29",
+   "Instrumentation",
+   "Optical/non-contact tachometer",
+   "1",
+   "109",
+   "109",
+   "Amazon.ae / instrumentation supplier",
+   "Independent RPM verification during propulsion characterization."
+  ],
+  "links": [
+   {
+    "text": "Amazon.ae / instrumentation supplier",
+    "url": "https://amzn.eu/d/02ukxVkd"
+   }
+  ]
+ },
+ {
+  "cells": [
+   "30",
+   "Instrumentation",
+   "External current/voltage sensor module",
+   "1",
+   "69",
+   "69",
+   "Electronics supplier",
+   "Secondary electrical measurements for data validation."
+  ],
+  "links": [
+   {
+    "text": "Electronics supplier",
+    "url": "https://amzn.eu/d/09PJFPb6"
+   }
+  ]
+ },
+ {
+  "cells": [
+   "31",
+   "Instrumentation",
+   "Temperature sensor kit for ESC/motor/battery monitoring",
+   "1",
+   "294",
+   "294",
+   "Electronics supplier",
+   "Tracks thermal loading during repeated runs."
+  ],
+  "links": [
+   {
+    "text": "Electronics supplier",
+    "url": "https://eshop.se.com/ae/temperature-sensor-kit-for-external-battery-system-e3sopt003.html"
+   }
+  ]
+ },
+ {
+  "cells": [
+   "32",
+   "Data",
+   "High-endurance microSD cards + USB reader",
+   "1",
+   "92",
+   "92",
+   "SanDisk retailer and Amazon.ae",
+   "Reliable controller/log storage and fast transfer to analysis computer."
+  ],
+  "links": [
+   {
+    "text": "SanDisk retailer",
+    "url": "https://amzn.eu/d/02mGlEAD"
+   },
+   {
+    "text": "Amazon.ae",
+    "url": "https://amzn.eu/d/0f8epI5R"
+   }
+  ]
+ },
+ {
+  "cells": [
+   "33",
+   "Fabrication",
+   "PETG",
+   "2",
+   "101",
+   "202",
+   "Amazon",
+   "Prints gimbal rings, mounts, trays, guards and non-metal structural parts."
+  ],
+  "links": [
+   {
+    "text": "Amazon",
+    "url": "https://amzn.eu/d/07LLvYvb"
+   }
+  ]
+ },
+ {
+  "cells": [
+   "34",
+   "Fabrication",
+   "PETG - CF",
+   "2",
+   "95",
+   "190",
+   "Amazon",
+   "Printing material"
+  ],
+  "links": [
+   {
+    "text": "Amazon",
+    "url": "https://amzn.eu/d/0ainyIOF"
+   }
+  ]
+ },
+ {
+  "cells": [
+   "35",
+   "Fabrication",
+   "Epoxy, thread locker and assembly consumables",
+   "1",
+   "49",
+   "49",
+   "RS UAE / hardware supplier",
+   "Secures fasteners, inserts and non-serviceable joints during fabrication."
+  ],
+  "links": [
+   {
+    "text": "RS UAE / hardware supplier",
+    "url": "https://amzn.eu/d/09nwg224"
+   }
+  ]
+ },
+ {
+  "cells": [
+   "36",
+   "Backup Control",
+   "Arduino Mega 2560 Rev3 (official)",
+   "1",
+   "211",
+   "211",
+   "Arduino / RS",
+   "Backup/auxiliary controller for bench tests, PWM/servo experiments, sensor interfacing and fallback data acquisition; Pixhawk remains primary controller."
+  ],
+  "links": [
+   {
+    "text": "Arduino / RS",
+    "url": "https://amzn.eu/d/0aKwZjF3"
+   }
+  ]
+ },
+ {
+  "cells": [
+   "Estimated purchased-component total",
+   "AED 6,510",
+   "Previous gimbal BOM: AED 6,280 + Arduino Mega 2560 Rev3 allowance: AED 230"
+  ],
+  "links": []
+ }
+]
