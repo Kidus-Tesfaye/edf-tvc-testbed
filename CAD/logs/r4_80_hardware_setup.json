@@ -1,0 +1,12 @@
+{
+ "ok": true,
+ "group": "setup",
+ "containers": [
+  "R4-HW-ES Fasteners - EDF support, legs roots, sockets - assembly",
+  "R4-HW-LG Fasteners - feet - assembly",
+  "R4-HW-MID Fasteners - mid plate, tray, PM07 - assembly",
+  "R4-HW-TOP Fasteners - top plate - assembly",
+  "R4-HW-TT Fasteners - tether kit - assembly"
+ ],
+ "timeline": 411
+}
