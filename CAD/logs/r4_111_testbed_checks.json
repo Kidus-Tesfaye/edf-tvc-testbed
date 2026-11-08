@@ -1,0 +1,174 @@
+{
+ "ok": true,
+ "counts": {
+  "vehicle": 198,
+  "bed": 54,
+  "lines": 8
+ },
+ "T1_overlaps": [],
+ "T2_contacts": [
+  [
+   "TB-BS-01/board",
+   "R4-LG-02 Foot cups x4/Body1"
+  ],
+  [
+   "TB-BS-01/board",
+   "R4-LG-02 Foot cups x4/Body2"
+  ],
+  [
+   "TB-BS-01/board",
+   "R4-LG-02 Foot cups x4/Body3"
+  ],
+  [
+   "TB-BS-01/board",
+   "R4-LG-02 Foot cups x4/Body4"
+  ]
+ ],
+ "T2_min_distance_by_bed_part": {
+  "TB-FR-01": [
+   169.12,
+   "R4-LG-02 Foot cups x4/Body1"
+  ],
+  "TB-FR-02": [
+   116.98,
+   "R4-LG-02 Foot cups x4/Body1"
+  ],
+  "TB-FR-04": [
+   12.0,
+   "R4-LG-02 Foot cups x4/Body1"
+  ],
+  "TB-FR-05": [
+   169.55,
+   "R4-LG-02 Foot cups x4/Body1"
+  ],
+  "TB-AC-01": [
+   124.78,
+   "R4-LG-02 Foot cups x4/Body4"
+  ],
+  "TB-BS-01": [
+   0.0,
+   "R4-LG-02 Foot cups x4/Body1"
+  ],
+  "TB-AN-02": [
+   56.37,
+   "R4-LG-02 Foot cups x4/Body1"
+  ],
+  "TB-AN-03": [
+   67.22,
+   "R4-LG-02 Foot cups x4/Body1"
+  ],
+  "TB-FL-01": [
+   1.0,
+   "R4-LG-02 Foot cups x4/Body1"
+  ]
+ },
+ "T3_lines": [
+  {
+   "line": "TB-TL-01/tb-tl-01_1",
+   "ends_in_vehicle": [
+    "R3-TT-02 Eye bolts M6 with nut x4"
+   ],
+   "closest_other_vehicle_body": [
+    45.11,
+    "R4-FL-02 Top plate with tube cups/Body1",
+    0.0
+   ],
+   "hits_bed_other_than_eye_bolts": []
+  },
+  {
+   "line": "TB-TL-01/tb-tl-01_2",
+   "ends_in_vehicle": [
+    "R3-TT-02 Eye bolts M6 with nut x4"
+   ],
+   "closest_other_vehicle_body": [
+    45.11,
+    "R4-FL-02 Top plate with tube cups/Body1",
+    0.0
+   ],
+   "hits_bed_other_than_eye_bolts": []
+  },
+  {
+   "line": "TB-TL-01/tb-tl-01_3",
+   "ends_in_vehicle": [
+    "R3-TT-02 Eye bolts M6 with nut x4"
+   ],
+   "closest_other_vehicle_body": [
+    45.11,
+    "R4-FL-02 Top plate with tube cups/Body1",
+    0.0
+   ],
+   "hits_bed_other_than_eye_bolts": []
+  },
+  {
+   "line": "TB-TL-01/tb-tl-01_4",
+   "ends_in_vehicle": [
+    "R3-TT-02 Eye bolts M6 with nut x4"
+   ],
+   "closest_other_vehicle_body": [
+    45.11,
+    "R4-FL-02 Top plate with tube cups/Body1",
+    0.0
+   ],
+   "hits_bed_other_than_eye_bolts": []
+  },
+  {
+   "line": "TB-TL-02/tb-tl-02_1",
+   "ends_in_vehicle": [
+    "R3-TT-02 Eye bolts M6 with nut x4"
+   ],
+   "closest_other_vehicle_body": [
+    0.96,
+    "R3-TT-01 Tether split collars x4 (R3 design reused/Body1",
+    0.0
+   ],
+   "hits_bed_other_than_eye_bolts": []
+  },
+  {
+   "line": "TB-TL-02/tb-tl-02_2",
+   "ends_in_vehicle": [
+    "R3-TT-02 Eye bolts M6 with nut x4"
+   ],
+   "closest_other_vehicle_body": [
+    0.96,
+    "R3-TT-01 Tether split collars x4 (R3 design reused/Body2",
+    0.0
+   ],
+   "hits_bed_other_than_eye_bolts": []
+  },
+  {
+   "line": "TB-TL-02/tb-tl-02_3",
+   "ends_in_vehicle": [
+    "R3-TT-02 Eye bolts M6 with nut x4"
+   ],
+   "closest_other_vehicle_body": [
+    0.96,
+    "R3-TT-01 Tether split collars x4 (R3 design reused/Body3",
+    0.0
+   ],
+   "hits_bed_other_than_eye_bolts": []
+  },
+  {
+   "line": "TB-TL-02/tb-tl-02_4",
+   "ends_in_vehicle": [
+    "R3-TT-02 Eye bolts M6 with nut x4"
+   ],
+   "closest_other_vehicle_body": [
+    0.96,
+    "R3-TT-01 Tether split collars x4 (R3 design reused/Body4",
+    0.0
+   ],
+   "hits_bed_other_than_eye_bolts": []
+  }
+ ],
+ "T4_vehicle_bbox_mm": [
+  -173.6,
+  -173.6,
+  173.6,
+  173.6,
+  530.0
+ ],
+ "T4_front_opening_mm": {
+  "width_between_uprights": 580.0,
+  "height_board_to_top_rail": 759.0
+ }
+}

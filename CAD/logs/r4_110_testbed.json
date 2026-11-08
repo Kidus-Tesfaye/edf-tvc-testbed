@@ -1,0 +1,82 @@
+{
+ "ok": true,
+ "doc": "Untitled",
+ "vehicle_bodies": 198,
+ "frame_outer_mm": [
+  620.0,
+  620.0,
+  814.0
+ ],
+ "acrylic_panel_mm": [
+  591.0,
+  782.0,
+  3.175
+ ],
+ "sheet_mm": [
+  609.6,
+  914.4
+ ],
+ "panel_fits_sheet": true,
+ "cut_list": {
+  "uprights": [
+   4,
+   771.0,
+   "1000 mm stock"
+  ],
+  "rails top + bottom": [
+   8,
+   580.0,
+   "4 from 600 mm + 4 from 1000 mm stock"
+  ],
+  "cross members": [
+   2,
+   580.0,
+   "1000 mm stock"
+  ]
+ },
+ "stock_1000_used": 10,
+ "stock_600_used": 4,
+ "stock_ok": true,
+ "board_mm": [
+  576.0,
+  576.0,
+  12.0
+ ],
+ "upper_anchor": [
+  382.0,
+  752.0
+ ],
+ "upper_line_crossing_z": 328.98,
+ "lower_anchor_xy": [
+  250.0,
+  165.0
+ ],
+ "climb_limit_mm": 100.0,
+ "lines": [
+  {
+   "station_deg": 45,
+   "upper_eye_to_eye_mm": 423.8,
+   "lower_at_rest_mm": 482.9,
+   "lower_set_length_mm": 575.1
+  },
+  {
+   "station_deg": 135,
+   "upper_eye_to_eye_mm": 423.8,
+   "lower_at_rest_mm": 482.9,
+   "lower_set_length_mm": 575.1
+  },
+  {
+   "station_deg": 225,
+   "upper_eye_to_eye_mm": 423.8,
+   "lower_at_rest_mm": 482.9,
+   "lower_set_length_mm": 575.1
+  },
+  {
+   "station_deg": 315,
+   "upper_eye_to_eye_mm": 423.8,
+   "lower_at_rest_mm": 482.9,
+   "lower_set_length_mm": 575.1
+  }
+ ],
+ "feet_to_wall_mm": 124.8
+}

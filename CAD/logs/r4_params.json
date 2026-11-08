@@ -1,0 +1,2157 @@
+{
+ "ok": true,
+ "user_parameters": {
+  "vane_chord": {
+   "expr": "32 mm",
+   "value": 32.0,
+   "unit": "mm",
+   "comment": "R3: NACA 0008"
+  },
+  "vane_t_ratio": {
+   "expr": "0.08",
+   "value": 0.08,
+   "unit": "",
+   "comment": "R3: NACA 0008"
+  },
+  "vane_r_in": {
+   "expr": "22 mm",
+   "value": 22.0,
+   "unit": "mm",
+   "comment": "R3: span starts"
+  },
+  "vane_r_out": {
+   "expr": "40 mm",
+   "value": 40.0,
+   "unit": "mm",
+   "comment": "R3: span ends; the root flange begins here"
+  },
+  "hinge_z": {
+   "expr": "130 mm",
+   "value": 130.0,
+   "unit": "mm",
+   "comment": "R3: shaft axis height"
+  },
+  "hinge_frac": {
+   "expr": "0.30",
+   "value": 0.3,
+   "unit": "",
+   "comment": "R3: hinge at 30 % chord (LE Z 139.6, TE Z 107.6)"
+  },
+  "vane_angle": {
+   "expr": "0 deg",
+   "value": 0.0,
+   "unit": "deg",
+   "comment": "R3: drives every check pose: -20, 0, +20 deg and the stops"
+  },
+  "stop_angle": {
+   "expr": "23 deg",
+   "value": 23.0,
+   "unit": "deg",
+   "comment": "R3: hard-stop vane angle (6.2 step 7, 22-24)"
+  },
+  "vane_fairing_r": {
+   "expr": "1.5 mm",
+   "value": 1.5,
+   "unit": "mm",
+   "comment": "R3: aerofoil/flange blend (brief)"
+  },
+  "edf_lip_d": {
+   "expr": "96 mm",
+   "value": 96.0,
+   "unit": "mm",
+   "comment": "R3: inlet lip, Z 240-245 (R1)"
+  },
+  "edf_shroud_r": {
+   "expr": "43 mm",
+   "value": 43.0,
+   "unit": "mm",
+   "comment": "R3: shroud, Z 155-245 (R1 envelope)"
+  },
+  "edf_out_d": {
+   "expr": "80 mm",
+   "value": 80.0,
+   "unit": "mm",
+   "comment": "R3: outlet"
+  },
+  "edf_exit_z": {
+   "expr": "155 mm",
+   "value": 155.0,
+   "unit": "mm",
+   "comment": "R3: TBM exit plane as drawn; vendor suggests 165"
+  },
+  "edf_top_z": {
+   "expr": "245 mm",
+   "value": 245.0,
+   "unit": "mm",
+   "comment": "R3: EDF inlet lip top (R1 envelope Z 155-245)"
+  },
+  "edf_lip_h": {
+   "expr": "5 mm",
+   "value": 5.0,
+   "unit": "mm",
+   "comment": "R3: EDF inlet lip height (R1)"
+  },
+  "edf_wall": {
+   "expr": "3 mm",
+   "value": 3.0,
+   "unit": "mm",
+   "comment": "R3: EDF shroud wall (envelope)"
+  },
+  "motor_d": {
+   "expr": "32 mm",
+   "value": 32.0,
+   "unit": "mm",
+   "comment": "R3: motor, Z 144-194 (R1)"
+  },
+  "motor_z0": {
+   "expr": "144 mm",
+   "value": 144.0,
+   "unit": "mm",
+   "comment": "R3: motor envelope bottom (R1: Z 144-194)"
+  },
+  "motor_l": {
+   "expr": "50 mm",
+   "value": 50.0,
+   "unit": "mm",
+   "comment": "R3: motor envelope length (R1)"
+  },
+  "edf_tab_deg": {
+   "expr": "45 deg",
+   "value": 45.0,
+   "unit": "deg",
+   "comment": "R3: fan tab station (R2 D-21)"
+  },
+  "edf_tab_hole": {
+   "expr": "3.4 mm",
+   "value": 3.4,
+   "unit": "mm",
+   "comment": "R3: TBM placeholder fan tab hole"
+  },
+  "edf_tab_hole_sp": {
+   "expr": "20 mm",
+   "value": 20.0,
+   "unit": "mm",
+   "comment": "R3: TBM placeholder: two holes per tab, 20 mm apart"
+  },
+  "edf_tab_t": {
+   "expr": "2 mm",
+   "value": 2.0,
+   "unit": "mm",
+   "comment": "R3: TBM placeholder fan tab thickness (6.3 reading of vendor drawing)"
+  },
+  "edf_tab_width": {
+   "expr": "103 mm",
+   "value": 103.0,
+   "unit": "mm",
+   "comment": "R3: vendor drawing | TBM: tab position along the duct and size (M-05)"
+  },
+  "tab_block_h": {
+   "expr": "8 mm",
+   "value": 8.0,
+   "unit": "mm",
+   "comment": "R3: fan-tab clamp block height (R2)"
+  },
+  "tab_block_r0": {
+   "expr": "40 mm",
+   "value": 40.0,
+   "unit": "mm",
+   "comment": "R3: fan-tab block inner radius before the shroud cut (R2)"
+  },
+  "tab_block_r1": {
+   "expr": "52.5 mm",
+   "value": 52.5,
+   "unit": "mm",
+   "comment": "R3: fan-tab block outer radius (R2)"
+  },
+  "tab_ins_len": {
+   "expr": "6 mm",
+   "value": 6.0,
+   "unit": "mm",
+   "comment": "R3: R3: fan-tab block M3 inserts (M3 x 6, seat 7.5 in the 8 mm block)"
+  },
+  "tab_pad_r1": {
+   "expr": "56 mm",
+   "value": 56.0,
+   "unit": "mm",
+   "comment": "R3: fan-tab pad outer radius (R2)"
+  },
+  "tab_pad_w": {
+   "expr": "30 mm",
+   "value": 30.0,
+   "unit": "mm",
+   "comment": "R3: fan-tab pad width (R2)"
+  },
+  "tube_r": {
+   "expr": "70 mm",
+   "value": 70.0,
+   "unit": "mm",
+   "comment": "R3: tube centre radius, 45 deg stations (R1, CH-12)"
+  },
+  "tube_od": {
+   "expr": "10 mm",
+   "value": 10.0,
+   "unit": "mm",
+   "comment": "R3: listed 10 +/- 0.1"
+  },
+  "tube_id": {
+   "expr": "8 mm",
+   "value": 8.0,
+   "unit": "mm",
+   "comment": "R3: listed 8 +/- 0.2"
+  },
+  "tube_z0": {
+   "expr": "145 mm",
+   "value": 145.0,
+   "unit": "mm",
+   "comment": "R3: tube bottom (R1 rails Z 145-575)"
+  },
+  "tube_phase": {
+   "expr": "45 deg",
+   "value": 45.0,
+   "unit": "deg",
+   "comment": "R3: angle of the first tube station"
+  },
+  "n_tubes": {
+   "expr": "4",
+   "value": 4.0,
+   "unit": "",
+   "comment": "R3: number of rails"
+  },
+  "clamp_bore": {
+   "expr": "10.2 mm",
+   "value": 10.2,
+   "unit": "mm",
+   "comment": "R3: TBM printed bore for the tubes; team chooses final from the 10.0-10.3 coupon"
+  },
+  "clamp_len": {
+   "expr": "15 mm",
+   "value": 15.0,
+   "unit": "mm",
+   "comment": "R3: ring clamp bore length (brief: >= 15)"
+  },
+  "clamp_gap": {
+   "expr": "1.0 mm",
+   "value": 1.0,
+   "unit": "mm",
+   "comment": "R3: split gap at the tube axis (judgement)"
+  },
+  "ring_od": {
+   "expr": "152 mm",
+   "value": 152.0,
+   "unit": "mm",
+   "comment": "R3: R1 rings and annulus"
+  },
+  "ring_h": {
+   "expr": "5 mm",
+   "value": 5.0,
+   "unit": "mm",
+   "comment": "R3: R1"
+  },
+  "ring1_z": {
+   "expr": "145 mm",
+   "value": 145.0,
+   "unit": "mm",
+   "comment": "R3: ring 1, Z 145-150"
+  },
+  "annulus_z": {
+   "expr": "150 mm",
+   "value": 150.0,
+   "unit": "mm",
+   "comment": "R3: EDF support annulus, Z 150-155"
+  },
+  "ring_r_in": {
+   "expr": "60 mm",
+   "value": 60.0,
+   "unit": "mm",
+   "comment": "R3: R3: ring band / support annulus inner radius (R2 geometry used 60)"
+  },
+  "ring_r_out": {
+   "expr": "68 mm",
+   "value": 68.0,
+   "unit": "mm",
+   "comment": "R3: ring band outer radius (R2)"
+  },
+  "es_floor_t": {
+   "expr": "3 mm",
+   "value": 3.0,
+   "unit": "mm",
+   "comment": "R3: tube cup floor below the tube end (R2)"
+  },
+  "es_boss_h": {
+   "expr": "20 mm",
+   "value": 20.0,
+   "unit": "mm",
+   "comment": "R3: tube boss bore length above the tube end (R2: leg loads)"
+  },
+  "es_spoke_r0": {
+   "expr": "43.6 mm",
+   "value": 43.6,
+   "unit": "mm",
+   "comment": "R3: spoke inner radius (R2)"
+  },
+  "es_spoke_w": {
+   "expr": "12 mm",
+   "value": 12.0,
+   "unit": "mm",
+   "comment": "R3: spoke width (R2)"
+  },
+  "jet_clear_r": {
+   "expr": "44 mm",
+   "value": 44.0,
+   "unit": "mm",
+   "comment": "R3: nothing of the support inside this radius (R2)"
+  },
+  "plug_l": {
+   "expr": "15 mm",
+   "value": 15.0,
+   "unit": "mm",
+   "comment": "R3: tube end plug length (R2)"
+  },
+  "plug_d": {
+   "expr": "tube_id - 0.2 mm",
+   "value": 7.8,
+   "unit": "mm",
+   "comment": "R3: tube end plug diameter (R2: 7.8)"
+  },
+  "m3_cbore_d": {
+   "expr": "6.2 mm",
+   "value": 6.2,
+   "unit": "mm",
+   "comment": "R3: counterbore, M3 button head (5.7)"
+  },
+  "m3_clear": {
+   "expr": "3.4 mm",
+   "value": 3.4,
+   "unit": "mm",
+   "comment": "R3: M3 clearance hole"
+  },
+  "m3_head_d": {
+   "expr": "5.7 mm",
+   "value": 5.7,
+   "unit": "mm",
+   "comment": "R3: ISO 7380 M3 head"
+  },
+  "m3_head_h": {
+   "expr": "1.65 mm",
+   "value": 1.65,
+   "unit": "mm",
+   "comment": "R3: ISO 7380 M3 head"
+  },
+  "m3_ins_od": {
+   "expr": "5 mm",
+   "value": 5.0,
+   "unit": "mm",
+   "comment": "R3: listed M3 insert OD"
+  },
+  "m3_insert_hole": {
+   "expr": "4.1 mm",
+   "value": 4.1,
+   "unit": "mm",
+   "comment": "R3: TBM coupon: 5 mm-OD M3 inserts"
+  },
+  "m3_nut_af": {
+   "expr": "5.5 mm",
+   "value": 5.5,
+   "unit": "mm",
+   "comment": "R3: ISO 4032 M3 nut, kit TBM"
+  },
+  "m3_nut_pocket_af": {
+   "expr": "5.7 mm",
+   "value": 5.7,
+   "unit": "mm",
+   "comment": "R3: TBM coupon: across flats, 5.5 mm nut"
+  },
+  "m3_nut_pocket_t": {
+   "expr": "2.6 mm",
+   "value": 2.6,
+   "unit": "mm",
+   "comment": "R3: pocket depth, 2.4 mm nut"
+  },
+  "m3_nut_t": {
+   "expr": "2.4 mm",
+   "value": 2.4,
+   "unit": "mm",
+   "comment": "R3: ISO 4032 M3 nut"
+  },
+  "m3_tap_d": {
+   "expr": "2.5 mm",
+   "value": 2.5,
+   "unit": "mm",
+   "comment": "R3: M3 tap drill"
+  },
+  "m4_cbore_d": {
+   "expr": "8.1 mm",
+   "value": 8.1,
+   "unit": "mm",
+   "comment": "R3: counterbore, M4 button head (7.6)"
+  },
+  "m4_clear": {
+   "expr": "4.5 mm",
+   "value": 4.5,
+   "unit": "mm",
+   "comment": "R3: M4 clearance hole"
+  },
+  "m4_head_d": {
+   "expr": "7.6 mm",
+   "value": 7.6,
+   "unit": "mm",
+   "comment": "R3: ISO 7380 M4 head"
+  },
+  "m4_head_h": {
+   "expr": "2.2 mm",
+   "value": 2.2,
+   "unit": "mm",
+   "comment": "R3: ISO 7380 M4 head"
+  },
+  "m4_ins_od": {
+   "expr": "6 mm",
+   "value": 6.0,
+   "unit": "mm",
+   "comment": "R3: listed M4 insert OD"
+  },
+  "m4_insert_hole": {
+   "expr": "5.1 mm",
+   "value": 5.1,
+   "unit": "mm",
+   "comment": "R3: TBM coupon: 6 mm-OD M4 inserts"
+  },
+  "m4_nut_af": {
+   "expr": "7 mm",
+   "value": 7.0,
+   "unit": "mm",
+   "comment": "R3: ISO 4032 M4 nut, kit TBM"
+  },
+  "m4_nut_pocket_af": {
+   "expr": "7.2 mm",
+   "value": 7.2,
+   "unit": "mm",
+   "comment": "R3: TBM coupon: 7 mm nut"
+  },
+  "m4_nut_pocket_t": {
+   "expr": "3.4 mm",
+   "value": 3.4,
+   "unit": "mm",
+   "comment": "R3: for a 3.2 mm nut"
+  },
+  "m4_nut_t": {
+   "expr": "3.2 mm",
+   "value": 3.2,
+   "unit": "mm",
+   "comment": "R3: ISO 4032 M4 nut"
+  },
+  "m2_pilot": {
+   "expr": "1.7 mm",
+   "value": 1.7,
+   "unit": "mm",
+   "comment": "R3: TBM coupon: pilot for the servo's M2 self-tappers"
+  },
+  "ins_blind": {
+   "expr": "1.5 mm",
+   "value": 1.5,
+   "unit": "mm",
+   "comment": "R3: blind depth below an insert (brief)"
+  },
+  "fv_ins_len": {
+   "expr": "6 mm",
+   "value": 6.0,
+   "unit": "mm",
+   "comment": "R3: R3: fixed-vane socket M3 insert (M3 x 6, seat 7.5)"
+  },
+  "leg_root_ins_len": {
+   "expr": "8 mm",
+   "value": 8.0,
+   "unit": "mm",
+   "comment": "R3: R3: leg root M4 inserts in the support boss underside (M4 x 8, seat 9.5)"
+  },
+  "foot_ins_len": {
+   "expr": "8 mm",
+   "value": 8.0,
+   "unit": "mm",
+   "comment": "R3: R3: M3 x 8 insert in the foot boss (seat 9.5 in the 14 mm boss)"
+  },
+  "servo_case_l": {
+   "expr": "35.8 mm",
+   "value": 35.8,
+   "unit": "mm",
+   "comment": "R3: B26CLM V2 listing drawing, verify (M-02)"
+  },
+  "servo_case_w": {
+   "expr": "15.2 mm",
+   "value": 15.2,
+   "unit": "mm",
+   "comment": "R3: B26CLM V2 listing drawing, verify (M-02)"
+  },
+  "servo_case_h": {
+   "expr": "29.7 mm",
+   "value": 29.7,
+   "unit": "mm",
+   "comment": "R3: B26CLM V2 listing drawing, verify (M-02)"
+  },
+  "servo_ear_span": {
+   "expr": "48.5 mm",
+   "value": 48.5,
+   "unit": "mm",
+   "comment": "R3: over the ears, listing drawing"
+  },
+  "servo_ear_t": {
+   "expr": "2.3 mm",
+   "value": 2.3,
+   "unit": "mm",
+   "comment": "R3: listing drawing"
+  },
+  "servo_ear_h": {
+   "expr": "19.5 mm",
+   "value": 19.5,
+   "unit": "mm",
+   "comment": "R3: ear underside above the base, listing drawing"
+  },
+  "servo_hole_l": {
+   "expr": "42.4 mm",
+   "value": 42.4,
+   "unit": "mm",
+   "comment": "R3: ear holes lengthwise, listing drawing"
+  },
+  "servo_hole_w": {
+   "expr": "7.4 mm",
+   "value": 7.4,
+   "unit": "mm",
+   "comment": "R3: ear holes across, listing drawing"
+  },
+  "servo_out_end": {
+   "expr": "11.3 mm",
+   "value": 11.3,
+   "unit": "mm",
+   "comment": "R3: output axis from the near end (24.5 from the other), listing drawing"
+  },
+  "servo_spline_h": {
+   "expr": "4 mm",
+   "value": 4.0,
+   "unit": "mm",
+   "comment": "R3: TBM rough guess: spline top above the case top face"
+  },
+  "servo_spline_d": {
+   "expr": "5.92 mm",
+   "value": 5.92,
+   "unit": "mm",
+   "comment": "R3: listed 25T spline"
+  },
+  "horn_r": {
+   "expr": "12 mm",
+   "value": 12.0,
+   "unit": "mm",
+   "comment": "R3: QUARKZMAN horn: 12 mm hole only"
+  },
+  "horn_t": {
+   "expr": "7.5 mm",
+   "value": 7.5,
+   "unit": "mm",
+   "comment": "R3: listed"
+  },
+  "horn_hub_d": {
+   "expr": "10 mm",
+   "value": 10.0,
+   "unit": "mm",
+   "comment": "R3: TBM rough guess: horn hub diameter"
+  },
+  "horn_arm_w": {
+   "expr": "6 mm",
+   "value": 6.0,
+   "unit": "mm",
+   "comment": "R3: TBM rough guess: horn arm width"
+  },
+  "horn_arm_t": {
+   "expr": "3.5 mm",
+   "value": 3.5,
+   "unit": "mm",
+   "comment": "R3: TBM ASSUMPTION: horn arm thinner than the 7.5 mm hub, at its outer end (listing note); leaves room for the ball nut"
+  },
+  "horn_len": {
+   "expr": "28 mm",
+   "value": 28.0,
+   "unit": "mm",
+   "comment": "R3: listed arm length | TBM: whether the listed 28 mm is from the axis or overall (M-02)"
+  },
+  "horn_hole_d": {
+   "expr": "3.2 mm",
+   "value": 3.2,
+   "unit": "mm",
+   "comment": "R3: horn 12 mm hole opened to 3.2 for an M3 screw (brief)"
+  },
+  "horn_gap": {
+   "expr": "0.75 mm",
+   "value": 0.75,
+   "unit": "mm",
+   "comment": "R3: TBM rough guess: horn inner face above the servo case top"
+  },
+  "batt_l": {
+   "expr": "140 mm",
+   "value": 140.0,
+   "unit": "mm",
+   "comment": "R3: listed 138 +/- 2"
+  },
+  "batt_w": {
+   "expr": "44 mm",
+   "value": 44.0,
+   "unit": "mm",
+   "comment": "R3: listed 42 +/- 2"
+  },
+  "batt_h": {
+   "expr": "45 mm",
+   "value": 45.0,
+   "unit": "mm",
+   "comment": "R3: listed 43 +/- 2"
+  },
+  "strap_w": {
+   "expr": "20 mm",
+   "value": 20.0,
+   "unit": "mm",
+   "comment": "R3: battery strap width (BOM: ~20 mm, NOT BOUGHT)"
+  },
+  "strap_t": {
+   "expr": "1.5 mm",
+   "value": 1.5,
+   "unit": "mm",
+   "comment": "R3: battery strap thickness (allowance)"
+  },
+  "fc_l": {
+   "expr": "84.8 mm",
+   "value": 84.8,
+   "unit": "mm",
+   "comment": "R3: Pixhawk 6C aluminium, listed"
+  },
+  "fc_w": {
+   "expr": "44 mm",
+   "value": 44.0,
+   "unit": "mm",
+   "comment": "R3: Pixhawk 6C aluminium, listed"
+  },
+  "fc_h": {
+   "expr": "12.4 mm",
+   "value": 12.4,
+   "unit": "mm",
+   "comment": "R3: Pixhawk 6C aluminium, listed"
+  },
+  "pm07_h": {
+   "expr": "50 mm",
+   "value": 50.0,
+   "unit": "mm",
+   "comment": "R3: PM07 envelope height (R2)"
+  },
+  "pm07_hole_x": {
+   "expr": "22.5 mm",
+   "value": 22.5,
+   "unit": "mm",
+   "comment": "R3: PM07 holes +/-X (R2, TBM against the board)"
+  },
+  "pm07_hole_z": {
+   "expr": "2.5 mm",
+   "value": 2.5,
+   "unit": "mm",
+   "comment": "R3: PM07 hole inset from the board bottom/top (R2: 45 mm apart) | TBM: four holes on a 45 x 45 mm square (R2 brief), check against the board (M-04)"
+  },
+  "pm07_l": {
+   "expr": "68 mm",
+   "value": 68.0,
+   "unit": "mm",
+   "comment": "R3: PM07 envelope along X (R2, listed board)"
+  },
+  "pm07_pcb_t": {
+   "expr": "1.6 mm",
+   "value": 1.6,
+   "unit": "mm",
+   "comment": "R3: PM07 board thickness (typical, TBM)"
+  },
+  "pm07_so_h": {
+   "expr": "4 mm",
+   "value": 4.0,
+   "unit": "mm",
+   "comment": "R3: PM07 standoff height (R2)"
+  },
+  "pm07_t": {
+   "expr": "10 mm",
+   "value": 10.0,
+   "unit": "mm",
+   "comment": "R3: PM07 envelope thickness (R2)"
+  },
+  "ubec_w": {
+   "expr": "20 mm",
+   "value": 20.0,
+   "unit": "mm",
+   "comment": "R3: UBEC envelope (R2)"
+  },
+  "ubec_t": {
+   "expr": "16 mm",
+   "value": 16.0,
+   "unit": "mm",
+   "comment": "R3: UBEC envelope (R2)"
+  },
+  "ubec_h": {
+   "expr": "45 mm",
+   "value": 45.0,
+   "unit": "mm",
+   "comment": "R3: UBEC envelope (R2)"
+  },
+  "rx_l": {
+   "expr": "50 mm",
+   "value": 50.0,
+   "unit": "mm",
+   "comment": "R3: receiver allowance envelope (unselected)"
+  },
+  "rx_t": {
+   "expr": "15 mm",
+   "value": 15.0,
+   "unit": "mm",
+   "comment": "R3: receiver allowance envelope thickness"
+  },
+  "rx_h": {
+   "expr": "40 mm",
+   "value": 40.0,
+   "unit": "mm",
+   "comment": "R3: receiver allowance envelope height"
+  },
+  "esc_l": {
+   "expr": "83 mm",
+   "value": 83.0,
+   "unit": "mm",
+   "comment": "R3: ESC Skywalker 120A V2 envelope (R2: 83 x 35 x 22)"
+  },
+  "esc_w": {
+   "expr": "35 mm",
+   "value": 35.0,
+   "unit": "mm",
+   "comment": "R3: ESC envelope width"
+  },
+  "esc_h": {
+   "expr": "22 mm",
+   "value": 22.0,
+   "unit": "mm",
+   "comment": "R3: ESC envelope height"
+  },
+  "ec5_l": {
+   "expr": "40 mm",
+   "value": 40.0,
+   "unit": "mm",
+   "comment": "R3: EC5 mated pair envelope (allowance)"
+  },
+  "ec5_w": {
+   "expr": "12 mm",
+   "value": 12.0,
+   "unit": "mm",
+   "comment": "R3: EC5 mated pair envelope"
+  },
+  "ec5_h": {
+   "expr": "10 mm",
+   "value": 10.0,
+   "unit": "mm",
+   "comment": "R3: EC5 mated pair envelope"
+  },
+  "tie_w": {
+   "expr": "4 mm",
+   "value": 4.0,
+   "unit": "mm",
+   "comment": "R3: cable-tie slot width"
+  },
+  "tie_l": {
+   "expr": "2.5 mm",
+   "value": 2.5,
+   "unit": "mm",
+   "comment": "R3: cable-tie slot length"
+  },
+  "rf_h": {
+   "expr": "16 mm",
+   "value": 16.0,
+   "unit": "mm",
+   "comment": "R4: TFmini-S height, back face to lens bosses (Benewake datasheet 42 x 15 x 16, listed; R3 10 mm allowance) (X-26)"
+  },
+  "rf_mount_t": {
+   "expr": "5 mm",
+   "value": 5.0,
+   "unit": "mm",
+   "comment": "R3: R3 rangefinder mount plate under the 135 deg leg-root flange (M4 heads counterbored flush)"
+  },
+  "rf_shield_r": {
+   "expr": "52 mm",
+   "value": 52.0,
+   "unit": "mm",
+   "comment": "R3: rangefinder jet-side shield inner radius (R2)"
+  },
+  "rf_u": {
+   "expr": "rf_rc",
+   "value": 71.2301,
+   "unit": "mm",
+   "comment": "R4: rangefinder centre radius = the TFmini-S centre (X-26; R3 64)"
+  },
+  "rf_w": {
+   "expr": "rf_wid",
+   "value": 15.0,
+   "unit": "mm",
+   "comment": "R4: rangefinder width = the TFmini-S width (X-26; R3 20 mm allowance)"
+  },
+  "fv_socket_h": {
+   "expr": "5 mm",
+   "value": 5.0,
+   "unit": "mm",
+   "comment": "R3: fixed-vane keyed socket depth from below (R2)"
+  },
+  "fv_socket_r0": {
+   "expr": "44 mm",
+   "value": 44.0,
+   "unit": "mm",
+   "comment": "R3: fixed-vane keyed socket, radial start (R2)"
+  },
+  "fv_socket_r1": {
+   "expr": "55 mm",
+   "value": 55.0,
+   "unit": "mm",
+   "comment": "R3: R3: fixed-vane keyed socket, radial end (R2 52): screw outboard of the strut plate"
+  },
+  "fv_socket_w": {
+   "expr": "6 mm",
+   "value": 6.0,
+   "unit": "mm",
+   "comment": "R3: fixed-vane keyed socket width (R2)"
+  },
+  "fv_pad_r1": {
+   "expr": "57 mm",
+   "value": 57.0,
+   "unit": "mm",
+   "comment": "R3: R3: fixed-vane socket pad outer radius (R2 56; socket lengthened)"
+  },
+  "fv_pad_w": {
+   "expr": "12 mm",
+   "value": 12.0,
+   "unit": "mm",
+   "comment": "R3: fixed-vane socket pad width (R2)"
+  },
+  "fv_screw_r": {
+   "expr": "fv_socket_r1 - 3 mm",
+   "value": 52.0,
+   "unit": "mm",
+   "comment": "R3: R3: socket screw / insert radius (head clears the strut plate)"
+  },
+  "fv_angle": {
+   "expr": "0 deg",
+   "value": 0.0,
+   "unit": "deg",
+   "comment": "R3: fixed-vane setting (insert), 0-25 deg in 2.5 steps"
+  },
+  "leg_root_u": {
+   "expr": "6 mm",
+   "value": 6.0,
+   "unit": "mm",
+   "comment": "R3: leg root M4 insert inboard of the tube axis (R2)"
+  },
+  "leg_root_t": {
+   "expr": "6 mm",
+   "value": 6.0,
+   "unit": "mm",
+   "comment": "R3: leg root flange under the support boss (R2)"
+  },
+  "leg_z0": {
+   "expr": "tube_z0 - es_floor_t + 2 mm",
+   "value": 144.0,
+   "unit": "mm",
+   "comment": "R3: leg beam start centre Z (R2)"
+  },
+  "foot_boss_d": {
+   "expr": "16 mm",
+   "value": 16.0,
+   "unit": "mm",
+   "comment": "R3: leg foot boss diameter (R2)"
+  },
+  "foot_boss_h": {
+   "expr": "14 mm",
+   "value": 14.0,
+   "unit": "mm",
+   "comment": "R3: leg foot boss height (R2)"
+  },
+  "foot_cb_d": {
+   "expr": "9 mm",
+   "value": 9.0,
+   "unit": "mm",
+   "comment": "R3: TPU foot counterbore for the screw and disc (R2)"
+  },
+  "foot_top_t": {
+   "expr": "6 mm",
+   "value": 6.0,
+   "unit": "mm",
+   "comment": "R3: TPU foot top web under the leg boss (R2)"
+  },
+  "disc_d": {
+   "expr": "8.5 mm",
+   "value": 8.5,
+   "unit": "mm",
+   "comment": "R3: foot screw disc diameter (R2)"
+  },
+  "disc_t": {
+   "expr": "2 mm",
+   "value": 2.0,
+   "unit": "mm",
+   "comment": "R3: foot screw disc thickness (R2)"
+  },
+  "collar_bore": {
+   "expr": "10 mm",
+   "value": 10.0,
+   "unit": "mm",
+   "comment": "R3: tether collar bore (R2: grip 9.9-10.1 on the 10 +/- 0.1 tube; machined, RFQ)"
+  },
+  "collar_ear_u0": {
+   "expr": "16 mm",
+   "value": 16.0,
+   "unit": "mm",
+   "comment": "R3: collar clamp ear inboard reach from the tube axis (R2)"
+  },
+  "collar_ear_w": {
+   "expr": "8 mm",
+   "value": 8.0,
+   "unit": "mm",
+   "comment": "R3: collar clamp ear width across the slot (R2)"
+  },
+  "collar_l": {
+   "expr": "20 mm",
+   "value": 20.0,
+   "unit": "mm",
+   "comment": "R3: tether collar length (R2)"
+  },
+  "collar_od": {
+   "expr": "16 mm",
+   "value": 16.0,
+   "unit": "mm",
+   "comment": "R3: tether collar body OD (R2)"
+  },
+  "collar_screw_dz": {
+   "expr": "5 mm",
+   "value": 5.0,
+   "unit": "mm",
+   "comment": "R3: collar M4 screws from each collar end (R2)"
+  },
+  "collar_screw_u": {
+   "expr": "11 mm",
+   "value": 11.0,
+   "unit": "mm",
+   "comment": "R3: collar M4 clamp screw axis inboard of the tube axis (R2)"
+  },
+  "collar_slot": {
+   "expr": "1 mm",
+   "value": 1.0,
+   "unit": "mm",
+   "comment": "R3: collar split slot (R2)"
+  },
+  "eye_hole": {
+   "expr": "6.5 mm",
+   "value": 6.5,
+   "unit": "mm",
+   "comment": "R3: eye-bolt hole in the tab (M6)"
+  },
+  "eye_r_in": {
+   "expr": "9 mm",
+   "value": 9.0,
+   "unit": "mm",
+   "comment": "R3: eye bolt ring inner radius (allowance)"
+  },
+  "eye_r_out": {
+   "expr": "15 mm",
+   "value": 15.0,
+   "unit": "mm",
+   "comment": "R3: eye bolt ring outer radius (allowance)"
+  },
+  "eye_t": {
+   "expr": "6 mm",
+   "value": 6.0,
+   "unit": "mm",
+   "comment": "R3: eye bolt ring thickness (allowance)"
+  },
+  "eye_tab_t": {
+   "expr": "4 mm",
+   "value": 4.0,
+   "unit": "mm",
+   "comment": "R3: collar eye tab thickness (R2)"
+  },
+  "eye_tab_w": {
+   "expr": "12 mm",
+   "value": 12.0,
+   "unit": "mm",
+   "comment": "R3: collar eye tab width (R2)"
+  },
+  "eye_u": {
+   "expr": "28 mm",
+   "value": 28.0,
+   "unit": "mm",
+   "comment": "R3: eye-bolt axis outboard of the tube axis (R2)"
+  },
+  "m6_nut_af": {
+   "expr": "10 mm",
+   "value": 10.0,
+   "unit": "mm",
+   "comment": "R3: M6 nut across flats"
+  },
+  "m6_nut_t": {
+   "expr": "5 mm",
+   "value": 5.0,
+   "unit": "mm",
+   "comment": "R3: M6 nut thickness"
+  },
+  "ground_z": {
+   "expr": "-15 mm",
+   "value": -15.0,
+   "unit": "mm",
+   "comment": "R3: R3: ground (feet uncompressed); R1 ground was Z 0"
+  },
+  "foot_travel": {
+   "expr": "8 mm",
+   "value": 8.0,
+   "unit": "mm",
+   "comment": "R3: TPU foot compression allowance for clearance checks (R2 rough guess; TBM by drop test)"
+  },
+  "chk_band_r": {
+   "expr": "80 mm",
+   "value": 80.0,
+   "unit": "mm",
+   "comment": "R3: intake band outer radius (R2 CHK-03)"
+  },
+  "chk_jet_z0": {
+   "expr": "100 mm",
+   "value": 100.0,
+   "unit": "mm",
+   "comment": "R3: jet cylinder bottom (R2 CHK-01)"
+  },
+  "chk_lip_r": {
+   "expr": "60 mm",
+   "value": 60.0,
+   "unit": "mm",
+   "comment": "R3: inlet-lip keep-out radius (R2 CHK-02)"
+  },
+  "chk_lip_z0": {
+   "expr": "238 mm",
+   "value": 238.0,
+   "unit": "mm",
+   "comment": "R3: inlet-lip keep-out bottom (R2)"
+  },
+  "chk_lip_z1": {
+   "expr": "265 mm",
+   "value": 265.0,
+   "unit": "mm",
+   "comment": "R3: inlet-lip keep-out top (R2)"
+  },
+  "stand_allow": {
+   "expr": "10 mm",
+   "value": 10.0,
+   "unit": "mm",
+   "comment": "R3: R3: stand band widening each side (CG uncertainty 5 + fixture/tolerance 5; judgement)"
+  },
+  "stand_jaw_r": {
+   "expr": "tube_od / 2 + 5 mm",
+   "value": 10.0,
+   "unit": "mm",
+   "comment": "R3: R3: stand band radius about each tube axis = tube + 5 mm fixture jaw allowance (judgement; R2 used tube + 0.5)"
+  },
+  "plenum_floor_z": {
+   "expr": "325 mm",
+   "value": 325.0,
+   "unit": "mm",
+   "comment": "R3: underside of the plenum floor: >= 80 mm above the lip top (Z 245)"
+  },
+  "motor_notch_d": {
+   "expr": "12 mm",
+   "value": 12.0,
+   "unit": "mm",
+   "comment": "R3: R3: motor-wire notch diameter"
+  },
+  "motor_notch_deg": {
+   "expr": "315 deg",
+   "value": 315.0,
+   "unit": "deg",
+   "comment": "R4: motor-wire pass in the mid plate on the 315 deg tube diagonal (D-15; R3 204 deg in the plenum floor)"
+  },
+  "motor_notch_r": {
+   "expr": "58 mm",
+   "value": 58.0,
+   "unit": "mm",
+   "comment": "R4: motor-wire pass radius in the mid-plate 315 deg spoke"
+  },
+  "edf_mount_rows": {
+   "expr": "94 mm",
+   "value": 94.0,
+   "unit": "mm",
+   "comment": "R3 copy: EDF tab hole rows (vendor drawing; tabs position along the duct TBM). Needed by the fan-tab pads and blocks"
+  },
+  "batt_clear": {
+   "expr": "1 mm",
+   "value": 1.0,
+   "unit": "mm",
+   "comment": "R3 copy: pack clearance per side to the uprights and rims (brief 6.5: inner faces at batt_w/2 + 1)"
+  },
+  "kit_clamp_base_d": {
+   "expr": "10.5 mm",
+   "value": 10.5,
+   "unit": "mm",
+   "comment": "R3 copy (clamp_base_d): backup-stop clamp base depth inboard of the tube axis"
+  },
+  "kit_cap_fl_d": {
+   "expr": "6 mm",
+   "value": 6.0,
+   "unit": "mm",
+   "comment": "R3 copy (cap_fl_d): backup-stop cap flange face from the tube axis"
+  },
+  "kit_cap_out_d": {
+   "expr": "8 mm",
+   "value": 8.0,
+   "unit": "mm",
+   "comment": "R3 copy (cap_out_d): backup-stop cap central rib face from the tube axis"
+  },
+  "kit_clamp_u_in": {
+   "expr": "tube_r - kit_clamp_base_d",
+   "value": 59.5,
+   "unit": "mm",
+   "comment": "R3 copy (clamp_u_in): backup-stop clamp base inner face radius"
+  },
+  "kit_cap_u_fl": {
+   "expr": "tube_r + kit_cap_fl_d",
+   "value": 76.0,
+   "unit": "mm",
+   "comment": "R3 copy (cap_u_fl): backup-stop cap flange face radius"
+  },
+  "kit_cap_u_out": {
+   "expr": "tube_r + kit_cap_out_d",
+   "value": 78.0,
+   "unit": "mm",
+   "comment": "R3 copy (cap_u_out): backup-stop cap central face radius"
+  },
+  "kit_clamp_v": {
+   "expr": "14.5 mm",
+   "value": 14.5,
+   "unit": "mm",
+   "comment": "R3 copy (clamp_v): backup-stop clamp half width (tangential)"
+  },
+  "kit_clamp_cap_v": {
+   "expr": "6.5 mm",
+   "value": 6.5,
+   "unit": "mm",
+   "comment": "R3 copy (clamp_cap_v): backup-stop cap central rib half width"
+  },
+  "kit_clamp_screw_v": {
+   "expr": "10 mm",
+   "value": 10.0,
+   "unit": "mm",
+   "comment": "R3 copy (clamp_screw_v): backup-stop clamp screw offset from the tube axis"
+  },
+  "leg_root_v": {
+   "expr": "10 mm",
+   "value": 10.0,
+   "unit": "mm",
+   "comment": "R3 copy (clamp_screw_v): leg-root M4 inserts +/- this tangentially (R3 ES-LR pattern, also the rangefinder mount holes)"
+  },
+  "rf_plate_v": {
+   "expr": "14.5 mm",
+   "value": 14.5,
+   "unit": "mm",
+   "comment": "R3 copy (clamp_v): rangefinder mount plate half width"
+  },
+  "rf_plate_r1": {
+   "expr": "tube_r + 8 mm",
+   "value": 78.0,
+   "unit": "mm",
+   "comment": "R3 copy (cap_u_out): rangefinder mount plate outer radius"
+  },
+  "rp_neck_w": {
+   "expr": "10 mm",
+   "value": 10.0,
+   "unit": "mm",
+   "comment": "R4: root neck width (tangential), r vane_r_out to jet_clear_r"
+  },
+  "rp_head_t": {
+   "expr": "6 mm",
+   "value": 6.0,
+   "unit": "mm",
+   "comment": "R4: root head thickness, from jet_clear_r outward"
+  },
+  "rp_head_y0": {
+   "expr": "-( horn_hub_d / 2 + 6 mm )",
+   "value": -11.0,
+   "unit": "mm",
+   "comment": "R4: root head's -Y end. DEVIATION from the brief start value -(hub/2 + 3): 3 mm longer so the - stop pad has 16 mm2 of flat contact while its edge stays >= 2 mm from the head top face away from the stop"
+  },
+  "rp_head_y1": {
+   "expr": "horn_r + 6 mm",
+   "value": 18.0,
+   "unit": "mm",
+   "comment": "R4: root head's +Y end"
+  },
+  "rp_head_h": {
+   "expr": "16 mm",
+   "value": 16.0,
+   "unit": "mm",
+   "comment": "R4: root head height along Z, centred on hinge_z"
+  },
+  "rp_clear": {
+   "expr": "0.2 mm",
+   "value": 0.2,
+   "unit": "mm",
+   "comment": "R4: TBM pocket clearance per side (trial fit)"
+  },
+  "horn_cs_d": {
+   "expr": "6 mm",
+   "value": 6.0,
+   "unit": "mm",
+   "comment": "R4: TBM relief for the horn's centre-screw head"
+  },
+  "horn_cs_h": {
+   "expr": "1.5 mm",
+   "value": 1.5,
+   "unit": "mm",
+   "comment": "R4: TBM relief depth for the horn centre-screw head"
+  },
+  "horn_r0": {
+   "expr": "jet_clear_r + rp_head_t - horn_arm_t",
+   "value": 46.5,
+   "unit": "mm",
+   "comment": "R4: horn's outer-end face (pocket floor)"
+  },
+  "horn_r1": {
+   "expr": "horn_r0 + horn_t",
+   "value": 54.0,
+   "unit": "mm",
+   "comment": "R4: horn's servo-side face"
+  },
+  "sv_top_r": {
+   "expr": "horn_r1 + horn_gap",
+   "value": 54.75,
+   "unit": "mm",
+   "comment": "R4: servo case top (spline face)"
+  },
+  "sv_base_r": {
+   "expr": "sv_top_r + servo_case_h",
+   "value": 84.45,
+   "unit": "mm",
+   "comment": "R4: servo case base"
+  },
+  "sv_ear_r": {
+   "expr": "sv_base_r - servo_ear_h - servo_ear_t",
+   "value": 62.65,
+   "unit": "mm",
+   "comment": "R4: ear face toward the vane (rests on the bracket)"
+  },
+  "sv_y_near": {
+   "expr": "servo_out_end",
+   "value": 11.3,
+   "unit": "mm",
+   "comment": "R4: servo case near end (+Y)"
+  },
+  "sv_y_far": {
+   "expr": "-( servo_case_l - servo_out_end )",
+   "value": -24.5,
+   "unit": "mm",
+   "comment": "R4: servo case far end (-Y)"
+  },
+  "brk_t": {
+   "expr": "4 mm",
+   "value": 4.0,
+   "unit": "mm",
+   "comment": "R4: bracket plate thickness"
+  },
+  "brk_clear": {
+   "expr": "0.3 mm",
+   "value": 0.3,
+   "unit": "mm",
+   "comment": "R4: bracket window clearance per side"
+  },
+  "tray_z": {
+   "expr": "plenum_floor_z",
+   "value": 325.0,
+   "unit": "mm",
+   "comment": "R4: flight-controller tray underside (plenum floor rule, F8)"
+  },
+  "tray_t": {
+   "expr": "3 mm",
+   "value": 3.0,
+   "unit": "mm",
+   "comment": "R4: tray thickness"
+  },
+  "fc_pad_h": {
+   "expr": "6 mm",
+   "value": 6.0,
+   "unit": "mm",
+   "comment": "R4: TBM foam pad thickness (D-7)"
+  },
+  "mid_z": {
+   "expr": "360 mm",
+   "value": 360.0,
+   "unit": "mm",
+   "comment": "R4: mid plate underside"
+  },
+  "mid_t": {
+   "expr": "3 mm",
+   "value": 3.0,
+   "unit": "mm",
+   "comment": "R4: mid plate thickness"
+  },
+  "upr_t": {
+   "expr": "3 mm",
+   "value": 3.0,
+   "unit": "mm",
+   "comment": "R4: upright thickness"
+  },
+  "upr_h": {
+   "expr": "103 mm",
+   "value": 103.0,
+   "unit": "mm",
+   "comment": "R4: upright height above the mid plate. DEVIATION from the brief start value 55: the two straps run above and below the boards (D-6: never across a board)"
+  },
+  "batt_z0": {
+   "expr": "mid_z + mid_t",
+   "value": 363.0,
+   "unit": "mm",
+   "comment": "R4: pack bottom"
+  },
+  "batt_gap": {
+   "expr": "2 mm",
+   "value": 2.0,
+   "unit": "mm",
+   "comment": "R4: pack top to the top plate"
+  },
+  "top_z": {
+   "expr": "batt_z0 + batt_l + batt_gap",
+   "value": 505.0,
+   "unit": "mm",
+   "comment": "R4: top plate underside"
+  },
+  "top_t": {
+   "expr": "3 mm",
+   "value": 3.0,
+   "unit": "mm",
+   "comment": "R4: top plate thickness"
+  },
+  "tube_len": {
+   "expr": "top_z + top_t - tube_z0",
+   "value": 363.0,
+   "unit": "mm",
+   "comment": "R4: tube cut length (about 363)"
+  },
+  "foot_r": {
+   "expr": "230 mm",
+   "value": 230.0,
+   "unit": "mm",
+   "comment": "R4: foot circle, re-set by r4_89_iterate.py for >= 25.5 deg edge tipping (C-14)"
+  },
+  "foot_d": {
+   "expr": "22 mm",
+   "value": 22.0,
+   "unit": "mm",
+   "comment": "R4: TPU foot diameter"
+  },
+  "foot_h": {
+   "expr": "20 mm",
+   "value": 20.0,
+   "unit": "mm",
+   "comment": "R4: TPU foot height"
+  },
+  "foot_wall": {
+   "expr": "2.5 mm",
+   "value": 2.5,
+   "unit": "mm",
+   "comment": "R4: TPU foot wall"
+  },
+  "leg_d": {
+   "expr": "14 mm",
+   "value": 14.0,
+   "unit": "mm",
+   "comment": "R4: TBM leg I-beam depth (drop test)"
+  },
+  "leg_fw": {
+   "expr": "8 mm",
+   "value": 8.0,
+   "unit": "mm",
+   "comment": "R4: TBM leg I-beam flange width (drop test)"
+  },
+  "leg_tf": {
+   "expr": "1.6 mm",
+   "value": 1.6,
+   "unit": "mm",
+   "comment": "R4: TBM leg I-beam flange thickness (drop test)"
+  },
+  "leg_tw": {
+   "expr": "1.6 mm",
+   "value": 1.6,
+   "unit": "mm",
+   "comment": "R4: TBM leg I-beam web thickness (drop test)"
+  },
+  "leg_u0": {
+   "expr": "tube_r + 8 mm",
+   "value": 78.0,
+   "unit": "mm",
+   "comment": "R4: leg beam start (R3 used cap_u_out, which R4 doesn't create)"
+  },
+  "tether_z": {
+   "expr": "401.5 mm",
+   "value": 401.5,
+   "unit": "mm",
+   "comment": "R4: tether collar bottom, set by r4_89_iterate.py: lines cross the axis CG(flight + kit) + 10 mm"
+  },
+  "cg_z": {
+   "expr": "311.6 mm",
+   "value": 311.6,
+   "unit": "mm",
+   "comment": "R4: flight CG height, set by r4_90_mass.py (CAD mass properties); drives the stand band"
+  },
+  "clamp_wall": {
+   "expr": "2.5 mm",
+   "value": 2.5,
+   "unit": "mm",
+   "comment": "R4: split-boss wall around the tube bore (judgement)"
+  },
+  "clamp_ear_u": {
+   "expr": "11.5 mm",
+   "value": 11.5,
+   "unit": "mm",
+   "comment": "R4: split-clamp M3 screw axis outboard of the tube axis"
+  },
+  "clamp_ear_l": {
+   "expr": "clamp_ear_u + 4.5 mm",
+   "value": 16.0,
+   "unit": "mm",
+   "comment": "R4: split-clamp ear outer end from the tube axis"
+  },
+  "clamp_ear_v": {
+   "expr": "7.5 mm",
+   "value": 7.5,
+   "unit": "mm",
+   "comment": "R4: split-clamp ear half width along the screw (M3 x 16: nut passed by 1.2 mm)"
+  },
+  "clamp_ear_h": {
+   "expr": "9 mm",
+   "value": 9.0,
+   "unit": "mm",
+   "comment": "R4: split-clamp ear height (Z)"
+  },
+  "es_boss_z1": {
+   "expr": "tube_z0 + clamp_len + 1 mm",
+   "value": 161.0,
+   "unit": "mm",
+   "comment": "R4: support split-boss top (bore length clamp_len + 1)"
+  },
+  "es_lr_r0": {
+   "expr": "tube_r - leg_root_u - m4_ins_od / 2 - 2.2 mm",
+   "value": 58.8,
+   "unit": "mm",
+   "comment": "R4: leg-root pad inner face (2.2 mm wall round the M4 inserts)"
+  },
+  "es_lr_v": {
+   "expr": "leg_root_v + m4_ins_od / 2 + 2.2 mm",
+   "value": 15.2,
+   "unit": "mm",
+   "comment": "R4: leg-root pad half width (2.2 mm wall round the M4 inserts)"
+  },
+  "es_lr_z1": {
+   "expr": "tube_z0 - es_floor_t + leg_root_ins_len + ins_blind + 1 mm",
+   "value": 152.5,
+   "unit": "mm",
+   "comment": "R4: leg-root pad top (insert seat + 1 mm)"
+  },
+  "es_lite_d": {
+   "expr": "7 mm",
+   "value": 7.0,
+   "unit": "mm",
+   "comment": "R4: lightening holes in the annulus"
+  },
+  "brk_y0": {
+   "expr": "( sv_y_near + sv_y_far ) / 2 - servo_ear_span / 2 - 1.5 mm",
+   "value": -32.35,
+   "unit": "mm",
+   "comment": "R4: bracket plate -Y end (ears + 1.5)"
+  },
+  "brk_y1": {
+   "expr": "( sv_y_near + sv_y_far ) / 2 + servo_ear_span / 2 + 1.5 mm",
+   "value": 19.15,
+   "unit": "mm",
+   "comment": "R4: bracket plate +Y end (ears + 1.5)"
+  },
+  "brk_z0": {
+   "expr": "hinge_z - 12 mm",
+   "value": 118.0,
+   "unit": "mm",
+   "comment": "R4: bracket plate bottom"
+  },
+  "brk_web_w": {
+   "expr": "5 mm",
+   "value": 5.0,
+   "unit": "mm",
+   "comment": "R4: bracket end webs width (to the annulus)"
+  },
+  "fing_y1": {
+   "expr": "rp_head_y1 - 1 mm",
+   "value": 17.0,
+   "unit": "mm",
+   "comment": "R4: + stop finger contact patch +Y end (head local frame)"
+  },
+  "fing_y0": {
+   "expr": "fing_y1 - 8 mm",
+   "value": 9.0,
+   "unit": "mm",
+   "comment": "R4: + stop finger contact patch -Y end"
+  },
+  "fing_ny0": {
+   "expr": "rp_head_y0 - 0.5 mm",
+   "value": -11.5,
+   "unit": "mm",
+   "comment": "R4: - stop finger contact patch -Y end"
+  },
+  "fing_ny1": {
+   "expr": "-7 mm",
+   "value": -7.0,
+   "unit": "mm",
+   "comment": "R4: - stop finger contact patch +Y end (<= -6.8 keeps the head top face >= 2 mm from the pad edge from 0 deg to the + stop)"
+  },
+  "fing_t": {
+   "expr": "10 mm",
+   "value": 10.0,
+   "unit": "mm",
+   "comment": "R4: stop finger pad thickness normal to its face (10: the pads overlap the bridge by >= 2 mm)"
+  },
+  "fing_bt": {
+   "expr": "3.5 mm",
+   "value": 3.5,
+   "unit": "mm",
+   "comment": "R4: stop finger bridge thickness (under the annulus)"
+  },
+  "fing_by0": {
+   "expr": "fing_ny1 - 0.5 mm",
+   "value": -7.5,
+   "unit": "mm",
+   "comment": "R4: stop finger bridge -Y end"
+  },
+  "rp_cbore_h": {
+   "expr": "1 mm",
+   "value": 1.0,
+   "unit": "mm",
+   "comment": "R4: VS screw head counterbore depth in the head jet-side face"
+  },
+  "mid_pad_x": {
+   "expr": "batt_h / 2 + 4 mm",
+   "value": 26.5,
+   "unit": "mm",
+   "comment": "R4: mid plate central pad half length (X)"
+  },
+  "mid_pad_y": {
+   "expr": "batt_w / 2 + batt_clear + upr_t",
+   "value": 26.0,
+   "unit": "mm",
+   "comment": "R4: mid plate central pad half width (Y) = upright outer faces"
+  },
+  "mid_rim_h": {
+   "expr": "3 mm",
+   "value": 3.0,
+   "unit": "mm",
+   "comment": "R4: battery rims on the +/-Y sides (D-6)"
+  },
+  "mid_spoke_w": {
+   "expr": "10 mm",
+   "value": 10.0,
+   "unit": "mm",
+   "comment": "R4: mid plate spokes to the tube clamps"
+  },
+  "mid_boss_z1": {
+   "expr": "mid_z + mid_t + clamp_len",
+   "value": 378.0,
+   "unit": "mm",
+   "comment": "R4: mid plate split-boss top (above the stand band)"
+  },
+  "mid_hole_d": {
+   "expr": "22 mm",
+   "value": 22.0,
+   "unit": "mm",
+   "comment": "R4: mid plate central lightening/wire hole"
+  },
+  "upr_x": {
+   "expr": "batt_h / 2",
+   "value": 22.5,
+   "unit": "mm",
+   "comment": "R4: upright column outer X (= pack face, so the straps bear on the pack)"
+  },
+  "upr_col_w": {
+   "expr": "6 mm",
+   "value": 6.0,
+   "unit": "mm",
+   "comment": "R4: upright column width (X)"
+  },
+  "upr_bar_h": {
+   "expr": "4 mm",
+   "value": 4.0,
+   "unit": "mm",
+   "comment": "R4: upright cross-bar height"
+  },
+  "upr_strap_z1": {
+   "expr": "batt_z0 + 13 mm",
+   "value": 376.0,
+   "unit": "mm",
+   "comment": "R4: lower strap centre (below the boards)"
+  },
+  "upr_strap_z2": {
+   "expr": "batt_z0 + 91 mm",
+   "value": 454.0,
+   "unit": "mm",
+   "comment": "R4: upper strap centre (above the boards)"
+  },
+  "upr_board_z0": {
+   "expr": "batt_z0 + 27 mm",
+   "value": 390.0,
+   "unit": "mm",
+   "comment": "R4: board bottoms on the uprights (PM07, UBEC, receiver)"
+  },
+  "upr_boss_d": {
+   "expr": "9 mm",
+   "value": 9.0,
+   "unit": "mm",
+   "comment": "R4: PM07 insert bosses on the -Y upright"
+  },
+  "upr_boss_h": {
+   "expr": "6 mm",
+   "value": 6.0,
+   "unit": "mm",
+   "comment": "R4: PM07 boss height (>= 6; seat 7.5 leaves 1.5 under the inner face)"
+  },
+  "upr_ub_x0": {
+   "expr": "-32 mm",
+   "value": -32.0,
+   "unit": "mm",
+   "comment": "R4: UBEC -X end on the +Y upright"
+  },
+  "upr_rx_x0": {
+   "expr": "-8 mm",
+   "value": -8.0,
+   "unit": "mm",
+   "comment": "R4: receiver -X end on the +Y upright (receiver on its side: rx_h along X, rx_l along Z)"
+  },
+  "tray_bar_w": {
+   "expr": "6 mm",
+   "value": 6.0,
+   "unit": "mm",
+   "comment": "R4: tray cross-arm width (two arms along Y joining the posts)"
+  },
+  "tray_post_x": {
+   "expr": "30 mm",
+   "value": 30.0,
+   "unit": "mm",
+   "comment": "R4: tray posts at +/- this X"
+  },
+  "tray_post_y": {
+   "expr": "30 mm",
+   "value": 30.0,
+   "unit": "mm",
+   "comment": "R4: tray posts at +/- this Y (clear of the Pixhawk sides)"
+  },
+  "tray_post_d": {
+   "expr": "9 mm",
+   "value": 9.0,
+   "unit": "mm",
+   "comment": "R4: tray post diameter (2.45 mm wall round the M3 x 10 insert)"
+  },
+  "tray_ins_len": {
+   "expr": "10 mm",
+   "value": 10.0,
+   "unit": "mm",
+   "comment": "R4: M3 x 10 inserts in the post tops (R3 PF-P), seat 11.5"
+  },
+  "fc_pad_d": {
+   "expr": "10 mm",
+   "value": 10.0,
+   "unit": "mm",
+   "comment": "R4: TBM foam pad diameter (D-7)"
+  },
+  "fc_pad_x": {
+   "expr": "tray_post_x",
+   "value": 30.0,
+   "unit": "mm",
+   "comment": "R4: foam pads on the tray cross arms"
+  },
+  "fc_pad_y": {
+   "expr": "14 mm",
+   "value": 14.0,
+   "unit": "mm",
+   "comment": "R4: foam pads at +/- this Y"
+  },
+  "top_esc_y0": {
+   "expr": "-28 mm",
+   "value": -28.0,
+   "unit": "mm",
+   "comment": "R4: ESC -Y edge on the top plate (set so the flight CG is within 1 mm of the axis in Y, C-03)"
+  },
+  "top_pad_x": {
+   "expr": "45 mm",
+   "value": 45.0,
+   "unit": "mm",
+   "comment": "R4: top plate pad half length (X)"
+  },
+  "top_pad_y0": {
+   "expr": "top_esc_y0 - 5 mm",
+   "value": -33.0,
+   "unit": "mm",
+   "comment": "R4: top plate pad -Y edge (room for the ESC tie slots)"
+  },
+  "top_pad_y1": {
+   "expr": "top_ec5_y0 + ec5_w + 8 mm",
+   "value": 44.0,
+   "unit": "mm",
+   "comment": "R4: top plate pad +Y edge (room for the EC5 tie slots)"
+  },
+  "top_slot_w": {
+   "expr": "ec5_w + 2 mm",
+   "value": 14.0,
+   "unit": "mm",
+   "comment": "R4: pack-lead slot width (the pack EC5 half passes)"
+  },
+  "top_slot_x1": {
+   "expr": "8 mm",
+   "value": 8.0,
+   "unit": "mm",
+   "comment": "R4: pack-lead slot +X end (runs out to the -X edge)"
+  },
+  "top_ec5_x0": {
+   "expr": "-42 mm",
+   "value": -42.0,
+   "unit": "mm",
+   "comment": "R4: EC5 pair -X end on the top plate"
+  },
+  "top_ec5_y0": {
+   "expr": "24 mm",
+   "value": 24.0,
+   "unit": "mm",
+   "comment": "R4: EC5 pair -Y edge (beside the pack-lead slot, +Y side)"
+  },
+  "top_rim_h": {
+   "expr": "5 mm",
+   "value": 5.0,
+   "unit": "mm",
+   "comment": "R4: pack-top rims hanging from the underside (+/-Y)"
+  },
+  "top_rim_t": {
+   "expr": "2 mm",
+   "value": 2.0,
+   "unit": "mm",
+   "comment": "R4: pack-top rim thickness"
+  },
+  "top_rim_x": {
+   "expr": "20 mm",
+   "value": 20.0,
+   "unit": "mm",
+   "comment": "R4: pack-top rims half length"
+  },
+  "top_spoke_w": {
+   "expr": "10 mm",
+   "value": 10.0,
+   "unit": "mm",
+   "comment": "R4: top plate spokes to the tube cups"
+  },
+  "top_cup_roof": {
+   "expr": "2 mm",
+   "value": 2.0,
+   "unit": "mm",
+   "comment": "R4: cup roof over the tube ends"
+  },
+  "top_hole_d": {
+   "expr": "16 mm",
+   "value": 16.0,
+   "unit": "mm",
+   "comment": "R4: top plate lightening holes"
+  },
+  "m4_cbore_h": {
+   "expr": "m4_head_h + 0.2 mm",
+   "value": 2.4,
+   "unit": "mm",
+   "comment": "R3: M4 button-head counterbore depth"
+  },
+  "leg_z1": {
+   "expr": "ground_z + foot_h + 12 mm",
+   "value": 17.0,
+   "unit": "mm",
+   "comment": "R3: leg beam end centre Z at the foot (R2)"
+  },
+  "stand_z0": {
+   "expr": "cg_z - 40 mm - stand_allow",
+   "value": 261.6,
+   "unit": "mm",
+   "comment": "R3: stand-clamp band bottom (R2 definition CG - 40, widened)"
+  },
+  "stand_z1": {
+   "expr": "cg_z + 15 mm + stand_allow",
+   "value": 336.6,
+   "unit": "mm",
+   "comment": "R3: stand-clamp band top (R2 definition CG + 15, widened)"
+  },
+  "fing_r0": {
+   "expr": "jet_clear_r + 2 mm",
+   "value": 46.0,
+   "unit": "mm",
+   "comment": "R4: stop pads start 2 mm outboard of the root neck (the neck reaches the leading edge, above the head top)"
+  },
+  "top_slot_yc": {
+   "expr": "15 mm",
+   "value": 15.0,
+   "unit": "mm",
+   "comment": "R4: pack-lead slot centre Y (leads assumed to leave the pack top on its +Y side: TBM, M-03)"
+  },
+  "rf_len": {
+   "expr": "42 mm",
+   "value": 42.0,
+   "unit": "mm",
+   "comment": "R4: TFmini-S length over the mounting ears (datasheet, listed)"
+  },
+  "rf_body_l": {
+   "expr": "33 mm",
+   "value": 33.0,
+   "unit": "mm",
+   "comment": "R4: TFmini-S body length between the ears (datasheet, listed)"
+  },
+  "rf_wid": {
+   "expr": "15 mm",
+   "value": 15.0,
+   "unit": "mm",
+   "comment": "R4: TFmini-S width (datasheet, listed)"
+  },
+  "rf_body_h": {
+   "expr": "11 mm",
+   "value": 11.0,
+   "unit": "mm",
+   "comment": "R4: TFmini-S body height from the back face, lens bosses excluded (datasheet, listed)"
+  },
+  "rf_ear_t": {
+   "expr": "5 mm",
+   "value": 5.0,
+   "unit": "mm",
+   "comment": "R4: TFmini-S ear thickness from the back face (datasheet dimension 5 read as the ear top: TBM on the part, M-14)"
+  },
+  "rf_ear_w": {
+   "expr": "8 mm",
+   "value": 8.0,
+   "unit": "mm",
+   "comment": "R4: TFmini-S ear lobe width (rough guess from the datasheet drawing, TBM, M-14)"
+  },
+  "rf_ear_sp": {
+   "expr": "36 mm",
+   "value": 36.0,
+   "unit": "mm",
+   "comment": "R4: TFmini-S ear hole spacing (datasheet, listed)"
+  },
+  "rf_ear_d": {
+   "expr": "2.35 mm",
+   "value": 2.35,
+   "unit": "mm",
+   "comment": "R4: TFmini-S ear hole diameter (datasheet, listed): M2 screws"
+  },
+  "rf_lens_d": {
+   "expr": "10.4 mm",
+   "value": 10.4,
+   "unit": "mm",
+   "comment": "R4: TFmini-S lens boss diameter (datasheet: 9.4 and 10.4, the larger used for both)"
+  },
+  "rf_lens_sp": {
+   "expr": "10 mm",
+   "value": 10.0,
+   "unit": "mm",
+   "comment": "R4: TFmini-S lens centre spacing (datasheet, listed)"
+  },
+  "rf_yaw": {
+   "expr": "70 deg",
+   "value": 70.0,
+   "unit": "deg",
+   "comment": "R4: TFmini-S long axis from the radial direction towards +v (X-26: >= 3 mm from the support, servo and leg, probe r4_91b)"
+  },
+  "rf_vs": {
+   "expr": "-3 mm",
+   "value": -3.0,
+   "unit": "mm",
+   "comment": "R4: TFmini-S centre tangential offset on the 135 deg station (X-26)"
+  },
+  "rf_rin": {
+   "expr": "57 mm",
+   "value": 57.0,
+   "unit": "mm",
+   "comment": "R4: TFmini-S innermost extent along the station radial (true distance to the jet edge 20.7 mm, C-11: meets R2 rule 20; R3 had 14)"
+  },
+  "rf_rc": {
+   "expr": "rf_rin + rf_len / 2 * cos(rf_yaw) + rf_wid / 2 * sin(rf_yaw)",
+   "value": 71.2301,
+   "unit": "mm",
+   "comment": "R4: TFmini-S centre radius (innermost corner at rf_rin)"
+  },
+  "rf_ex": {
+   "expr": "rf_ear_sp / 2 * cos(rf_yaw)",
+   "value": 6.1564,
+   "unit": "mm",
+   "comment": "R4: TFmini-S ear hole offset from its centre, radial"
+  },
+  "rf_ey": {
+   "expr": "rf_ear_sp / 2 * sin(rf_yaw)",
+   "value": 16.9145,
+   "unit": "mm",
+   "comment": "R4: TFmini-S ear hole offset from its centre, tangential"
+  },
+  "rf_pad_r": {
+   "expr": "4.5 mm",
+   "value": 4.5,
+   "unit": "mm",
+   "comment": "R4: mount plate pad radius round each M2 ear hole (2.5 mm wall past the screw head clearance)"
+  },
+  "rf_pilot_h": {
+   "expr": "4 mm",
+   "value": 4.0,
+   "unit": "mm",
+   "comment": "R4: blind M2 pilot depth in the 5 mm mount plate (M2 x 8 self-tapper through the 5 mm ear: 3 mm engagement)"
+  },
+  "rf_shield_v1": {
+   "expr": "5 mm",
+   "value": 5.0,
+   "unit": "mm",
+   "comment": "R4: jet-side shield +v end (the TFmini-S +v end is >= 30 mm from the jet; shortened from +rf_plate_v for the 6 g mount cap, X-26)"
+  },
+  "rf_win_r0": {
+   "expr": "rf_shield_r + 2.5 mm",
+   "value": 54.5,
+   "unit": "mm",
+   "comment": "R4: mount plate lightening windows, inner radius (beside the shield, outside the sensor and the M4 counterbores)"
+  },
+  "rf_win_r1": {
+   "expr": "tube_r - leg_root_u - m4_cbore_d / 2 - 1.5 mm",
+   "value": 58.45,
+   "unit": "mm",
+   "comment": "R4: mount plate lightening windows, outer radius (1.5 mm wall to the M4 counterbores)"
+  },
+  "rf_win_v0": {
+   "expr": "3 mm",
+   "value": 3.0,
+   "unit": "mm",
+   "comment": "R4: mount plate lightening windows, tangential start (6 mm bridge on the centre line)"
+  },
+  "ig_r": {
+   "expr": "edf_lip_d / 2 + 2 mm",
+   "value": 50.0,
+   "unit": "mm",
+   "comment": "R4: intake guard wall inner radius (2 mm outside the inlet lip envelope; lip shape TBM on the fan, M-05)"
+  },
+  "ig_t": {
+   "expr": "1.2 mm",
+   "value": 1.2,
+   "unit": "mm",
+   "comment": "R4: intake guard wall thickness"
+  },
+  "ig_z0": {
+   "expr": "edf_top_z - 4 mm",
+   "value": 241.0,
+   "unit": "mm",
+   "comment": "R4: intake guard skirt bottom (4 mm below the lip top: locates the guard radially on the lip)"
+  },
+  "ig_z1": {
+   "expr": "plenum_floor_z - 13 mm",
+   "value": 312.0,
+   "unit": "mm",
+   "comment": "R4: intake guard top plate underside (servo leads enter at r >= 53 above Z 310; leaves ig_lift under the tray for fitting)"
+  },
+  "ig_top_t": {
+   "expr": "1.5 mm",
+   "value": 1.5,
+   "unit": "mm",
+   "comment": "R4: intake guard top plate thickness"
+  },
+  "ig_lift": {
+   "expr": "5 mm",
+   "value": 5.0,
+   "unit": "mm",
+   "comment": "R4: lift needed to fit or remove a quarter (skirt over the lip top + 1 mm)"
+  },
+  "ig_slot_z0": {
+   "expr": "edf_top_z + 5 mm",
+   "value": 250.0,
+   "unit": "mm",
+   "comment": "R4: intake guard lowest wall slot bottom"
+  },
+  "ig_slot_h": {
+   "expr": "3.2 mm",
+   "value": 3.2,
+   "unit": "mm",
+   "comment": "R4: intake guard wall slot height (the largest opening: 3.2 mm)"
+  },
+  "ig_bar_h": {
+   "expr": "1 mm",
+   "value": 1.0,
+   "unit": "mm",
+   "comment": "R4: intake guard horizontal bar height between wall slots"
+  },
+  "ig_n_rows": {
+   "expr": "14",
+   "value": 14.0,
+   "unit": "",
+   "comment": "R4: intake guard wall slot rows"
+  },
+  "ig_n_ribs": {
+   "expr": "32",
+   "value": 32.0,
+   "unit": "",
+   "comment": "R4: intake guard vertical ribs (11.25 deg pitch, one on each quarter joint)"
+  },
+  "ig_rib_w": {
+   "expr": "1.6 mm",
+   "value": 1.6,
+   "unit": "mm",
+   "comment": "R4: intake guard rib and spoke width"
+  },
+  "ig_joint_w": {
+   "expr": "3.6 mm",
+   "value": 3.6,
+   "unit": "mm",
+   "comment": "R4: intake guard rib and spoke width at the quarter joints (split by ig_gap)"
+  },
+  "ig_gap": {
+   "expr": "0.4 mm",
+   "value": 0.4,
+   "unit": "mm",
+   "comment": "R4: gap between intake guard quarters"
+  },
+  "ig_hub_r": {
+   "expr": "10 mm",
+   "value": 10.0,
+   "unit": "mm",
+   "comment": "R4: intake guard solid centre of the top plate"
+  },
+  "ig_tslot": {
+   "expr": "3.2 mm",
+   "value": 3.2,
+   "unit": "mm",
+   "comment": "R4: intake guard top plate ring slot width"
+  },
+  "ig_tbar": {
+   "expr": "1.3 mm",
+   "value": 1.3,
+   "unit": "mm",
+   "comment": "R4: intake guard top plate ring bar width"
+  },
+  "ig_n_tslots": {
+   "expr": "8",
+   "value": 8.0,
+   "unit": "",
+   "comment": "R4: intake guard top plate ring slots"
+  },
+  "ig_n_spokes": {
+   "expr": "16",
+   "value": 16.0,
+   "unit": "",
+   "comment": "R4: intake guard top plate spokes"
+  },
+  "ig_foot_w": {
+   "expr": "6 mm",
+   "value": 6.0,
+   "unit": "mm",
+   "comment": "R4: intake guard foot width (one per quarter, resting on the lip top)"
+  },
+  "ig_foot_h": {
+   "expr": "2 mm",
+   "value": 2.0,
+   "unit": "mm",
+   "comment": "R4: intake guard foot height"
+  },
+  "ig_pl_ang": {
+   "expr": "7 deg",
+   "value": 7.0,
+   "unit": "deg",
+   "comment": "R4: intake guard tie plates either side of each tube (quarters still pass the 89 mm tube gap)"
+  },
+  "ig_pl_t": {
+   "expr": "2.5 mm",
+   "value": 2.5,
+   "unit": "mm",
+   "comment": "R4: intake guard tie plate thickness"
+  },
+  "ig_pl_r1": {
+   "expr": "tube_r - tube_od / 2 - 2.5 mm",
+   "value": 62.5,
+   "unit": "mm",
+   "comment": "R4: intake guard tie plate outer radius (2.5 mm inside the tube)"
+  },
+  "ig_pl_z0": {
+   "expr": "edf_top_z - 2 mm",
+   "value": 243.0,
+   "unit": "mm",
+   "comment": "R4: intake guard tie plate bottom (outside the lip, so it may sit below the lip top)"
+  },
+  "ig_pl_h": {
+   "expr": "16 mm",
+   "value": 16.0,
+   "unit": "mm",
+   "comment": "R4: intake guard tie plate height (top stays below the stand band, C-15)"
+  },
+  "ig_win_r0": {
+   "expr": "57 mm",
+   "value": 57.0,
+   "unit": "mm",
+   "comment": "R4: intake guard tie window inner radius"
+  },
+  "ig_win_w": {
+   "expr": "3 mm",
+   "value": 3.0,
+   "unit": "mm",
+   "comment": "R4: intake guard tie window radial width"
+  },
+  "ig_tie_w": {
+   "expr": "12 mm",
+   "value": 12.0,
+   "unit": "mm",
+   "comment": "R4: hook-and-loop tie width modelled (10-12.5 mm ties fit the 13 mm window; product TBM)"
+  },
+  "ig_tie_t": {
+   "expr": "1.5 mm",
+   "value": 1.5,
+   "unit": "mm",
+   "comment": "R4: hook-and-loop tie thickness, both layers at the overlap (product TBM)"
+  },
+  "fc_stop_gap": {
+   "expr": "1 mm",
+   "value": 1.0,
+   "unit": "mm",
+   "comment": "R4: gap from the Pixhawk case to its stops (the foam isolates; the stops only limit travel)"
+  },
+  "fc_side_h": {
+   "expr": "6 mm",
+   "value": 6.0,
+   "unit": "mm",
+   "comment": "R4: Pixhawk side stops (on the tray posts) rise this far above the case bottom"
+  },
+  "fc_lip_t": {
+   "expr": "2 mm",
+   "value": 2.0,
+   "unit": "mm",
+   "comment": "R4: Pixhawk end-stop lip thickness"
+  },
+  "fc_lip_w": {
+   "expr": "4 mm",
+   "value": 4.0,
+   "unit": "mm",
+   "comment": "R4: Pixhawk end-stop lip width (at the case corners)"
+  },
+  "fc_lip_h": {
+   "expr": "2.5 mm",
+   "value": 2.5,
+   "unit": "mm",
+   "comment": "R4: Pixhawk end-stop lip height above the case bottom (below the end connectors: TBM on the real case)"
+  },
+  "fc_lip_y": {
+   "expr": "18 mm",
+   "value": 18.0,
+   "unit": "mm",
+   "comment": "R4: Pixhawk end-stop lip centre, +/- Y (near the case corners)"
+  },
+  "fc_arm_t": {
+   "expr": "2.5 mm",
+   "value": 2.5,
+   "unit": "mm",
+   "comment": "R4: thickness of the arms carrying the end-stop lips out past the tray (under the case overhang)"
+  }
+ },
+ "n_user": 357,
+ "model_params": 1965,
+ "model_params_referencing_user": 1170,
+ "sketches": 204,
+ "sketch_dimensions": 791,
+ "timeline": 789,
+ "health": [],
+ "joints": 120,
+ "components": 77,
+ "occurrences": 200
+}

@@ -1,0 +1,63 @@
+{
+ "ok": true,
+ "made": [
+  [
+   "R4 PETG (mass proxy 1.27)",
+   1270.0
+  ],
+  [
+   "R4 PETG-CF (mass proxy 1.30)",
+   1300.0
+  ],
+  [
+   "R4 TPU 95A (mass proxy 1.21)",
+   1210.0
+  ],
+  [
+   "R4 CFRP tube (listed 45.6 g/m proxy)",
+   1612.8
+  ],
+  [
+   "R4 No mass (check and corridor bodies)",
+   0.001
+  ],
+  [
+   "R4 Aluminum 6061",
+   2700.0
+  ],
+  [
+   "R4 Stainless Steel",
+   8000.0
+  ],
+  [
+   "R4 Brass",
+   8490.0
+  ],
+  [
+   "group",
+   "R4-FLIGHT Flight vehicle - assembly - see parts",
+   true
+  ],
+  [
+   "group",
+   "R4-TETHER-KIT Removable tether kit - assembly - see parts",
+   true
+  ],
+  [
+   "group",
+   "CHK-ZONES Check zones - hidden - never exported",
+   false
+  ],
+  [
+   "group",
+   "CHK-FV-OPTION R3 fixed-vane option for the fit check - hidden - never exported",
+   false
+  ]
+ ],
+ "groups": [
+  "R4-FLIGHT Flight vehicle - assembly - see parts",
+  "R4-TETHER-KIT Removable tether kit - assembly - see parts",
+  "CHK-ZONES Check zones - hidden - never exported",
+  "CHK-FV-OPTION R3 fixed-vane option for the fit check - hidden - never exported"
+ ]
+}

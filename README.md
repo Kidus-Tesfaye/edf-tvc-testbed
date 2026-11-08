@@ -82,3 +82,15 @@ three `.docx` files back into `bom/`. Check the one-page fit with
 `powershell -File bom/check_pages.ps1 <absolute path to docx>`.
 
 Python dependencies used by the tooling: `defusedxml`, `lxml`, `pypdf`, `pyyaml`.
+
+## R4 CAD deliverables
+
+The R4 four-vane EDF vehicle and tethered testbed CAD package is available in
+[`CAD/`](CAD/README.md). It contains the editable Fusion 360 `.f3d` models,
+assembly and individual-part STEP exports, STL meshes, CAD views, and saved
+validation results and logs. The package deliberately excludes print plans,
+engineering reports, RFQ files, design decision/progress notes, proposals,
+and generation scripts.
+
+**Status:** engineering CAD handover; not fabrication or flight approval. Open
+clearance and hardware verification items are identified in [`CAD/README.md`](CAD/README.md).

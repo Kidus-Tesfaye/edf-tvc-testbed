@@ -1,0 +1,1577 @@
+{
+ "ok": true,
+ "plates_turned_60": [
+  {
+   "inner_corner_r": 55.0,
+   "plate_hits": [
+    [
+     "R4-LG-01 Legs x4 / leg_2",
+     64.82,
+     {
+      "r": [
+       75.2,
+       88.1
+      ],
+      "v": [
+       -5.3,
+       7.6
+      ],
+      "z": [
+       131.0,
+       136.0
+      ]
+     }
+    ]
+   ],
+   "plate_hw_hits": [
+    "R4-HW M4x16 ISO 7380 button head / screw",
+    "R4-HW M4x16 ISO 7380 button head / screw"
+   ]
+  },
+  {
+   "inner_corner_r": 60.0,
+   "plate_hits": [
+    [
+     "R4-LG-01 Legs x4 / leg_2",
+     135.14,
+     {
+      "r": [
+       75.2,
+       91.2
+      ],
+      "v": [
+       -7.8,
+       8.2
+      ],
+      "z": [
+       131.0,
+       136.0
+      ]
+     }
+    ]
+   ],
+   "plate_hw_hits": [
+    "R4-HW M4x16 ISO 7380 button head / screw"
+   ]
+  }
+ ],
+ "grid": [
+  {
+   "yaw": 90.0,
+   "v_shift": 0.0,
+   "r_in": 54.0,
+   "clash": [
+    "R4-ES-01 EDF support with servo brackets and stops / support"
+   ]
+  },
+  {
+   "yaw": 90.0,
+   "v_shift": 0.0,
+   "r_in": 57.0,
+   "clash": [
+    "R4-ES-01 EDF support with servo brackets and stops / support"
+   ]
+  },
+  {
+   "yaw": 90.0,
+   "v_shift": 0.0,
+   "r_in": 60.0,
+   "clash": [
+    "R4-ES-01 EDF support with servo brackets and stops / support"
+   ]
+  },
+  {
+   "yaw": 90.0,
+   "v_shift": -3.0,
+   "r_in": 54.0,
+   "clash": [],
+   "within_2mm": [
+    "R4-ES-01 EDF support with servo brackets and stops / support"
+   ],
+   "plate_clash": [
+    "R4-ES-01 EDF support with servo brackets and stops / support",
+    "R4-VM-02 Servo horn QUARKZMAN 25T with centre screw / horn"
+   ],
+   "lens_col": []
+  },
+  {
+   "yaw": 90.0,
+   "v_shift": -3.0,
+   "r_in": 57.0,
+   "clash": [],
+   "within_2mm": [
+    "R4-ES-01 EDF support with servo brackets and stops / support"
+   ],
+   "plate_clash": [
+    "R4-ES-01 EDF support with servo brackets and stops / support"
+   ],
+   "lens_col": []
+  },
+  {
+   "yaw": 90.0,
+   "v_shift": -3.0,
+   "r_in": 60.0,
+   "clash": [],
+   "within_2mm": [
+    "R4-ES-01 EDF support with servo brackets and stops / support"
+   ],
+   "plate_clash": [
+    "R4-ES-01 EDF support with servo brackets and stops / support"
+   ],
+   "lens_col": []
+  },
+  {
+   "yaw": 90.0,
+   "v_shift": -6.0,
+   "r_in": 54.0,
+   "clash": [],
+   "within_2mm": [
+    "R4-ES-01 EDF support with servo brackets and stops / support"
+   ],
+   "plate_clash": [
+    "R4-ES-01 EDF support with servo brackets and stops / support",
+    "R4-VM-02 Servo horn QUARKZMAN 25T with centre screw / horn"
+   ],
+   "lens_col": []
+  },
+  {
+   "yaw": 90.0,
+   "v_shift": -6.0,
+   "r_in": 57.0,
+   "clash": [],
+   "within_2mm": [
+    "R4-ES-01 EDF support with servo brackets and stops / support"
+   ],
+   "plate_clash": [
+    "R4-ES-01 EDF support with servo brackets and stops / support"
+   ],
+   "lens_col": []
+  },
+  {
+   "yaw": 90.0,
+   "v_shift": -6.0,
+   "r_in": 60.0,
+   "clash": [],
+   "within_2mm": [],
+   "plate_clash": [
+    "R4-ES-01 EDF support with servo brackets and stops / support"
+   ],
+   "lens_col": []
+  },
+  {
+   "yaw": 90.0,
+   "v_shift": -9.0,
+   "r_in": 54.0,
+   "clash": [
+    "R4-ES-01 EDF support with servo brackets and stops / support"
+   ]
+  },
+  {
+   "yaw": 90.0,
+   "v_shift": -9.0,
+   "r_in": 57.0,
+   "clash": [
+    "R4-ES-01 EDF support with servo brackets and stops / support"
+   ]
+  },
+  {
+   "yaw": 90.0,
+   "v_shift": -9.0,
+   "r_in": 60.0,
+   "clash": [],
+   "within_2mm": [],
+   "plate_clash": [
+    "R4-ES-01 EDF support with servo brackets and stops / support",
+    "R4-VM-03 Servo AGFRC B26CLM V2 / servo"
+   ],
+   "lens_col": []
+  },
+  {
+   "yaw": 90.0,
+   "v_shift": -12.0,
+   "r_in": 54.0,
+   "clash": [
+    "R4-ES-01 EDF support with servo brackets and stops / support",
+    "R4-VM-03 Servo AGFRC B26CLM V2 / servo"
+   ]
+  },
+  {
+   "yaw": 90.0,
+   "v_shift": -12.0,
+   "r_in": 57.0,
+   "clash": [
+    "R4-ES-01 EDF support with servo brackets and stops / support",
+    "R4-VM-03 Servo AGFRC B26CLM V2 / servo"
+   ]
+  },
+  {
+   "yaw": 90.0,
+   "v_shift": -12.0,
+   "r_in": 60.0,
+   "clash": [],
+   "within_2mm": [
+    "R4-VM-03 Servo AGFRC B26CLM V2 / servo"
+   ],
+   "plate_clash": [
+    "R4-ES-01 EDF support with servo brackets and stops / support",
+    "R4-VM-03 Servo AGFRC B26CLM V2 / servo"
+   ],
+   "lens_col": []
+  },
+  {
+   "yaw": 80.0,
+   "v_shift": 0.0,
+   "r_in": 54.0,
+   "clash": [
+    "R4-ES-01 EDF support with servo brackets and stops / support"
+   ]
+  },
+  {
+   "yaw": 80.0,
+   "v_shift": 0.0,
+   "r_in": 57.0,
+   "clash": [
+    "R4-ES-01 EDF support with servo brackets and stops / support"
+   ]
+  },
+  {
+   "yaw": 80.0,
+   "v_shift": 0.0,
+   "r_in": 60.0,
+   "clash": [],
+   "within_2mm": [
+    "R4-ES-01 EDF support with servo brackets and stops / support",
+    "R4-VM-03 Servo AGFRC B26CLM V2 / servo"
+   ],
+   "plate_clash": [
+    "R4-LG-01 Legs x4 / leg_2",
+    "R4-ES-01 EDF support with servo brackets and stops / support",
+    "R4-VM-03 Servo AGFRC B26CLM V2 / servo"
+   ],
+   "lens_col": []
+  },
+  {
+   "yaw": 80.0,
+   "v_shift": -3.0,
+   "r_in": 54.0,
+   "clash": [],
+   "within_2mm": [
+    "R4-ES-01 EDF support with servo brackets and stops / support"
+   ],
+   "plate_clash": [
+    "R4-ES-01 EDF support with servo brackets and stops / support",
+    "R4-VM-02 Servo horn QUARKZMAN 25T with centre screw / horn"
+   ],
+   "lens_col": []
+  },
+  {
+   "yaw": 80.0,
+   "v_shift": -3.0,
+   "r_in": 57.0,
+   "clash": [
+    "R4-ES-01 EDF support with servo brackets and stops / support"
+   ]
+  },
+  {
+   "yaw": 80.0,
+   "v_shift": -3.0,
+   "r_in": 60.0,
+   "clash": [],
+   "within_2mm": [
+    "R4-ES-01 EDF support with servo brackets and stops / support"
+   ],
+   "plate_clash": [
+    "R4-LG-01 Legs x4 / leg_2",
+    "R4-ES-01 EDF support with servo brackets and stops / support"
+   ],
+   "lens_col": []
+  },
+  {
+   "yaw": 80.0,
+   "v_shift": -6.0,
+   "r_in": 54.0,
+   "clash": [],
+   "within_2mm": [],
+   "plate_clash": [
+    "R4-ES-01 EDF support with servo brackets and stops / support"
+   ],
+   "lens_col": []
+  },
+  {
+   "yaw": 80.0,
+   "v_shift": -6.0,
+   "r_in": 57.0,
+   "clash": [],
+   "within_2mm": [],
+   "plate_clash": [
+    "R4-LG-01 Legs x4 / leg_2",
+    "R4-ES-01 EDF support with servo brackets and stops / support"
+   ],
+   "lens_col": []
+  },
+  {
+   "yaw": 80.0,
+   "v_shift": -6.0,
+   "r_in": 60.0,
+   "clash": [],
+   "within_2mm": [],
+   "plate_clash": [
+    "R4-LG-01 Legs x4 / leg_2",
+    "R4-ES-01 EDF support with servo brackets and stops / support"
+   ],
+   "lens_col": []
+  },
+  {
+   "yaw": 80.0,
+   "v_shift": -9.0,
+   "r_in": 54.0,
+   "clash": [
+    "R4-ES-01 EDF support with servo brackets and stops / support"
+   ]
+  },
+  {
+   "yaw": 80.0,
+   "v_shift": -9.0,
+   "r_in": 57.0,
+   "clash": [],
+   "within_2mm": [
+    "R4-ES-01 EDF support with servo brackets and stops / support"
+   ],
+   "plate_clash": [
+    "R4-LG-01 Legs x4 / leg_2",
+    "R4-ES-01 EDF support with servo brackets and stops / support"
+   ],
+   "lens_col": []
+  },
+  {
+   "yaw": 80.0,
+   "v_shift": -9.0,
+   "r_in": 60.0,
+   "clash": [],
+   "within_2mm": [],
+   "plate_clash": [
+    "R4-LG-01 Legs x4 / leg_2",
+    "R4-ES-01 EDF support with servo brackets and stops / support"
+   ],
+   "lens_col": []
+  },
+  {
+   "yaw": 80.0,
+   "v_shift": -12.0,
+   "r_in": 54.0,
+   "clash": [
+    "R4-ES-01 EDF support with servo brackets and stops / support",
+    "R4-VM-03 Servo AGFRC B26CLM V2 / servo"
+   ]
+  },
+  {
+   "yaw": 80.0,
+   "v_shift": -12.0,
+   "r_in": 57.0,
+   "clash": [
+    "R4-ES-01 EDF support with servo brackets and stops / support"
+   ]
+  },
+  {
+   "yaw": 80.0,
+   "v_shift": -12.0,
+   "r_in": 60.0,
+   "clash": [],
+   "within_2mm": [
+    "R4-VM-03 Servo AGFRC B26CLM V2 / servo"
+   ],
+   "plate_clash": [
+    "R4-LG-01 Legs x4 / leg_2",
+    "R4-ES-01 EDF support with servo brackets and stops / support",
+    "R4-VM-03 Servo AGFRC B26CLM V2 / servo"
+   ],
+   "lens_col": []
+  },
+  {
+   "yaw": 70.0,
+   "v_shift": 0.0,
+   "r_in": 54.0,
+   "clash": [],
+   "within_2mm": [
+    "R4-ES-01 EDF support with servo brackets and stops / support",
+    "R4-VM-03 Servo AGFRC B26CLM V2 / servo"
+   ],
+   "plate_clash": [
+    "R4-LG-01 Legs x4 / leg_2",
+    "R4-ES-01 EDF support with servo brackets and stops / support",
+    "R4-VM-03 Servo AGFRC B26CLM V2 / servo",
+    "R4-VM-02 Servo horn QUARKZMAN 25T with centre screw / horn"
+   ],
+   "lens_col": []
+  },
+  {
+   "yaw": 70.0,
+   "v_shift": 0.0,
+   "r_in": 57.0,
+   "clash": [],
+   "within_2mm": [],
+   "plate_clash": [
+    "R4-LG-01 Legs x4 / leg_2"
+   ],
+   "lens_col": []
+  },
+  {
+   "yaw": 70.0,
+   "v_shift": 0.0,
+   "r_in": 60.0,
+   "clash": [],
+   "within_2mm": [
+    "R4-LG-01 Legs x4 / leg_2"
+   ],
+   "plate_clash": [
+    "R4-LG-01 Legs x4 / leg_2"
+   ],
+   "lens_col": []
+  },
+  {
+   "yaw": 70.0,
+   "v_shift": -3.0,
+   "r_in": 54.0,
+   "clash": [],
+   "within_2mm": [
+    "R4-ES-01 EDF support with servo brackets and stops / support"
+   ],
+   "plate_clash": [
+    "R4-LG-01 Legs x4 / leg_2",
+    "R4-ES-01 EDF support with servo brackets and stops / support",
+    "R4-VM-03 Servo AGFRC B26CLM V2 / servo",
+    "R4-VM-02 Servo horn QUARKZMAN 25T with centre screw / horn"
+   ],
+   "lens_col": []
+  },
+  {
+   "yaw": 70.0,
+   "v_shift": -3.0,
+   "r_in": 57.0,
+   "clash": [],
+   "within_2mm": [],
+   "plate_clash": [
+    "R4-LG-01 Legs x4 / leg_2"
+   ],
+   "lens_col": []
+  },
+  {
+   "yaw": 70.0,
+   "v_shift": -3.0,
+   "r_in": 60.0,
+   "clash": [],
+   "within_2mm": [
+    "R4-LG-01 Legs x4 / leg_2"
+   ],
+   "plate_clash": [
+    "R4-LG-01 Legs x4 / leg_2"
+   ],
+   "lens_col": []
+  },
+  {
+   "yaw": 70.0,
+   "v_shift": -6.0,
+   "r_in": 54.0,
+   "clash": [],
+   "within_2mm": [],
+   "plate_clash": [
+    "R4-LG-01 Legs x4 / leg_2"
+   ],
+   "lens_col": []
+  },
+  {
+   "yaw": 70.0,
+   "v_shift": -6.0,
+   "r_in": 57.0,
+   "clash": [],
+   "within_2mm": [],
+   "plate_clash": [
+    "R4-LG-01 Legs x4 / leg_2"
+   ],
+   "lens_col": []
+  },
+  {
+   "yaw": 70.0,
+   "v_shift": -6.0,
+   "r_in": 60.0,
+   "clash": [
+    "R4-LG-01 Legs x4 / leg_2"
+   ]
+  },
+  {
+   "yaw": 70.0,
+   "v_shift": -9.0,
+   "r_in": 54.0,
+   "clash": [],
+   "within_2mm": [
+    "R4-ES-01 EDF support with servo brackets and stops / support"
+   ],
+   "plate_clash": [
+    "R4-LG-01 Legs x4 / leg_2",
+    "R4-ES-01 EDF support with servo brackets and stops / support"
+   ],
+   "lens_col": []
+  },
+  {
+   "yaw": 70.0,
+   "v_shift": -9.0,
+   "r_in": 57.0,
+   "clash": [],
+   "within_2mm": [
+    "R4-LG-01 Legs x4 / leg_2"
+   ],
+   "plate_clash": [
+    "R4-LG-01 Legs x4 / leg_2",
+    "R4-ES-01 EDF support with servo brackets and stops / support"
+   ],
+   "lens_col": []
+  },
+  {
+   "yaw": 70.0,
+   "v_shift": -9.0,
+   "r_in": 60.0,
+   "clash": [
+    "R4-LG-01 Legs x4 / leg_2"
+   ]
+  },
+  {
+   "yaw": 70.0,
+   "v_shift": -12.0,
+   "r_in": 54.0,
+   "clash": [
+    "R4-ES-01 EDF support with servo brackets and stops / support"
+   ]
+  },
+  {
+   "yaw": 70.0,
+   "v_shift": -12.0,
+   "r_in": 57.0,
+   "clash": [],
+   "within_2mm": [
+    "R4-LG-01 Legs x4 / leg_2",
+    "R4-ES-01 EDF support with servo brackets and stops / support"
+   ],
+   "plate_clash": [
+    "R4-LG-01 Legs x4 / leg_2",
+    "R4-ES-01 EDF support with servo brackets and stops / support",
+    "R4-VM-03 Servo AGFRC B26CLM V2 / servo"
+   ],
+   "lens_col": []
+  },
+  {
+   "yaw": 70.0,
+   "v_shift": -12.0,
+   "r_in": 60.0,
+   "clash": [
+    "R4-LG-01 Legs x4 / leg_2"
+   ]
+  }
+ ],
+ "designs": [
+  {
+   "yaw": 90.0,
+   "v_shift": -3.0,
+   "r_in": 62.0,
+   "r_centre": 69.5,
+   "jet_gap_mm": 22.0,
+   "ears_r_v": [
+    [
+     69.5,
+     -21.0
+    ],
+    [
+     69.5,
+     15.0
+    ]
+   ],
+   "ear_outside_plate": [
+    true,
+    true
+   ],
+   "ear_to_M4_centre_mm": 7.43,
+   "ear_hole_wall_to_cbore_mm": 2.53,
+   "sensor_clash": [],
+   "within_1": [
+    "R4-ES-01 EDF support with servo brackets and stops / support"
+   ],
+   "within_2": [
+    "R4-ES-01 EDF support with servo brackets and stops / support"
+   ],
+   "within_3": [
+    "R4-ES-01 EDF support with servo brackets and stops / support"
+   ],
+   "pad_clash": [
+    [],
+    [
+     "R4-HW M4x16 ISO 7380 button head / screw"
+    ]
+   ],
+   "pad_within_1": [
+    [],
+    [
+     "R4-HW M4x16 ISO 7380 button head / screw"
+    ]
+   ]
+  },
+  {
+   "yaw": 90.0,
+   "v_shift": -3.0,
+   "r_in": 60.0,
+   "r_centre": 67.5,
+   "jet_gap_mm": 20.0,
+   "ears_r_v": [
+    [
+     67.5,
+     -21.0
+    ],
+    [
+     67.5,
+     15.0
+    ]
+   ],
+   "ear_outside_plate": [
+    true,
+    true
+   ],
+   "ear_to_M4_centre_mm": 6.1,
+   "ear_hole_wall_to_cbore_mm": 1.2,
+   "sensor_clash": [],
+   "within_1": [
+    "R4-ES-01 EDF support with servo brackets and stops / support"
+   ],
+   "within_2": [
+    "R4-ES-01 EDF support with servo brackets and stops / support"
+   ],
+   "within_3": [
+    "R4-ES-01 EDF support with servo brackets and stops / support"
+   ],
+   "pad_clash": [
+    [],
+    [
+     "R4-HW M4x16 ISO 7380 button head / screw"
+    ]
+   ],
+   "pad_within_1": [
+    [],
+    [
+     "R4-HW M4x16 ISO 7380 button head / screw"
+    ]
+   ]
+  },
+  {
+   "yaw": 90.0,
+   "v_shift": -6.0,
+   "r_in": 60.0,
+   "r_centre": 67.5,
+   "jet_gap_mm": 20.0,
+   "ears_r_v": [
+    [
+     67.5,
+     -24.0
+    ],
+    [
+     67.5,
+     12.0
+    ]
+   ],
+   "ear_outside_plate": [
+    true,
+    true
+   ],
+   "ear_to_M4_centre_mm": 4.03,
+   "ear_hole_wall_to_cbore_mm": -0.87,
+   "sensor_clash": [],
+   "within_1": [],
+   "within_2": [],
+   "within_3": [
+    "R4-ES-01 EDF support with servo brackets and stops / support"
+   ],
+   "pad_clash": [
+    [],
+    [
+     "R4-HW M4x16 ISO 7380 button head / screw"
+    ]
+   ],
+   "pad_within_1": [
+    [],
+    [
+     "R4-HW M4x16 ISO 7380 button head / screw"
+    ]
+   ]
+  },
+  {
+   "yaw": 90.0,
+   "v_shift": -2.5,
+   "r_in": 61.0,
+   "r_centre": 68.5,
+   "jet_gap_mm": 21.0,
+   "ears_r_v": [
+    [
+     68.5,
+     -20.5
+    ],
+    [
+     68.5,
+     15.5
+    ]
+   ],
+   "ear_outside_plate": [
+    true,
+    true
+   ],
+   "ear_to_M4_centre_mm": 7.11,
+   "ear_hole_wall_to_cbore_mm": 2.21,
+   "sensor_clash": [],
+   "within_1": [
+    "R4-ES-01 EDF support with servo brackets and stops / support"
+   ],
+   "within_2": [
+    "R4-ES-01 EDF support with servo brackets and stops / support"
+   ],
+   "within_3": [
+    "R4-ES-01 EDF support with servo brackets and stops / support"
+   ],
+   "pad_clash": [
+    [],
+    [
+     "R4-HW M4x16 ISO 7380 button head / screw"
+    ]
+   ],
+   "pad_within_1": [
+    [],
+    [
+     "R4-HW M4x16 ISO 7380 button head / screw"
+    ]
+   ]
+  },
+  {
+   "yaw": 70.0,
+   "v_shift": 0.0,
+   "r_in": 57.0,
+   "r_centre": 71.23,
+   "jet_gap_mm": 17.0,
+   "ears_r_v": [
+    [
+     65.1,
+     -16.9
+    ],
+    [
+     77.4,
+     16.9
+    ]
+   ],
+   "ear_outside_plate": [
+    true,
+    true
+   ],
+   "ear_to_M4_centre_mm": 7.0,
+   "ear_hole_wall_to_cbore_mm": 2.1,
+   "sensor_clash": [],
+   "within_1": [],
+   "within_2": [],
+   "within_3": [],
+   "pad_clash": [
+    [
+     "R4-HW M4x16 ISO 7380 button head / screw"
+    ],
+    []
+   ],
+   "pad_within_1": [
+    [
+     "R4-HW M4x16 ISO 7380 button head / screw"
+    ],
+    []
+   ]
+  },
+  {
+   "yaw": 70.0,
+   "v_shift": -3.0,
+   "r_in": 57.0,
+   "r_centre": 71.23,
+   "jet_gap_mm": 17.0,
+   "ears_r_v": [
+    [
+     65.1,
+     -19.9
+    ],
+    [
+     77.4,
+     13.9
+    ]
+   ],
+   "ear_outside_plate": [
+    true,
+    true
+   ],
+   "ear_to_M4_centre_mm": 9.97,
+   "ear_hole_wall_to_cbore_mm": 5.07,
+   "sensor_clash": [],
+   "within_1": [],
+   "within_2": [],
+   "within_3": [],
+   "pad_clash": [
+    [],
+    []
+   ],
+   "pad_within_1": [
+    [],
+    []
+   ]
+  },
+  {
+   "yaw": 80.0,
+   "v_shift": -6.0,
+   "r_in": 54.0,
+   "r_centre": 65.03,
+   "jet_gap_mm": 14.0,
+   "ears_r_v": [
+    [
+     61.9,
+     -23.7
+    ],
+    [
+     68.2,
+     11.7
+    ]
+   ],
+   "ear_outside_plate": [
+    true,
+    true
+   ],
+   "ear_to_M4_centre_mm": 4.5,
+   "ear_hole_wall_to_cbore_mm": -0.4,
+   "sensor_clash": [],
+   "within_1": [],
+   "within_2": [],
+   "within_3": [
+    "R4-ES-01 EDF support with servo brackets and stops / support"
+   ],
+   "pad_clash": [
+    [],
+    [
+     "R4-HW M4x16 ISO 7380 button head / screw"
+    ]
+   ],
+   "pad_within_1": [
+    [],
+    [
+     "R4-HW M4x16 ISO 7380 button head / screw"
+    ]
+   ]
+  }
+ ],
+ "mount_face_z": 131.0,
+ "ground_z": -15.0,
+ "sensor_to_ground_mm_TFmini_S": 130.0,
+ "station_deg": 135.0,
+ "plate": {
+  "r": [
+   52.0,
+   78.0
+  ],
+  "v": 14.500000000000002
+ },
+ "candidates": [
+  {
+   "candidate": "TFmini-S long axis tangential, inner face on the shield (r 54)",
+   "r": [
+    54.0,
+    69.0
+   ],
+   "v": [
+    -21.0,
+    21.0
+   ],
+   "yaw": 0.0,
+   "z": [
+    115.0,
+    131.0
+   ],
+   "sensor_to_ground_mm": 130.0,
+   "jet_gap_mm": 14.0,
+   "outer_r_vs_plate_r1": [
+    69.0,
+    78.0
+   ],
+   "half_width_vs_plate_v": [
+    21.0,
+    14.500000000000002
+   ],
+   "intersects": [
+    [
+     "R4-ES-01 EDF support with servo brackets and stops / support",
+     75.07,
+     {
+      "r": [
+       61.9,
+       66.7
+      ],
+      "v": [
+       18.6,
+       23.4
+      ],
+      "z": [
+       118.0,
+       131.0
+      ]
+     }
+    ]
+   ],
+   "within_2mm": [
+    [
+     "R4-ES-01 EDF support with servo brackets and stops / support",
+     215.99
+    ],
+    [
+     "R4-VM-03 Servo AGFRC B26CLM V2 / servo",
+     24.56
+    ]
+   ],
+   "lens_column_hits": []
+  },
+  {
+   "candidate": "TFmini-S long axis tangential, 20 mm from the jet (r 60)",
+   "r": [
+    60.0,
+    75.0
+   ],
+   "v": [
+    -21.0,
+    21.0
+   ],
+   "yaw": 0.0,
+   "z": [
+    115.0,
+    131.0
+   ],
+   "sensor_to_ground_mm": 130.0,
+   "jet_gap_mm": 20.0,
+   "outer_r_vs_plate_r1": [
+    75.0,
+    78.0
+   ],
+   "half_width_vs_plate_v": [
+    21.0,
+    14.500000000000002
+   ],
+   "intersects": [
+    [
+     "R4-ES-01 EDF support with servo brackets and stops / support",
+     75.07,
+     {
+      "r": [
+       61.9,
+       66.7
+      ],
+      "v": [
+       18.6,
+       23.4
+      ],
+      "z": [
+       118.0,
+       131.0
+      ]
+     }
+    ]
+   ],
+   "within_2mm": [
+    [
+     "R4-ES-01 EDF support with servo brackets and stops / support",
+     215.99
+    ],
+    [
+     "R4-VM-03 Servo AGFRC B26CLM V2 / servo",
+     2.27
+    ]
+   ],
+   "lens_column_hits": []
+  },
+  {
+   "candidate": "TFmini-S long axis radial, inner end on the shield",
+   "r": [
+    54.0,
+    96.0
+   ],
+   "v": [
+    -7.5,
+    7.5
+   ],
+   "yaw": 0.0,
+   "z": [
+    115.0,
+    131.0
+   ],
+   "sensor_to_ground_mm": 130.0,
+   "jet_gap_mm": 14.0,
+   "outer_r_vs_plate_r1": [
+    96.0,
+    78.0
+   ],
+   "half_width_vs_plate_v": [
+    7.5,
+    14.500000000000002
+   ],
+   "intersects": [
+    [
+     "R4-LG-01 Legs x4 / leg_2",
+     205.95,
+     {
+      "r": [
+       81.2,
+       100.0
+      ],
+      "v": [
+       -9.4,
+       9.4
+      ],
+      "z": [
+       122.0,
+       131.0
+      ]
+     }
+    ]
+   ],
+   "within_2mm": [
+    [
+     "R4-LG-01 Legs x4 / leg_2",
+     264.24
+    ]
+   ],
+   "lens_column_hits": []
+  },
+  {
+   "candidate": "TF-Luna long axis tangential, inner face on the shield",
+   "r": [
+    54.0,
+    75.2
+   ],
+   "v": [
+    -17.5,
+    17.5
+   ],
+   "yaw": 0.0,
+   "z": [
+    117.5,
+    131.0
+   ],
+   "sensor_to_ground_mm": 132.5,
+   "jet_gap_mm": 14.0,
+   "outer_r_vs_plate_r1": [
+    75.2,
+    78.0
+   ],
+   "half_width_vs_plate_v": [
+    17.5,
+    14.500000000000002
+   ],
+   "intersects": [],
+   "within_2mm": [
+    [
+     "R4-ES-01 EDF support with servo brackets and stops / support",
+     10.6
+    ]
+   ],
+   "lens_column_hits": []
+  },
+  {
+   "candidate": "TF-Luna long axis radial, inner end on the shield",
+   "r": [
+    54.0,
+    89.0
+   ],
+   "v": [
+    -10.625,
+    10.625
+   ],
+   "yaw": 0.0,
+   "z": [
+    117.5,
+    131.0
+   ],
+   "sensor_to_ground_mm": 132.5,
+   "jet_gap_mm": 14.0,
+   "outer_r_vs_plate_r1": [
+    89.0,
+    78.0
+   ],
+   "half_width_vs_plate_v": [
+    10.625,
+    14.500000000000002
+   ],
+   "intersects": [
+    [
+     "R4-LG-01 Legs x4 / leg_2",
+     44.06,
+     {
+      "r": [
+       81.2,
+       93.0
+      ],
+      "v": [
+       -5.9,
+       5.9
+      ],
+      "z": [
+       127.8,
+       131.0
+      ]
+     }
+    ]
+   ],
+   "within_2mm": [
+    [
+     "R4-LG-01 Legs x4 / leg_2",
+     83.63
+    ]
+   ],
+   "lens_column_hits": []
+  },
+  {
+   "candidate": "allowance as modelled (20 x 20 x 10)",
+   "r": [
+    54.0,
+    74.0
+   ],
+   "v": [
+    -10.0,
+    10.0
+   ],
+   "yaw": 0.0,
+   "z": [
+    121.0,
+    131.0
+   ],
+   "sensor_to_ground_mm": 136.0,
+   "jet_gap_mm": 14.0,
+   "outer_r_vs_plate_r1": [
+    74.0,
+    78.0
+   ],
+   "half_width_vs_plate_v": [
+    10.0,
+    14.500000000000002
+   ],
+   "intersects": [],
+   "within_2mm": [],
+   "lens_column_hits": []
+  },
+  {
+   "candidate": "TFmini-S tangential on a 4 mm spacer below the plate",
+   "r": [
+    54.0,
+    69.0
+   ],
+   "v": [
+    -21.0,
+    21.0
+   ],
+   "yaw": 0.0,
+   "z": [
+    111.0,
+    127.0
+   ],
+   "sensor_to_ground_mm": 126.0,
+   "jet_gap_mm": 14.0,
+   "outer_r_vs_plate_r1": [
+    69.0,
+    78.0
+   ],
+   "half_width_vs_plate_v": [
+    21.0,
+    14.500000000000002
+   ],
+   "intersects": [
+    [
+     "R4-ES-01 EDF support with servo brackets and stops / support",
+     51.97,
+     {
+      "r": [
+       61.9,
+       66.7
+      ],
+      "v": [
+       18.6,
+       23.4
+      ],
+      "z": [
+       118.0,
+       127.0
+      ]
+     }
+    ]
+   ],
+   "within_2mm": [
+    [
+     "R4-ES-01 EDF support with servo brackets and stops / support",
+     148.53
+    ],
+    [
+     "R4-VM-03 Servo AGFRC B26CLM V2 / servo",
+     13.14
+    ]
+   ],
+   "lens_column_hits": []
+  },
+  {
+   "candidate": "TFmini-S tangential on a 8 mm spacer below the plate",
+   "r": [
+    54.0,
+    69.0
+   ],
+   "v": [
+    -21.0,
+    21.0
+   ],
+   "yaw": 0.0,
+   "z": [
+    107.0,
+    123.0
+   ],
+   "sensor_to_ground_mm": 122.0,
+   "jet_gap_mm": 14.0,
+   "outer_r_vs_plate_r1": [
+    69.0,
+    78.0
+   ],
+   "half_width_vs_plate_v": [
+    21.0,
+    14.500000000000002
+   ],
+   "intersects": [
+    [
+     "R4-ES-01 EDF support with servo brackets and stops / support",
+     28.87,
+     {
+      "r": [
+       61.9,
+       66.7
+      ],
+      "v": [
+       18.6,
+       23.4
+      ],
+      "z": [
+       118.0,
+       123.0
+      ]
+     }
+    ]
+   ],
+   "within_2mm": [
+    [
+     "R4-ES-01 EDF support with servo brackets and stops / support",
+     84.54
+    ],
+    [
+     "R4-VM-03 Servo AGFRC B26CLM V2 / servo",
+     1.71
+    ]
+   ],
+   "lens_column_hits": []
+  },
+  {
+   "candidate": "TFmini-S tangential on a 12 mm spacer below the plate",
+   "r": [
+    54.0,
+    69.0
+   ],
+   "v": [
+    -21.0,
+    21.0
+   ],
+   "yaw": 0.0,
+   "z": [
+    103.0,
+    119.0
+   ],
+   "sensor_to_ground_mm": 118.0,
+   "jet_gap_mm": 14.0,
+   "outer_r_vs_plate_r1": [
+    69.0,
+    78.0
+   ],
+   "half_width_vs_plate_v": [
+    21.0,
+    14.500000000000002
+   ],
+   "intersects": [
+    [
+     "R4-ES-01 EDF support with servo brackets and stops / support",
+     5.77,
+     {
+      "r": [
+       61.9,
+       66.7
+      ],
+      "v": [
+       18.6,
+       23.4
+      ],
+      "z": [
+       118.0,
+       119.0
+      ]
+     }
+    ]
+   ],
+   "within_2mm": [
+    [
+     "R4-ES-01 EDF support with servo brackets and stops / support",
+     16.91
+    ]
+   ],
+   "lens_column_hits": []
+  },
+  {
+   "candidate": "TFmini-S tangential on a 16 mm spacer below the plate",
+   "r": [
+    54.0,
+    69.0
+   ],
+   "v": [
+    -21.0,
+    21.0
+   ],
+   "yaw": 0.0,
+   "z": [
+    99.0,
+    115.0
+   ],
+   "sensor_to_ground_mm": 114.0,
+   "jet_gap_mm": 14.0,
+   "outer_r_vs_plate_r1": [
+    69.0,
+    78.0
+   ],
+   "half_width_vs_plate_v": [
+    21.0,
+    14.500000000000002
+   ],
+   "intersects": [],
+   "within_2mm": [],
+   "lens_column_hits": []
+  },
+  {
+   "candidate": "TFmini-S turned 30 deg from radial, centre r 61.5",
+   "r": [
+    54.9,
+    96.9
+   ],
+   "v": [
+    -7.5,
+    7.5
+   ],
+   "yaw": 30.0,
+   "z": [
+    115.0,
+    131.0
+   ],
+   "sensor_to_ground_mm": 130.0,
+   "jet_gap_mm": 14.9,
+   "outer_r_vs_plate_r1": [
+    96.9,
+    78.0
+   ],
+   "half_width_vs_plate_v": [
+    7.5,
+    14.500000000000002
+   ],
+   "intersects": [
+    [
+     "R4-LG-01 Legs x4 / leg_2",
+     86.56,
+     {
+      "r": [
+       81.5,
+       97.9
+      ],
+      "v": [
+       -6.0,
+       10.3
+      ],
+      "z": [
+       120.4,
+       131.0
+      ]
+     }
+    ]
+   ],
+   "within_2mm": [
+    [
+     "R4-LG-01 Legs x4 / leg_2",
+     176.7
+    ]
+   ],
+   "lens_column_hits": []
+  },
+  {
+   "candidate": "TFmini-S turned 45 deg from radial, centre r 61.5",
+   "r": [
+    53.2,
+    95.2
+   ],
+   "v": [
+    -7.5,
+    7.5
+   ],
+   "yaw": 45.0,
+   "z": [
+    115.0,
+    131.0
+   ],
+   "sensor_to_ground_mm": 130.0,
+   "jet_gap_mm": 13.2,
+   "outer_r_vs_plate_r1": [
+    95.2,
+    78.0
+   ],
+   "half_width_vs_plate_v": [
+    7.5,
+    14.500000000000002
+   ],
+   "intersects": [
+    [
+     "R4-LG-01 Legs x4 / leg_2",
+     6.2,
+     {
+      "r": [
+       83.4,
+       88.8
+      ],
+      "v": [
+       0.4,
+       5.8
+      ],
+      "z": [
+       128.0,
+       131.0
+      ]
+     }
+    ]
+   ],
+   "within_2mm": [
+    [
+     "R4-LG-01 Legs x4 / leg_2",
+     28.33
+    ]
+   ],
+   "lens_column_hits": []
+  },
+  {
+   "candidate": "TFmini-S turned 60 deg from radial, centre r 61.5",
+   "r": [
+    50.0,
+    92.0
+   ],
+   "v": [
+    -7.5,
+    7.5
+   ],
+   "yaw": 60.0,
+   "z": [
+    115.0,
+    131.0
+   ],
+   "sensor_to_ground_mm": 130.0,
+   "jet_gap_mm": 10.0,
+   "outer_r_vs_plate_r1": [
+    92.0,
+    78.0
+   ],
+   "half_width_vs_plate_v": [
+    7.5,
+    14.500000000000002
+   ],
+   "intersects": [],
+   "within_2mm": [],
+   "lens_column_hits": []
+  },
+  {
+   "candidate": "TFmini-S turned 60 deg, inner corner at r 55",
+   "r": [
+    51.0,
+    93.0
+   ],
+   "v": [
+    -7.5,
+    7.5
+   ],
+   "yaw": 60.0,
+   "z": [
+    115.0,
+    131.0
+   ],
+   "sensor_to_ground_mm": 130.0,
+   "jet_gap_mm": 11.0,
+   "outer_r_vs_plate_r1": [
+    93.0,
+    78.0
+   ],
+   "half_width_vs_plate_v": [
+    7.5,
+    14.500000000000002
+   ],
+   "intersects": [],
+   "within_2mm": [
+    [
+     "R4-LG-01 Legs x4 / leg_2",
+     0.0
+    ]
+   ],
+   "lens_column_hits": []
+  },
+  {
+   "candidate": "TFmini-S turned 60 deg, inner corner at r 60",
+   "r": [
+    56.0,
+    98.0
+   ],
+   "v": [
+    -7.5,
+    7.5
+   ],
+   "yaw": 60.0,
+   "z": [
+    115.0,
+    131.0
+   ],
+   "sensor_to_ground_mm": 130.0,
+   "jet_gap_mm": 16.0,
+   "outer_r_vs_plate_r1": [
+    98.0,
+    78.0
+   ],
+   "half_width_vs_plate_v": [
+    7.5,
+    14.500000000000002
+   ],
+   "intersects": [
+    [
+     "R4-LG-01 Legs x4 / leg_2",
+     5.2,
+     {
+      "r": [
+       82.8,
+       89.0
+      ],
+      "v": [
+       -0.8,
+       5.4
+      ],
+      "z": [
+       128.7,
+       131.0
+      ]
+     }
+    ]
+   ],
+   "within_2mm": [
+    [
+     "R4-LG-01 Legs x4 / leg_2",
+     27.71
+    ]
+   ],
+   "lens_column_hits": []
+  }
+ ]
+}

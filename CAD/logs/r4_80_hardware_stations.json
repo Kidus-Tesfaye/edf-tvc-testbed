@@ -1,0 +1,43 @@
+{
+ "ok": true,
+ "group": "stations",
+ "time_s": 7.2,
+ "placed": 2,
+ "fail": [],
+ "counts": {
+  "M3x8": 1,
+  "M3 nut": 1
+ },
+ "rows": [
+  {
+   "id": "VS-S",
+   "hw": "M3x8",
+   "host": "R4-VM-01/vane",
+   "pt": [
+    45.0,
+    12.0,
+    130.0
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "vane root to horn arm: head in the 1.0 mm counterbore, jet side (inside R4-VM-MOV: one per station instance)"
+  },
+  {
+   "id": "VS-N",
+   "hw": "M3 nut",
+   "host": "R4-VM-02/horn",
+   "pt": [
+    50.0,
+    12.0,
+    130.0
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "nut on the arm's servo side; blue locker (inside R4-VM-MOV: one per station instance)"
+  }
+ ],
+ "health": [],
+ "timeline": 525
+}
