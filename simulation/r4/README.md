@@ -67,7 +67,7 @@ Seven passed every conservative landing check. `gps_phase2` rebounded
 The cases test selected conditions and do not establish a real-flight success rate.
 
 The CSV and per-case measurements are in `recorded/`.
-[Download the full recordings and runnable package](https://github.com/ezanadinku/edf-tvc-testbed/releases/download/r4-simulation-2026-11-06/R4_simulation.zip).
+[Download the full recordings and runnable package](https://github.com/Kidus-Tesfaye/edf-tvc-testbed/releases/download/r4-simulation-2026-11-06/R4_simulation.zip).
 The ZIP includes all eight MAT recordings, native DataFlash logs, GPS samples
 and setup instructions. File paths in JSON metadata are relative to the package.
 Firmware startup and sensor timing can cause reruns to differ from the recording.
