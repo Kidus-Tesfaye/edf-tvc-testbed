@@ -1,0 +1,9 @@
+{
+ "ok": true,
+ "comments": {
+  "pm07_hole_z": "R3: PM07 hole inset from the board bottom/top (R2: 45 mm apart) | TBM: four holes on a 45 x 45 mm square (R2 brief), check against the board (M-04)",
+  "horn_len": "R3: listed arm length | TBM: whether the listed 28 mm is from the axis or overall (M-02)",
+  "edf_tab_width": "R3: vendor drawing | TBM: tab position along the duct and size (M-05)",
+  "servo_case_l": "R3: B26CLM V2 listing drawing, verify (M-02)"
+ }
+}

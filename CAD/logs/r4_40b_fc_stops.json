@@ -1,0 +1,16 @@
+{
+ "ok": true,
+ "bodies": 1,
+ "tray_bbox": [
+  -45.4,
+  -34.5,
+  325.0,
+  45.4,
+  34.5,
+  360.0
+ ],
+ "added_cm3": 1.401,
+ "tray_g_full_solid": 14.68,
+ "health": [],
+ "timeline": 789
+}

@@ -1,0 +1,84 @@
+{
+ "ok": true,
+ "members": [
+  "R4-VM-01 Vane with root plate - PETG-CF - CAD estimate:1",
+  "R4-VM-02 Servo horn QUARKZMAN 25T with centre screw - aluminium - allowance:1",
+  "R4-HW M3x8 ISO 7380 button head - A2 stainless - kit:1",
+  "R4-HW M3 nut ISO 4032 - A2 stainless - kit:5"
+ ],
+ "motion": {
+  "V+X": {
+   "R4-VM-01/1": {
+    "moved": true,
+    "back": true
+   },
+   "R4-VM-02/1": {
+    "moved": true,
+    "back": true
+   },
+   "R4-HW/1": {
+    "moved": true,
+    "back": true
+   },
+   "R4-HW/5": {
+    "moved": true,
+    "back": true
+   }
+  },
+  "V+Y": {
+   "R4-VM-01/1": {
+    "moved": true,
+    "back": true
+   },
+   "R4-VM-02/1": {
+    "moved": true,
+    "back": true
+   },
+   "R4-HW/1": {
+    "moved": true,
+    "back": true
+   },
+   "R4-HW/5": {
+    "moved": true,
+    "back": true
+   }
+  },
+  "V-X": {
+   "R4-VM-01/1": {
+    "moved": true,
+    "back": true
+   },
+   "R4-VM-02/1": {
+    "moved": true,
+    "back": true
+   },
+   "R4-HW/1": {
+    "moved": true,
+    "back": true
+   },
+   "R4-HW/5": {
+    "moved": true,
+    "back": true
+   }
+  },
+  "V-Y": {
+   "R4-VM-01/1": {
+    "moved": true,
+    "back": true
+   },
+   "R4-VM-02/1": {
+    "moved": true,
+    "back": true
+   },
+   "R4-HW/1": {
+    "moved": true,
+    "back": true
+   },
+   "R4-HW/5": {
+    "moved": true,
+    "back": true
+   }
+  }
+ },
+ "health": []
+}

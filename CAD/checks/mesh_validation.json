@@ -1,0 +1,262 @@
+{
+ "R3-ES-06_fixed_vane.stl": {
+  "triangles": 1876,
+  "degenerate": 0,
+  "non_manifold_or_open_edges": 0,
+  "closed_manifold": true,
+  "volume_mm3": 1510.84,
+  "extent_mm": [
+   21.1,
+   21.1,
+   30.4
+  ],
+  "ok": true
+ },
+ "R3-ES-07_fixed_vane_angle_insert_0deg.stl": {
+  "triangles": 652,
+  "degenerate": 0,
+  "non_manifold_or_open_edges": 0,
+  "closed_manifold": true,
+  "volume_mm3": 210.95,
+  "extent_mm": [
+   11.0,
+   11.0,
+   14.0
+  ],
+  "ok": true
+ },
+ "R3-ES-10_fixed_vane_strut.stl": {
+  "triangles": 404,
+  "degenerate": 0,
+  "non_manifold_or_open_edges": 0,
+  "closed_manifold": true,
+  "volume_mm3": 872.74,
+  "extent_mm": [
+   12.5,
+   12.5,
+   26.0
+  ],
+  "ok": true
+ },
+ "R3-FR-11T_tether_backup_stop_cap.stl": {
+  "triangles": 514,
+  "degenerate": 0,
+  "non_manifold_or_open_edges": 0,
+  "closed_manifold": true,
+  "volume_mm3": 2147.56,
+  "extent_mm": [
+   24.4,
+   24.4,
+   15.0
+  ],
+  "ok": true
+ },
+ "R3-TT-03_tether_backup_stop.stl": {
+  "triangles": 694,
+  "degenerate": 0,
+  "non_manifold_or_open_edges": 0,
+  "closed_manifold": true,
+  "volume_mm3": 3534.41,
+  "extent_mm": [
+   27.6,
+   27.6,
+   15.0
+  ],
+  "ok": true
+ },
+ "R4-ES-01_edf_support.stl": {
+  "triangles": 10216,
+  "degenerate": 0,
+  "non_manifold_or_open_edges": 0,
+  "closed_manifold": true,
+  "volume_mm3": 68993.79,
+  "extent_mm": [
+   136.0,
+   136.0,
+   43.0
+  ],
+  "cad_volume_mm3": 68978.37,
+  "volume_diff_pct": 0.022,
+  "ok": true
+ },
+ "R4-ES-05_tab_block.stl": {
+  "triangles": 628,
+  "degenerate": 0,
+  "non_manifold_or_open_edges": 0,
+  "closed_manifold": true,
+  "volume_mm3": 2174.22,
+  "extent_mm": [
+   11.7,
+   30.0,
+   8.0
+  ],
+  "cad_volume_mm3": 2172.72,
+  "volume_diff_pct": 0.069,
+  "ok": true
+ },
+ "R4-ES-09_rangefinder_mount.stl": {
+  "triangles": 1388,
+  "degenerate": 0,
+  "non_manifold_or_open_edges": 0,
+  "closed_manifold": true,
+  "volume_mm3": 4449.82,
+  "extent_mm": [
+   29.9,
+   42.8,
+   24.0
+  ],
+  "cad_volume_mm3": 4449.41,
+  "volume_diff_pct": 0.009,
+  "ok": true
+ },
+ "R4-FL-01_mid_plate.stl": {
+  "triangles": 4358,
+  "degenerate": 0,
+  "non_manifold_or_open_edges": 0,
+  "closed_manifold": true,
+  "volume_mm3": 33228.33,
+  "extent_mm": [
+   132.2,
+   132.2,
+   106.0
+  ],
+  "cad_volume_mm3": 33236.43,
+  "volume_diff_pct": -0.024,
+  "ok": true
+ },
+ "R4-FL-02_top_plate.stl": {
+  "triangles": 3536,
+  "degenerate": 0,
+  "non_manifold_or_open_edges": 0,
+  "closed_manifold": true,
+  "volume_mm3": 29478.71,
+  "extent_mm": [
+   132.2,
+   132.2,
+   17.0
+  ],
+  "cad_volume_mm3": 29478.1,
+  "volume_diff_pct": 0.002,
+  "ok": true
+ },
+ "R4-FL-03_fc_tray.stl": {
+  "triangles": 2948,
+  "degenerate": 0,
+  "non_manifold_or_open_edges": 0,
+  "closed_manifold": true,
+  "volume_mm3": 11262.61,
+  "extent_mm": [
+   90.8,
+   69.0,
+   35.0
+  ],
+  "cad_volume_mm3": 11292.89,
+  "volume_diff_pct": -0.268,
+  "ok": true
+ },
+ "R4-FR-02_tube_plug.stl": {
+  "triangles": 644,
+  "degenerate": 0,
+  "non_manifold_or_open_edges": 0,
+  "closed_manifold": true,
+  "volume_mm3": 716.04,
+  "extent_mm": [
+   7.8,
+   7.8,
+   15.0
+  ],
+  "cad_volume_mm3": 716.75,
+  "volume_diff_pct": -0.099,
+  "ok": true
+ },
+ "R4-IG-01_intake_guard_quarter.stl": {
+  "triangles": 6730,
+  "degenerate": 0,
+  "non_manifold_or_open_edges": 0,
+  "closed_manifold": true,
+  "volume_mm3": 5868.64,
+  "extent_mm": [
+   50.9,
+   78.9,
+   72.5
+  ],
+  "cad_volume_mm3": 5861.47,
+  "volume_diff_pct": 0.122,
+  "ok": true
+ },
+ "R4-LG-01_leg.stl": {
+  "triangles": 750,
+  "degenerate": 0,
+  "non_manifold_or_open_edges": 0,
+  "closed_manifold": true,
+  "volume_mm3": 13280.06,
+  "extent_mm": [
+   179.2,
+   146.0,
+   30.4
+  ],
+  "cad_volume_mm3": 13288.63,
+  "volume_diff_pct": -0.064,
+  "ok": true
+ },
+ "R4-LG-02_foot.stl": {
+  "triangles": 1074,
+  "degenerate": 0,
+  "non_manifold_or_open_edges": 0,
+  "closed_manifold": true,
+  "volume_mm3": 4368.28,
+  "extent_mm": [
+   22.0,
+   22.0,
+   20.0
+  ],
+  "cad_volume_mm3": 4370.46,
+  "volume_diff_pct": -0.05,
+  "ok": true
+ },
+ "R4-LG-03_foot_disc.stl": {
+  "triangles": 684,
+  "degenerate": 0,
+  "non_manifold_or_open_edges": 0,
+  "closed_manifold": true,
+  "volume_mm3": 95.29,
+  "extent_mm": [
+   8.5,
+   8.5,
+   2.0
+  ],
+  "cad_volume_mm3": 95.33,
+  "volume_diff_pct": -0.042,
+  "ok": true
+ },
+ "R4-VM-01_vane.stl": {
+  "triangles": 4326,
+  "degenerate": 0,
+  "non_manifold_or_open_edges": 0,
+  "closed_manifold": true,
+  "volume_mm3": 4410.52,
+  "extent_mm": [
+   32.0,
+   29.0,
+   28.0
+  ],
+  "cad_volume_mm3": 4411.01,
+  "volume_diff_pct": -0.011,
+  "ok": true
+ },
+ "TB-FL-01_testbed_foot_locator.stl": {
+  "triangles": 772,
+  "degenerate": 0,
+  "non_manifold_or_open_edges": 0,
+  "closed_manifold": true,
+  "volume_mm3": 2276.87,
+  "extent_mm": [
+   34.0,
+   34.0,
+   5.0
+  ],
+  "cad_volume_mm3": 2277.7,
+  "volume_diff_pct": -0.036,
+  "ok": true
+ }
+}

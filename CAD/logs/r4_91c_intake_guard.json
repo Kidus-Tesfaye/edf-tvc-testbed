@@ -1,0 +1,176 @@
+{
+ "ok": true,
+ "t": {
+  "G1_G2": 35.7,
+  "G5": 229.1
+ },
+ "G1_overlaps": [],
+ "G2_contacts": [
+  [
+   "R4-IG-02 Hook-and-loop ties x4/tie_1",
+   "R4-FR-01 Carbon tubes 10x8 x4/tube_1"
+  ],
+  [
+   "R4-IG-02 Hook-and-loop ties x4/tie_2",
+   "R4-FR-01 Carbon tubes 10x8 x4/tube_2"
+  ],
+  [
+   "R4-IG-02 Hook-and-loop ties x4/tie_3",
+   "R4-FR-01 Carbon tubes 10x8 x4/tube_3"
+  ],
+  [
+   "R4-IG-02 Hook-and-loop ties x4/tie_4",
+   "R4-FR-01 Carbon tubes 10x8 x4/tube_4"
+  ],
+  [
+   "R4-IG-01 Intake guard quarters x4/quarter_4",
+   "R4-BP-01 EDF XFLY 80mm 12-blade/inlet_lip"
+  ],
+  [
+   "R4-IG-01 Intake guard quarters x4/quarter_1",
+   "R4-BP-01 EDF XFLY 80mm 12-blade/inlet_lip"
+  ],
+  [
+   "R4-IG-01 Intake guard quarters x4/quarter_3",
+   "R4-BP-01 EDF XFLY 80mm 12-blade/inlet_lip"
+  ],
+  [
+   "R4-IG-01 Intake guard quarters x4/quarter_2",
+   "R4-BP-01 EDF XFLY 80mm 12-blade/inlet_lip"
+  ]
+ ],
+ "G2_under_2mm": [],
+ "G2_guard_pairs": [
+  [
+   "R4-IG-02 Hook-and-loop ties x4/tie_1",
+   "R4-IG-01 Intake guard quarters x4/quarter_4",
+   0.0,
+   0.46
+  ],
+  [
+   "R4-IG-02 Hook-and-loop ties x4/tie_1",
+   "R4-IG-01 Intake guard quarters x4/quarter_1",
+   0.0,
+   0.46
+  ],
+  [
+   "R4-IG-02 Hook-and-loop ties x4/tie_2",
+   "R4-IG-01 Intake guard quarters x4/quarter_1",
+   0.0,
+   0.46
+  ],
+  [
+   "R4-IG-02 Hook-and-loop ties x4/tie_2",
+   "R4-IG-01 Intake guard quarters x4/quarter_2",
+   0.0,
+   0.46
+  ],
+  [
+   "R4-IG-02 Hook-and-loop ties x4/tie_3",
+   "R4-IG-01 Intake guard quarters x4/quarter_3",
+   0.0,
+   0.46
+  ],
+  [
+   "R4-IG-02 Hook-and-loop ties x4/tie_3",
+   "R4-IG-01 Intake guard quarters x4/quarter_2",
+   0.0,
+   0.46
+  ],
+  [
+   "R4-IG-02 Hook-and-loop ties x4/tie_4",
+   "R4-IG-01 Intake guard quarters x4/quarter_4",
+   0.0,
+   0.46
+  ],
+  [
+   "R4-IG-02 Hook-and-loop ties x4/tie_4",
+   "R4-IG-01 Intake guard quarters x4/quarter_3",
+   0.0,
+   0.46
+  ],
+  [
+   "R4-IG-01 Intake guard quarters x4/quarter_4",
+   "R4-IG-01 Intake guard quarters x4/quarter_1",
+   0.0,
+   0.4
+  ],
+  [
+   "R4-IG-01 Intake guard quarters x4/quarter_4",
+   "R4-IG-01 Intake guard quarters x4/quarter_3",
+   0.0,
+   0.4
+  ],
+  [
+   "R4-IG-01 Intake guard quarters x4/quarter_4",
+   "R4-IG-01 Intake guard quarters x4/quarter_2",
+   0.0,
+   0.57
+  ],
+  [
+   "R4-IG-01 Intake guard quarters x4/quarter_1",
+   "R4-IG-01 Intake guard quarters x4/quarter_3",
+   0.0,
+   0.57
+  ],
+  [
+   "R4-IG-01 Intake guard quarters x4/quarter_1",
+   "R4-IG-01 Intake guard quarters x4/quarter_2",
+   0.0,
+   0.4
+  ],
+  [
+   "R4-IG-01 Intake guard quarters x4/quarter_3",
+   "R4-IG-01 Intake guard quarters x4/quarter_2",
+   0.0,
+   0.4
+  ]
+ ],
+ "G3_stand_band_min_mm": 2.6,
+ "G3_lip_keepout_guard_volume_cm3": 8.368,
+ "stand_band_z": [
+  261.6,
+  336.6
+ ],
+ "G4_open_area": {
+  "wall_mm2": 11230.0,
+  "top_mm2": 3539.0,
+  "total_mm2": 14769.0,
+  "lip_mm2": 7238.0,
+  "ratio": 2.04,
+  "largest_opening_mm": 3.2000000000000006,
+  "side_intake_free_area_without_guard_mm2": 34692
+ },
+ "G5_fitting": {
+  "quarter_4": {
+   "centre_deg": 360.0,
+   "turn_deg": -180.0,
+   "steps": 68,
+   "hits": []
+  },
+  "quarter_1": {
+   "centre_deg": 90.0,
+   "turn_deg": -90.0,
+   "steps": 50,
+   "hits": []
+  },
+  "quarter_3": {
+   "centre_deg": 270.0,
+   "turn_deg": 90.0,
+   "steps": 50,
+   "hits": []
+  },
+  "quarter_2": {
+   "centre_deg": 180.0,
+   "turn_deg": 0.0,
+   "steps": 32,
+   "hits": []
+  }
+ },
+ "G5_order": [
+  "quarter_4",
+  "quarter_1",
+  "quarter_3",
+  "quarter_2"
+ ]
+}

@@ -1,0 +1,405 @@
+{
+ "ok": true,
+ "unclassified": [],
+ "configurations": {
+  "flight": {
+   "label": "Flight (R4-FLIGHT)",
+   "mass_g": 1839.8,
+   "cg_mm": [
+    -0.63,
+    0.31,
+    311.57
+   ],
+   "I_cg_kg_mm2_bodies": [
+    39908.0,
+    39895.0,
+    6261.0
+   ],
+   "by_category_g": {
+    "bought on board": 1337.0,
+    "contingency": 27.1,
+    "fasteners/inserts": 76.9,
+    "harness/connectors": 80.5,
+    "printed": 318.3
+   },
+   "contingency_basis_g": 542.7,
+   "thrust_to_weight": {
+    "3.2 kgf -0 %": 1.739,
+    "3.2 kgf -5 %": 1.652,
+    "3.2 kgf -12 %": 1.531,
+    "3.4 kgf -0 %": 1.848,
+    "3.4 kgf -5 %": 1.756,
+    "3.4 kgf -12 %": 1.626
+   },
+   "gate_thrust_needed_kgf_1.30": 2.392,
+   "n_bodies": 150,
+   "tipping": {
+    "edge_min_deg": 26.39,
+    "edges_deg": [
+     26.43,
+     26.39,
+     26.52,
+     26.56
+    ],
+    "foot_min_deg": 35.08,
+    "h_mm": 326.6
+   }
+  },
+  "tether": {
+   "label": "Flight + tether kit",
+   "mass_g": 1975.2,
+   "cg_mm": [
+    -0.59,
+    0.29,
+    318.79
+   ],
+   "I_cg_kg_mm2_bodies": [
+    42027.0,
+    42014.0,
+    6929.0
+   ],
+   "by_category_g": {
+    "bought on board": 1337.0,
+    "contingency": 33.6,
+    "fasteners/inserts": 76.9,
+    "harness/connectors": 80.5,
+    "printed": 318.3,
+    "tether equipment": 128.9
+   },
+   "contingency_basis_g": 671.6,
+   "thrust_to_weight": {
+    "3.2 kgf -0 %": 1.62,
+    "3.2 kgf -5 %": 1.539,
+    "3.2 kgf -12 %": 1.426,
+    "3.4 kgf -0 %": 1.721,
+    "3.4 kgf -5 %": 1.635,
+    "3.4 kgf -12 %": 1.515
+   },
+   "gate_thrust_needed_kgf_1.30": 2.568,
+   "n_bodies": 198,
+   "tipping": {
+    "edge_min_deg": 25.9,
+    "edges_deg": [
+     25.94,
+     25.9,
+     26.02,
+     26.06
+    ],
+    "foot_min_deg": 34.5,
+    "h_mm": 333.8
+   }
+  },
+  "fvopt": {
+   "label": "Flight + R3 fixed-vane option (CG only)",
+   "mass_g": 1862.2,
+   "cg_mm": [
+    -0.62,
+    0.3,
+    309.49
+   ],
+   "I_cg_kg_mm2_bodies": [
+    42151.0,
+    42138.0,
+    6261.0
+   ],
+   "by_category_g": {
+    "bought on board": 1337.0,
+    "contingency": 28.2,
+    "fasteners/inserts": 76.9,
+    "fixed-vane option": 21.3,
+    "harness/connectors": 80.5,
+    "printed": 318.3
+   },
+   "contingency_basis_g": 564.0,
+   "thrust_to_weight": {
+    "3.2 kgf -0 %": 1.718,
+    "3.2 kgf -5 %": 1.632,
+    "3.2 kgf -12 %": 1.512,
+    "3.4 kgf -0 %": 1.826,
+    "3.4 kgf -5 %": 1.735,
+    "3.4 kgf -12 %": 1.607
+   },
+   "gate_thrust_needed_kgf_1.30": 2.421,
+   "n_bodies": 174,
+   "tipping": {
+    "edge_min_deg": 26.53,
+    "edges_deg": [
+     26.58,
+     26.53,
+     26.66,
+     26.71
+    ],
+    "foot_min_deg": 35.25,
+    "h_mm": 324.5
+   }
+  },
+  "guard": {
+   "label": "Flight + intake guard (X-27)",
+   "mass_g": 1877.4,
+   "cg_mm": [
+    -0.6,
+    0.3,
+    310.9
+   ],
+   "I_cg_kg_mm2_bodies": [
+    39992.0,
+    39981.0,
+    6357.0
+   ],
+   "by_category_g": {
+    "bought on board": 1337.0,
+    "contingency": 28.9,
+    "fasteners/inserts": 76.9,
+    "harness/connectors": 80.5,
+    "intake guard": 35.8,
+    "printed": 318.3
+   },
+   "contingency_basis_g": 578.4,
+   "thrust_to_weight": {
+    "3.2 kgf -0 %": 1.705,
+    "3.2 kgf -5 %": 1.619,
+    "3.2 kgf -12 %": 1.5,
+    "3.4 kgf -0 %": 1.811,
+    "3.4 kgf -5 %": 1.72,
+    "3.4 kgf -12 %": 1.594
+   },
+   "gate_thrust_needed_kgf_1.30": 2.441,
+   "n_bodies": 159,
+   "tipping": {
+    "edge_min_deg": 26.44,
+    "edges_deg": [
+     26.48,
+     26.44,
+     26.56,
+     26.6
+    ],
+    "foot_min_deg": 35.14,
+    "h_mm": 325.9
+   }
+  },
+  "tether_guard": {
+   "label": "Flight + tether kit + intake guard (X-27)",
+   "mass_g": 2012.8,
+   "cg_mm": [
+    -0.56,
+    0.28,
+    318.04
+   ],
+   "I_cg_kg_mm2_bodies": [
+    42126.0,
+    42115.0,
+    7025.0
+   ],
+   "by_category_g": {
+    "bought on board": 1337.0,
+    "contingency": 35.4,
+    "fasteners/inserts": 76.9,
+    "harness/connectors": 80.5,
+    "intake guard": 35.8,
+    "printed": 318.3,
+    "tether equipment": 128.9
+   },
+   "contingency_basis_g": 707.4,
+   "thrust_to_weight": {
+    "3.2 kgf -0 %": 1.59,
+    "3.2 kgf -5 %": 1.51,
+    "3.2 kgf -12 %": 1.399,
+    "3.4 kgf -0 %": 1.689,
+    "3.4 kgf -5 %": 1.605,
+    "3.4 kgf -12 %": 1.487
+   },
+   "gate_thrust_needed_kgf_1.30": 2.617,
+   "n_bodies": 207,
+   "tipping": {
+    "edge_min_deg": 25.95,
+    "edges_deg": [
+     25.99,
+     25.95,
+     26.07,
+     26.11
+    ],
+    "foot_min_deg": 34.56,
+    "h_mm": 333.0
+   }
+  }
+ },
+ "harness_rows": [
+  {
+   "item": "Avionics tap 18 AWG pair (needed 163 mm, x2 conductors)",
+   "g": 3.3,
+   "basis": "rough guess: 18 AWG 10 g/m per conductor",
+   "xyz": [
+    -45,
+    0,
+    470
+   ]
+  },
+  {
+   "item": "Servo tap 18 AWG pair (needed 111 mm, x2 conductors)",
+   "g": 2.2,
+   "basis": "rough guess: 18 AWG 10 g/m per conductor",
+   "xyz": [
+    -45,
+    0,
+    470
+   ]
+  },
+  {
+   "item": "Motor adaptor leads x3, 12 AWG, 4 mm male / 3.5 mm female (not bought)",
+   "g": 27.0,
+   "basis": "allowance (R3)",
+   "xyz": [
+    62,
+    0,
+    380
+   ]
+  },
+  {
+   "item": "Servo extensions x4, >= 300 mm",
+   "g": 20.0,
+   "basis": "allowance 5 g each",
+   "xyz": [
+    0,
+    0,
+    260
+   ]
+  },
+  {
+   "item": "Ties, heat shrink, hook-and-loop pads",
+   "g": 15.0,
+   "basis": "allowance",
+   "xyz": [
+    0,
+    0,
+    430
+   ]
+  },
+  {
+   "item": "Signal leads (receiver, rangefinder, ESC signal, PM07 cable extras)",
+   "g": 6.0,
+   "basis": "allowance (brief 7.2)",
+   "xyz": [
+    -40,
+    0,
+    350
+   ]
+  },
+  {
+   "item": "Servo power splice: UBEC output to the 4 servo leads (+ and -), solder joints, heat shrink (D-5 option 2)",
+   "g": 3.0,
+   "basis": "rough guess",
+   "xyz": [
+    -53,
+    0,
+    353
+   ]
+  }
+ ],
+ "components": {
+  "R4-FLIGHT | R4-VM-03 Servo AGFRC B26CLM V2 - bought - listed": 109.2,
+  "R4-FLIGHT | R4-VM-01 Vane with root plate - PETG-CF - CAD estimate": 22.94,
+  "R4-FLIGHT | R4-VM-02 Servo horn QUARKZMAN 25T with centre screw - aluminium - allowance": 12.0,
+  "R4-FLIGHT | R4-HW M3x8 ISO 7380 button head - A2 stainless - kit": 4.57,
+  "R4-FLIGHT | R4-HW M3 nut ISO 4032 - A2 stainless - kit": 5.88,
+  "R4-FLIGHT | R4-ES-01 EDF support with servo brackets and stops - PETG-CF - CAD estimate": 89.67,
+  "R4-FLIGHT | R4-ES-05 Fan tab clamp blocks x2 - PETG-CF - CAD estimate": 5.65,
+  "R4-FLIGHT | R4-BP-01 EDF XFLY 80mm 12-blade - bought - listed": 319.0,
+  "R4-FLIGHT | R4-FR-01 Carbon tubes 10x8 x4 - CFRP - listed": 66.21,
+  "R4-FLIGHT | R4-FR-02 Tube end plugs x8 (R3-FR-02 design) - PETG - CAD estimate": 7.28,
+  "R4-FLIGHT | R4-LG-01 Legs x4 - PETG-CF - CAD estimate": 69.1,
+  "R4-FLIGHT | R4-LG-02 Foot cups x4 - TPU 95A - CAD estimate": 21.15,
+  "R4-FLIGHT | R4-LG-03 Foot screw discs x4 - PETG - CAD estimate": 0.48,
+  "R4-FLIGHT | R4-FL-01 Mid plate with uprights - PETG-CF - CAD estimate": 43.21,
+  "R4-FLIGHT | R4-FL-03 Flight-controller tray with posts - PETG-CF - CAD estimate": 14.68,
+  "R4-FLIGHT | R4-EL-02 Pixhawk 6C aluminium - bought - listed": 59.3,
+  "R4-FLIGHT | R4-EL-03 Flight-controller foam pads x4 - foam - allowance (not bought)": 6.0,
+  "R4-FLIGHT | R4-EL-04 PM07 power module - bought - listed": 40.3,
+  "R4-FLIGHT | R4-EL-05 UBEC 7.4V - bought - listed": 34.0,
+  "R4-FLIGHT | R4-EL-09 Receiver - bought - allowance (unselected)": 12.0,
+  "R4-FLIGHT | R4-BP-02 Battery Zeee 6S 3300 - bought - listed": 525.0,
+  "R4-FLIGHT | R4-BP-03 Battery straps 20 mm x2 - hook-and-loop - allowance (not bought)": 12.0,
+  "R4-FLIGHT | R4-HW M3x12 ISO 7380 button head - A2 stainless - kit": 7.9,
+  "R4-FLIGHT | R4-HW M3x6 insert heat-set - brass - on hand": 6.4,
+  "R4-FLIGHT | R4-HW M4x12 ISO 7380 button head - A2 stainless - kit": 11.77,
+  "R4-FLIGHT | R4-HW M4x8 insert heat-set - brass - on hand": 8.54,
+  "R4-FLIGHT | R4-HW M4x16 ISO 7380 button head - A2 stainless - kit": 4.73,
+  "R4-FLIGHT | R4-HW M3x16 ISO 7380 button head - A2 stainless - kit": 19.42,
+  "R4-FLIGHT | R4-HW M3x8 insert heat-set - brass - on hand": 3.41,
+  "R4-FLIGHT | R4-HW M3x10 insert heat-set - brass - on hand": 4.27,
+  "R4-FLIGHT | R4-FL-02 Top plate with tube cups - PETG-CF - CAD estimate": 38.32,
+  "R4-FLIGHT | R4-EL-01 ESC Hobbywing Skywalker 120A V2 - bought - listed": 117.0,
+  "R4-FLIGHT | R4-EL-14 EC5 mated pair - bought - allowance": 4.0,
+  "R4-FLIGHT | R4-ES-09 Rangefinder mount (R3-ES-09 plate, TFmini-S pads) - PETG-CF - CAD estimate": 5.78,
+  "R4-FLIGHT | R4-EL-12 Rangefinder Benewake TFmini-S - bought - listed drawing": 25.0,
+  "R4-TETHER-KIT | R3-TT-01 Tether split collars x4 (R3 design reused) - aluminium 6061 - CAD estimate (RFQ)": 47.92,
+  "R4-TETHER-KIT | R3-TT-02 Eye bolts M6 with nut x4 - steel - allowance": 12.0,
+  "R4-TETHER-KIT | R3-TT-03 Tether backup stop bases x4 with R3-FR-11T caps (R3 design) - PETG-CF - CAD estimate": 29.53,
+  "R4-TETHER-KIT | R4-HW M4x16 ISO 7380 button head - A2 stainless - kit": 18.91,
+  "R4-TETHER-KIT | R4-HW M4 nut ISO 4032 - A2 stainless - kit": 6.12,
+  "R4-TETHER-KIT | R4-HW M3x20 ISO 7380 button head - A2 stainless - kit": 11.52,
+  "R4-TETHER-KIT | R4-HW M3 nut ISO 4032 - A2 stainless - kit": 2.94,
+  "R4-INTAKE-GUARD | R4-IG-01 Intake guard quarters x4 - PETG - CAD estimate": 29.78,
+  "R4-INTAKE-GUARD | R4-IG-02 Hook-and-loop ties x4 - bought - allowance": 6.0
+ },
+ "assigned": {
+  "CHK-03 Intake band": "no mass (check / corridor / imported option)",
+  "CHK-07 Stand bands x4": "no mass (check / corridor / imported option)",
+  "R4-EL-02 Pixhawk 6C aluminium - bought - listed": "R4 listed-mass proxy R4-EL-02 (59.3 g)",
+  "R3-HW M3 nut ISO 4032 - A2 stainless - kit (1)": "no mass (check / corridor / imported option)",
+  "R3-ES-06 Fixed vanes NACA0008 dummy x4 - PETG - CAD estimate": "no mass (check / corridor / imported option)",
+  "R3-HW M3x10 ISO 7380 button head - A2 stainless - kit (1)": "no mass (check / corridor / imported option)",
+  "R4-HW M3x12 ISO 7380 button head - A2 stainless - kit": "R4 Stainless Steel (8000 kg/m3)",
+  "R3-ES-07 Fixed-vane angle inserts x4 - PETG-CF - CAD estimate": "no mass (check / corridor / imported option)",
+  "R4-EL-03 Flight-controller foam pads x4 - foam - allowance (not bought)": "R4 listed-mass proxy R4-EL-03 (6.0 g)",
+  "R4-HW M3x6 insert heat-set - brass - on hand": "R4 Brass (8490 kg/m3)",
+  "R3-ES-10 Fixed-vane struts x4 - PETG-CF - CAD estimate": "no mass (check / corridor / imported option)",
+  "R3-HW M3x8 ISO 7380 button head - A2 stainless - kit (2)": "no mass (check / corridor / imported option)",
+  "R4-EL-04 PM07 power module - bought - listed": "R4 listed-mass proxy R4-EL-04 (40.3 g)",
+  "R4-EL-20 Harness corridors - script-dependent routing envelopes - see harness schedule": "no mass (check / corridor / imported option)",
+  "R4-IG-01 Intake guard quarters x4 - PETG - CAD estimate": "R4 PETG (mass proxy 1.27)",
+  "R4-EL-05 UBEC 7.4V - bought - listed": "R4 listed-mass proxy R4-EL-05 (34.0 g)",
+  "R4-HW M4x16 ISO 7380 button head - A2 stainless - kit": "R4 Stainless Steel (8000 kg/m3)",
+  "R4-EL-09 Receiver - bought - allowance (unselected)": "R4 listed-mass proxy R4-EL-09 (12.0 g)",
+  "R4-EL-01 ESC Hobbywing Skywalker 120A V2 - bought - listed": "R4 listed-mass proxy R4-EL-01 (117.0 g)",
+  "R4-HW M3x16 ISO 7380 button head - A2 stainless - kit": "R4 Stainless Steel (8000 kg/m3)",
+  "R4-BP-03 Battery straps 20 mm x2 - hook-and-loop - allowance (not bought)": "R4 listed-mass proxy R4-BP-03 (12.0 g)",
+  "R4-IG-02 Hook-and-loop ties x4 - bought - allowance": "R4 listed-mass proxy R4-IG-02 (6.0 g)",
+  "R4-HW M3x8 insert heat-set - brass - on hand": "R4 Brass (8490 kg/m3)",
+  "R4-HW M3 nut ISO 4032 - A2 stainless - kit": "R4 Stainless Steel (8000 kg/m3)",
+  "R4-HW M3x8 ISO 7380 button head - A2 stainless - kit": "R4 Stainless Steel (8000 kg/m3)",
+  "R4-FL-02 Top plate with tube cups - PETG-CF - CAD estimate": "R4 PETG-CF (mass proxy 1.30)",
+  "R4-EL-14 EC5 mated pair - bought - allowance": "R4 listed-mass proxy R4-EL-14 (4.0 g)",
+  "R4-BP-02 Battery Zeee 6S 3300 - bought - listed": "R4 listed-mass proxy R4-BP-02 (525.0 g)",
+  "R4-VM-03 Servo AGFRC B26CLM V2 - bought - listed": "R4 listed-mass proxy R4-VM-03 (27.3 g)",
+  "R4-VM-01 Vane with root plate - PETG-CF - CAD estimate": "R4 PETG-CF (mass proxy 1.30)",
+  "R4-VM-02 Servo horn QUARKZMAN 25T with centre screw - aluminium - allowance": "R4 listed-mass proxy R4-VM-02 (3.0 g)",
+  "R4-ES-09 Rangefinder mount (R3-ES-09 plate, TFmini-S pads) - PETG-CF - CAD estimate": "R4 PETG-CF (mass proxy 1.30)",
+  "R4-ES-01 EDF support with servo brackets and stops - PETG-CF - CAD estimate": "R4 PETG-CF (mass proxy 1.30)",
+  "R4-FR-01 Carbon tubes 10x8 x4 - CFRP - listed": "R4 listed-mass proxy R4-FR-01 (66.2 g)",
+  "R4-ES-05 Fan tab clamp blocks x2 - PETG-CF - CAD estimate": "R4 PETG-CF (mass proxy 1.30)",
+  "R4-LG-02 Foot cups x4 - TPU 95A - CAD estimate": "R4 TPU 95A (mass proxy 1.21)",
+  "R4-HW M4 nut ISO 4032 - A2 stainless - kit": "R4 Stainless Steel (8000 kg/m3)",
+  "R4-HW M3x10 insert heat-set - brass - on hand": "R4 Brass (8490 kg/m3)",
+  "R4-LG-01 Legs x4 - PETG-CF - CAD estimate": "R4 PETG-CF (mass proxy 1.30)",
+  "R4-BP-01 EDF XFLY 80mm 12-blade - bought - listed": "R4 listed-mass proxy R4-BP-01 (319.0 g)",
+  "R4-FR-02 Tube end plugs x8 (R3-FR-02 design) - PETG - CAD estimate": "R4 PETG (mass proxy 1.27)",
+  "R4-EL-12 Rangefinder Benewake TFmini-S - bought - listed drawing": "R4 listed-mass proxy R4-EL-12 (25.0 g)",
+  "R3-TT-01 Tether split collars x4 (R3 design reused) - aluminium 6061 - CAD estimate (RFQ)": "R4 Aluminum 6061",
+  "R4-FL-01 Mid plate with uprights - PETG-CF - CAD estimate": "R4 PETG-CF (mass proxy 1.30)",
+  "R4-HW M4x8 insert heat-set - brass - on hand": "R4 Brass (8490 kg/m3)",
+  "R3-TT-02 Eye bolts M6 with nut x4 - steel - allowance": "R4 listed-mass proxy R3-TT-02 (12.0 g)",
+  "R4-HW M4x12 ISO 7380 button head - A2 stainless - kit": "R4 Stainless Steel (8000 kg/m3)",
+  "R4-LG-03 Foot screw discs x4 - PETG - CAD estimate": "R4 PETG (mass proxy 1.27)",
+  "R4-HW M3x20 ISO 7380 button head - A2 stainless - kit": "R4 Stainless Steel (8000 kg/m3)",
+  "R3-TT-03 Tether backup stop bases x4 with R3-FR-11T caps (R3 design) - PETG-CF - CAD estimate": "R4 PETG-CF (mass proxy 1.30)",
+  "R4-FL-03 Flight-controller tray with posts - PETG-CF - CAD estimate": "R4 PETG-CF (mass proxy 1.30)",
+  "CHK-01 Jet cylinder": "no mass (check / corridor / imported option)",
+  "CHK-02 Inlet-lip keep-out": "no mass (check / corridor / imported option)"
+ },
+ "cg_z_set": 311.6,
+ "stand_band": [
+  261.6,
+  336.6
+ ],
+ "t_s": 13.8
+}

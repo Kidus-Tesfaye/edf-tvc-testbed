@@ -1,0 +1,24 @@
+{
+ "ok": true,
+ "tether": {
+  "old_tether_z": 401.50000000000006,
+  "tether_z": 401.5,
+  "eye_z": 437.5,
+  "eye_r": 98.0,
+  "crossing_z": 328.98,
+  "cg_tether_z": 318.79,
+  "crossing_above_cg": 10.19
+ },
+ "feet": {
+  "old_foot_r": 230.0,
+  "foot_r": 230.0,
+  "tip_flight": 26.39,
+  "tip_tether": 25.9
+ },
+ "stand_band": [
+  261.6,
+  336.6
+ ],
+ "moved": false,
+ "health": []
+}

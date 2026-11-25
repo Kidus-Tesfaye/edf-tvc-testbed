@@ -1,0 +1,299 @@
+{
+ "ok": true,
+ "group": "mid",
+ "time_s": 26.6,
+ "placed": 20,
+ "fail": [],
+ "counts": {
+  "M3x16": 4,
+  "M3 nut": 4,
+  "M3x12": 4,
+  "M3x10 insert": 4,
+  "M3x8": 2,
+  "M3x6 insert": 2
+ },
+ "rows": [
+  {
+   "id": "CL-MID1-S",
+   "hw": "M3x16",
+   "host": "R4-FL-01/mid",
+   "pt": [
+    62.93,
+    52.33,
+    373.5
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "split-clamp screw across the slot"
+  },
+  {
+   "id": "CL-MID1-N",
+   "hw": "M3 nut",
+   "host": "R4-FL-01/mid",
+   "pt": [
+    54.16,
+    61.09,
+    373.5
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": -30.0,
+   "note": "captive nut in the pocket"
+  },
+  {
+   "id": "CL-MID2-S",
+   "hw": "M3x16",
+   "host": "R4-FL-01/mid",
+   "pt": [
+    -52.33,
+    62.93,
+    373.5
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "split-clamp screw across the slot"
+  },
+  {
+   "id": "CL-MID2-N",
+   "hw": "M3 nut",
+   "host": "R4-FL-01/mid",
+   "pt": [
+    -61.09,
+    54.16,
+    373.5
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": -30.0,
+   "note": "captive nut in the pocket"
+  },
+  {
+   "id": "CL-MID3-S",
+   "hw": "M3x16",
+   "host": "R4-FL-01/mid",
+   "pt": [
+    -62.93,
+    -52.33,
+    373.5
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "split-clamp screw across the slot"
+  },
+  {
+   "id": "CL-MID3-N",
+   "hw": "M3 nut",
+   "host": "R4-FL-01/mid",
+   "pt": [
+    -54.16,
+    -61.09,
+    373.5
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": -30.0,
+   "note": "captive nut in the pocket"
+  },
+  {
+   "id": "CL-MID4-S",
+   "hw": "M3x16",
+   "host": "R4-FL-01/mid",
+   "pt": [
+    52.33,
+    -62.93,
+    373.5
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "split-clamp screw across the slot"
+  },
+  {
+   "id": "CL-MID4-N",
+   "hw": "M3 nut",
+   "host": "R4-FL-01/mid",
+   "pt": [
+    61.09,
+    -54.16,
+    373.5
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": -30.0,
+   "note": "captive nut in the pocket"
+  },
+  {
+   "id": "FT1-S",
+   "hw": "M3x12",
+   "host": "R4-FL-01/mid",
+   "pt": [
+    30.0,
+    30.0,
+    363.0
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "tray post, from above"
+  },
+  {
+   "id": "FT1-I",
+   "hw": "M3x10 insert",
+   "host": "R4-FL-03/tray",
+   "pt": [
+    30.0,
+    30.0,
+    360.0
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "post-top insert"
+  },
+  {
+   "id": "FT2-S",
+   "hw": "M3x12",
+   "host": "R4-FL-01/mid",
+   "pt": [
+    30.0,
+    -30.0,
+    363.0
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "tray post, from above"
+  },
+  {
+   "id": "FT2-I",
+   "hw": "M3x10 insert",
+   "host": "R4-FL-03/tray",
+   "pt": [
+    30.0,
+    -30.0,
+    360.0
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "post-top insert"
+  },
+  {
+   "id": "FT3-S",
+   "hw": "M3x12",
+   "host": "R4-FL-01/mid",
+   "pt": [
+    -30.0,
+    30.0,
+    363.0
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "tray post, from above"
+  },
+  {
+   "id": "FT3-I",
+   "hw": "M3x10 insert",
+   "host": "R4-FL-03/tray",
+   "pt": [
+    -30.0,
+    30.0,
+    360.0
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "post-top insert"
+  },
+  {
+   "id": "FT4-S",
+   "hw": "M3x12",
+   "host": "R4-FL-01/mid",
+   "pt": [
+    -30.0,
+    -30.0,
+    363.0
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "tray post, from above"
+  },
+  {
+   "id": "FT4-I",
+   "hw": "M3x10 insert",
+   "host": "R4-FL-03/tray",
+   "pt": [
+    -30.0,
+    -30.0,
+    360.0
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "post-top insert"
+  },
+  {
+   "id": "PM1-S",
+   "hw": "M3x8",
+   "host": "R4-EL-04/pm07",
+   "pt": [
+    -22.5,
+    -33.6,
+    392.5
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "PM07 board to the -Y upright boss"
+  },
+  {
+   "id": "PM1-I",
+   "hw": "M3x6 insert",
+   "host": "R4-FL-01/mid",
+   "pt": [
+    -22.5,
+    -32.0,
+    392.5
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "boss insert"
+  },
+  {
+   "id": "PM2-S",
+   "hw": "M3x8",
+   "host": "R4-EL-04/pm07",
+   "pt": [
+    22.5,
+    -33.6,
+    437.5
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "PM07 board to the -Y upright boss"
+  },
+  {
+   "id": "PM2-I",
+   "hw": "M3x6 insert",
+   "host": "R4-FL-01/mid",
+   "pt": [
+    22.5,
+    -32.0,
+    437.5
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "boss insert"
+  }
+ ],
+ "health": [],
+ "timeline": 585
+}

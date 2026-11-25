@@ -1,0 +1,127 @@
+{
+ "ok": true,
+ "t": {
+  "build_guard": 43.3,
+  "build_ties": 14.7
+ },
+ "params": [
+  "ig_r",
+  "ig_t",
+  "ig_z0",
+  "ig_z1",
+  "ig_top_t",
+  "ig_lift",
+  "ig_slot_z0",
+  "ig_slot_h",
+  "ig_bar_h",
+  "ig_n_rows",
+  "ig_n_ribs",
+  "ig_rib_w",
+  "ig_joint_w",
+  "ig_gap",
+  "ig_hub_r",
+  "ig_tslot",
+  "ig_tbar",
+  "ig_n_tslots",
+  "ig_n_spokes",
+  "ig_foot_w",
+  "ig_foot_h",
+  "ig_pl_ang",
+  "ig_pl_t",
+  "ig_pl_r1",
+  "ig_pl_z0",
+  "ig_pl_h",
+  "ig_win_r0",
+  "ig_win_w",
+  "ig_tie_w",
+  "ig_tie_t"
+ ],
+ "top_slot_profiles": 8,
+ "bodies_after_join": 1,
+ "quarters": {
+  "quarter_1": {
+   "bbox": [
+    -39.464,
+    0.283,
+    241.0,
+    39.464,
+    51.2,
+    313.5
+   ],
+   "vol_cm3": 5.861,
+   "centre_deg": 90.0
+  },
+  "quarter_2": {
+   "bbox": [
+    -51.2,
+    -39.464,
+    241.0,
+    -0.283,
+    39.464,
+    313.5
+   ],
+   "vol_cm3": 5.861,
+   "centre_deg": 180.0
+  },
+  "quarter_3": {
+   "bbox": [
+    -39.464,
+    -51.2,
+    241.0,
+    39.464,
+    -0.283,
+    313.5
+   ],
+   "vol_cm3": 5.861,
+   "centre_deg": 270.0
+  },
+  "quarter_4": {
+   "bbox": [
+    0.283,
+    -39.464,
+    241.0,
+    51.2,
+    39.464,
+    313.5
+   ],
+   "vol_cm3": 5.861,
+   "centre_deg": 360.0
+  }
+ },
+ "ties": {
+  "tie_1": [
+   31.415,
+   31.415,
+   245.0,
+   55.997,
+   55.997,
+   257.0
+  ],
+  "tie_2": [
+   -55.997,
+   31.415,
+   245.0,
+   -31.415,
+   55.997,
+   257.0
+  ],
+  "tie_3": [
+   -55.997,
+   -55.997,
+   245.0,
+   -31.415,
+   -31.415,
+   257.0
+  ],
+  "tie_4": [
+   31.415,
+   -55.997,
+   245.0,
+   55.997,
+   -31.415,
+   257.0
+  ]
+ },
+ "health": [],
+ "timeline": 781
+}

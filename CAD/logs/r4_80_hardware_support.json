@@ -1,0 +1,524 @@
+{
+ "ok": true,
+ "group": "support",
+ "time_s": 68.7,
+ "placed": 36,
+ "fail": [],
+ "counts": {
+  "M3x12": 4,
+  "M3x6 insert": 8,
+  "M4x12": 6,
+  "M4x8 insert": 8,
+  "M4x16": 2,
+  "M3x16": 4,
+  "M3 nut": 4
+ },
+ "rows": [
+  {
+   "id": "TB1-S1",
+   "hw": "M3x12",
+   "host": "R4-ES-01/support",
+   "pt": [
+    40.31,
+    26.16,
+    150.0
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "fan-tab clamp, head under the annulus"
+  },
+  {
+   "id": "TB1-I1",
+   "hw": "M3x6 insert",
+   "host": "R4-ES-05/block_1",
+   "pt": [
+    40.31,
+    26.16,
+    157.0
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "tab block insert, seat tab_ins_len + ins_blind"
+  },
+  {
+   "id": "TB1-S2",
+   "hw": "M3x12",
+   "host": "R4-ES-01/support",
+   "pt": [
+    26.16,
+    40.31,
+    150.0
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "fan-tab clamp, head under the annulus"
+  },
+  {
+   "id": "TB1-I2",
+   "hw": "M3x6 insert",
+   "host": "R4-ES-05/block_1",
+   "pt": [
+    26.16,
+    40.31,
+    157.0
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "tab block insert, seat tab_ins_len + ins_blind"
+  },
+  {
+   "id": "TB2-S1",
+   "hw": "M3x12",
+   "host": "R4-ES-01/support",
+   "pt": [
+    -40.31,
+    -26.16,
+    150.0
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "fan-tab clamp, head under the annulus"
+  },
+  {
+   "id": "TB2-I1",
+   "hw": "M3x6 insert",
+   "host": "R4-ES-05/block_2",
+   "pt": [
+    -40.31,
+    -26.16,
+    157.0
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "tab block insert, seat tab_ins_len + ins_blind"
+  },
+  {
+   "id": "TB2-S2",
+   "hw": "M3x12",
+   "host": "R4-ES-01/support",
+   "pt": [
+    -26.16,
+    -40.31,
+    150.0
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "fan-tab clamp, head under the annulus"
+  },
+  {
+   "id": "TB2-I2",
+   "hw": "M3x6 insert",
+   "host": "R4-ES-05/block_2",
+   "pt": [
+    -26.16,
+    -40.31,
+    157.0
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "tab block insert, seat tab_ins_len + ins_blind"
+  },
+  {
+   "id": "LR1-S1",
+   "hw": "M4x12",
+   "host": "R4-LG-01/leg_1",
+   "pt": [
+    52.33,
+    38.18,
+    136.0
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "leg root flange"
+  },
+  {
+   "id": "LR1-I1",
+   "hw": "M4x8 insert",
+   "host": "R4-ES-01/support",
+   "pt": [
+    52.33,
+    38.18,
+    142.0
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "leg-root insert, seat leg_root_ins_len + ins_blind"
+  },
+  {
+   "id": "LR1-S2",
+   "hw": "M4x12",
+   "host": "R4-LG-01/leg_1",
+   "pt": [
+    38.18,
+    52.33,
+    136.0
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "leg root flange"
+  },
+  {
+   "id": "LR1-I2",
+   "hw": "M4x8 insert",
+   "host": "R4-ES-01/support",
+   "pt": [
+    38.18,
+    52.33,
+    142.0
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "leg-root insert, seat leg_root_ins_len + ins_blind"
+  },
+  {
+   "id": "FV1-I",
+   "hw": "M3x6 insert",
+   "host": "R4-ES-01/support",
+   "pt": [
+    36.77,
+    36.77,
+    147.0
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "fixed-vane socket insert (no screw in flight)"
+  },
+  {
+   "id": "LR2-S1",
+   "hw": "M4x16",
+   "host": "R4-ES-09/rf_mount",
+   "pt": [
+    -38.18,
+    52.33,
+    133.4
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "leg root through the rangefinder mount, head counterbored"
+  },
+  {
+   "id": "LR2-I1",
+   "hw": "M4x8 insert",
+   "host": "R4-ES-01/support",
+   "pt": [
+    -38.18,
+    52.33,
+    142.0
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "leg-root insert, seat leg_root_ins_len + ins_blind"
+  },
+  {
+   "id": "LR2-S2",
+   "hw": "M4x16",
+   "host": "R4-ES-09/rf_mount",
+   "pt": [
+    -52.33,
+    38.18,
+    133.4
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "leg root through the rangefinder mount, head counterbored"
+  },
+  {
+   "id": "LR2-I2",
+   "hw": "M4x8 insert",
+   "host": "R4-ES-01/support",
+   "pt": [
+    -52.33,
+    38.18,
+    142.0
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "leg-root insert, seat leg_root_ins_len + ins_blind"
+  },
+  {
+   "id": "FV2-I",
+   "hw": "M3x6 insert",
+   "host": "R4-ES-01/support",
+   "pt": [
+    -36.77,
+    36.77,
+    147.0
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "fixed-vane socket insert (no screw in flight)"
+  },
+  {
+   "id": "LR3-S1",
+   "hw": "M4x12",
+   "host": "R4-LG-01/leg_3",
+   "pt": [
+    -52.33,
+    -38.18,
+    136.0
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "leg root flange"
+  },
+  {
+   "id": "LR3-I1",
+   "hw": "M4x8 insert",
+   "host": "R4-ES-01/support",
+   "pt": [
+    -52.33,
+    -38.18,
+    142.0
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "leg-root insert, seat leg_root_ins_len + ins_blind"
+  },
+  {
+   "id": "LR3-S2",
+   "hw": "M4x12",
+   "host": "R4-LG-01/leg_3",
+   "pt": [
+    -38.18,
+    -52.33,
+    136.0
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "leg root flange"
+  },
+  {
+   "id": "LR3-I2",
+   "hw": "M4x8 insert",
+   "host": "R4-ES-01/support",
+   "pt": [
+    -38.18,
+    -52.33,
+    142.0
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "leg-root insert, seat leg_root_ins_len + ins_blind"
+  },
+  {
+   "id": "FV3-I",
+   "hw": "M3x6 insert",
+   "host": "R4-ES-01/support",
+   "pt": [
+    -36.77,
+    -36.77,
+    147.0
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "fixed-vane socket insert (no screw in flight)"
+  },
+  {
+   "id": "LR4-S1",
+   "hw": "M4x12",
+   "host": "R4-LG-01/leg_4",
+   "pt": [
+    38.18,
+    -52.33,
+    136.0
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "leg root flange"
+  },
+  {
+   "id": "LR4-I1",
+   "hw": "M4x8 insert",
+   "host": "R4-ES-01/support",
+   "pt": [
+    38.18,
+    -52.33,
+    142.0
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "leg-root insert, seat leg_root_ins_len + ins_blind"
+  },
+  {
+   "id": "LR4-S2",
+   "hw": "M4x12",
+   "host": "R4-LG-01/leg_4",
+   "pt": [
+    52.33,
+    -38.18,
+    136.0
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "leg root flange"
+  },
+  {
+   "id": "LR4-I2",
+   "hw": "M4x8 insert",
+   "host": "R4-ES-01/support",
+   "pt": [
+    52.33,
+    -38.18,
+    142.0
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "leg-root insert, seat leg_root_ins_len + ins_blind"
+  },
+  {
+   "id": "FV4-I",
+   "hw": "M3x6 insert",
+   "host": "R4-ES-01/support",
+   "pt": [
+    36.77,
+    -36.77,
+    147.0
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "fixed-vane socket insert (no screw in flight)"
+  },
+  {
+   "id": "CL-ES1-S",
+   "hw": "M3x16",
+   "host": "R4-ES-01/support",
+   "pt": [
+    62.93,
+    52.33,
+    156.5
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "split-clamp screw across the slot"
+  },
+  {
+   "id": "CL-ES1-N",
+   "hw": "M3 nut",
+   "host": "R4-ES-01/support",
+   "pt": [
+    54.16,
+    61.09,
+    156.5
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": -30.0,
+   "note": "captive nut in the pocket"
+  },
+  {
+   "id": "CL-ES2-S",
+   "hw": "M3x16",
+   "host": "R4-ES-01/support",
+   "pt": [
+    -52.33,
+    62.93,
+    156.5
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "split-clamp screw across the slot"
+  },
+  {
+   "id": "CL-ES2-N",
+   "hw": "M3 nut",
+   "host": "R4-ES-01/support",
+   "pt": [
+    -61.09,
+    54.16,
+    156.5
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": -30.0,
+   "note": "captive nut in the pocket"
+  },
+  {
+   "id": "CL-ES3-S",
+   "hw": "M3x16",
+   "host": "R4-ES-01/support",
+   "pt": [
+    -62.93,
+    -52.33,
+    156.5
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "split-clamp screw across the slot"
+  },
+  {
+   "id": "CL-ES3-N",
+   "hw": "M3 nut",
+   "host": "R4-ES-01/support",
+   "pt": [
+    -54.16,
+    -61.09,
+    156.5
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": -30.0,
+   "note": "captive nut in the pocket"
+  },
+  {
+   "id": "CL-ES4-S",
+   "hw": "M3x16",
+   "host": "R4-ES-01/support",
+   "pt": [
+    52.33,
+    -62.93,
+    156.5
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "split-clamp screw across the slot"
+  },
+  {
+   "id": "CL-ES4-N",
+   "hw": "M3 nut",
+   "host": "R4-ES-01/support",
+   "pt": [
+    61.09,
+    -54.16,
+    156.5
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": -30.0,
+   "note": "captive nut in the pocket"
+  }
+ ],
+ "health": [],
+ "timeline": 723
+}

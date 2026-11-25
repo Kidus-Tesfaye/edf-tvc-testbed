@@ -1,0 +1,257 @@
+{
+ "ok": true,
+ "rows": [
+  {
+   "station": "V+X",
+   "set": -23.0,
+   "joint": -23.0,
+   "measured": -23.0,
+   "err": 0.0,
+   "axis_point_move_mm": 0.0,
+   "other_stations_deg": 0.0,
+   "servo_move_mm": 0.0
+  },
+  {
+   "station": "V+X",
+   "set": -20.0,
+   "joint": -20.0,
+   "measured": -20.0,
+   "err": 0.0,
+   "axis_point_move_mm": 0.0,
+   "other_stations_deg": 0.0,
+   "servo_move_mm": 0.0
+  },
+  {
+   "station": "V+X",
+   "set": 0.0,
+   "joint": 0.0,
+   "measured": -0.0,
+   "err": -0.0,
+   "axis_point_move_mm": 0.0,
+   "other_stations_deg": 0.0,
+   "servo_move_mm": 0.0
+  },
+  {
+   "station": "V+X",
+   "set": 20.0,
+   "joint": 20.0,
+   "measured": 20.0,
+   "err": -0.0,
+   "axis_point_move_mm": 0.0,
+   "other_stations_deg": 0.0,
+   "servo_move_mm": 0.0
+  },
+  {
+   "station": "V+X",
+   "set": 23.0,
+   "joint": 23.0,
+   "measured": 23.0,
+   "err": -0.0,
+   "axis_point_move_mm": 0.0,
+   "other_stations_deg": 0.0,
+   "servo_move_mm": 0.0
+  },
+  {
+   "station": "V+X",
+   "set": 0.0,
+   "joint": 0.0,
+   "measured": -0.0,
+   "err": -0.0,
+   "axis_point_move_mm": 0.0,
+   "other_stations_deg": 0.0,
+   "servo_move_mm": 0.0
+  },
+  {
+   "station": "V+Y",
+   "set": -23.0,
+   "joint": -23.0,
+   "measured": -23.0,
+   "err": 0.0,
+   "axis_point_move_mm": 0.0,
+   "other_stations_deg": 0.0,
+   "servo_move_mm": 0.0
+  },
+  {
+   "station": "V+Y",
+   "set": -20.0,
+   "joint": -20.0,
+   "measured": -20.0,
+   "err": 0.0,
+   "axis_point_move_mm": 0.0,
+   "other_stations_deg": 0.0,
+   "servo_move_mm": 0.0
+  },
+  {
+   "station": "V+Y",
+   "set": 0.0,
+   "joint": 0.0,
+   "measured": 0.0,
+   "err": 0.0,
+   "axis_point_move_mm": 0.0,
+   "other_stations_deg": 0.0,
+   "servo_move_mm": 0.0
+  },
+  {
+   "station": "V+Y",
+   "set": 20.0,
+   "joint": 20.0,
+   "measured": 20.0,
+   "err": -0.0,
+   "axis_point_move_mm": 0.0,
+   "other_stations_deg": 0.0,
+   "servo_move_mm": 0.0
+  },
+  {
+   "station": "V+Y",
+   "set": 23.0,
+   "joint": 23.0,
+   "measured": 23.0,
+   "err": -0.0,
+   "axis_point_move_mm": 0.0,
+   "other_stations_deg": 0.0,
+   "servo_move_mm": 0.0
+  },
+  {
+   "station": "V+Y",
+   "set": 0.0,
+   "joint": 0.0,
+   "measured": -0.0,
+   "err": -0.0,
+   "axis_point_move_mm": 0.0,
+   "other_stations_deg": 0.0,
+   "servo_move_mm": 0.0
+  },
+  {
+   "station": "V-X",
+   "set": -23.0,
+   "joint": -23.0,
+   "measured": -23.0,
+   "err": 0.0,
+   "axis_point_move_mm": 0.0,
+   "other_stations_deg": 0.0,
+   "servo_move_mm": 0.0
+  },
+  {
+   "station": "V-X",
+   "set": -20.0,
+   "joint": -20.0,
+   "measured": -20.0,
+   "err": 0.0,
+   "axis_point_move_mm": 0.0,
+   "other_stations_deg": 0.0,
+   "servo_move_mm": 0.0
+  },
+  {
+   "station": "V-X",
+   "set": 0.0,
+   "joint": 0.0,
+   "measured": 0.0,
+   "err": 0.0,
+   "axis_point_move_mm": 0.0,
+   "other_stations_deg": 0.0,
+   "servo_move_mm": 0.0
+  },
+  {
+   "station": "V-X",
+   "set": 20.0,
+   "joint": 20.0,
+   "measured": 20.0,
+   "err": -0.0,
+   "axis_point_move_mm": 0.0,
+   "other_stations_deg": 0.0,
+   "servo_move_mm": 0.0
+  },
+  {
+   "station": "V-X",
+   "set": 23.0,
+   "joint": 23.0,
+   "measured": 23.0,
+   "err": -0.0,
+   "axis_point_move_mm": 0.0,
+   "other_stations_deg": 0.0,
+   "servo_move_mm": 0.0
+  },
+  {
+   "station": "V-X",
+   "set": 0.0,
+   "joint": 0.0,
+   "measured": 0.0,
+   "err": 0.0,
+   "axis_point_move_mm": 0.0,
+   "other_stations_deg": 0.0,
+   "servo_move_mm": 0.0
+  },
+  {
+   "station": "V-Y",
+   "set": -23.0,
+   "joint": -23.0,
+   "measured": -23.0,
+   "err": 0.0,
+   "axis_point_move_mm": 0.0,
+   "other_stations_deg": 0.0,
+   "servo_move_mm": 0.0
+  },
+  {
+   "station": "V-Y",
+   "set": -20.0,
+   "joint": -20.0,
+   "measured": -20.0,
+   "err": 0.0,
+   "axis_point_move_mm": 0.0,
+   "other_stations_deg": 0.0,
+   "servo_move_mm": 0.0
+  },
+  {
+   "station": "V-Y",
+   "set": 0.0,
+   "joint": 0.0,
+   "measured": -0.0,
+   "err": -0.0,
+   "axis_point_move_mm": 0.0,
+   "other_stations_deg": 0.0,
+   "servo_move_mm": 0.0
+  },
+  {
+   "station": "V-Y",
+   "set": 20.0,
+   "joint": 20.0,
+   "measured": 20.0,
+   "err": -0.0,
+   "axis_point_move_mm": 0.0,
+   "other_stations_deg": 0.0,
+   "servo_move_mm": 0.0
+  },
+  {
+   "station": "V-Y",
+   "set": 23.0,
+   "joint": 23.0,
+   "measured": 23.0,
+   "err": -0.0,
+   "axis_point_move_mm": 0.0,
+   "other_stations_deg": 0.0,
+   "servo_move_mm": 0.0
+  },
+  {
+   "station": "V-Y",
+   "set": 0.0,
+   "joint": 0.0,
+   "measured": -0.0,
+   "err": -0.0,
+   "axis_point_move_mm": 0.0,
+   "other_stations_deg": 0.0,
+   "servo_move_mm": 0.0
+  }
+ ],
+ "limit_try": {
+  "set": 30.0,
+  "joint": 0.0,
+  "measured": -0.0
+ },
+ "bad": [],
+ "restored": {
+  "V+X": 0.0,
+  "V+Y": 0.0,
+  "V-X": 0.0,
+  "V-Y": 0.0
+ }
+}

@@ -1,0 +1,127 @@
+{
+ "ok": true,
+ "group": "top",
+ "time_s": 20.4,
+ "placed": 8,
+ "fail": [],
+ "counts": {
+  "M3x16": 4,
+  "M3 nut": 4
+ },
+ "rows": [
+  {
+   "id": "CL-TOP1-S",
+   "hw": "M3x16",
+   "host": "R4-FL-02/top",
+   "pt": [
+    62.93,
+    52.33,
+    497.5
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "split-clamp screw across the slot"
+  },
+  {
+   "id": "CL-TOP1-N",
+   "hw": "M3 nut",
+   "host": "R4-FL-02/top",
+   "pt": [
+    54.16,
+    61.09,
+    497.5
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": -30.0,
+   "note": "captive nut in the pocket"
+  },
+  {
+   "id": "CL-TOP2-S",
+   "hw": "M3x16",
+   "host": "R4-FL-02/top",
+   "pt": [
+    -52.33,
+    62.93,
+    497.5
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "split-clamp screw across the slot"
+  },
+  {
+   "id": "CL-TOP2-N",
+   "hw": "M3 nut",
+   "host": "R4-FL-02/top",
+   "pt": [
+    -61.09,
+    54.16,
+    497.5
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": -30.0,
+   "note": "captive nut in the pocket"
+  },
+  {
+   "id": "CL-TOP3-S",
+   "hw": "M3x16",
+   "host": "R4-FL-02/top",
+   "pt": [
+    -62.93,
+    -52.33,
+    497.5
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "split-clamp screw across the slot"
+  },
+  {
+   "id": "CL-TOP3-N",
+   "hw": "M3 nut",
+   "host": "R4-FL-02/top",
+   "pt": [
+    -54.16,
+    -61.09,
+    497.5
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": -30.0,
+   "note": "captive nut in the pocket"
+  },
+  {
+   "id": "CL-TOP4-S",
+   "hw": "M3x16",
+   "host": "R4-FL-02/top",
+   "pt": [
+    52.33,
+    -62.93,
+    497.5
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "split-clamp screw across the slot"
+  },
+  {
+   "id": "CL-TOP4-N",
+   "hw": "M3 nut",
+   "host": "R4-FL-02/top",
+   "pt": [
+    61.09,
+    -54.16,
+    497.5
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": -30.0,
+   "note": "captive nut in the pocket"
+  }
+ ],
+ "health": [],
+ "timeline": 695
+}

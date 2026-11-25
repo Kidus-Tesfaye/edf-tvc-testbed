@@ -1,0 +1,42 @@
+{
+ "ok": true,
+ "tube_len_mm": 363.0,
+ "tube_mass_g_listed": 66.2,
+ "stock_note": "stock length TBM: four cuts of 363 mm; with 1 m stock tubes, two cuts per tube (2 tubes) if the kerf allows",
+ "tubes": [
+  [
+   44.497,
+   44.497,
+   145.0,
+   54.497,
+   54.497,
+   508.0
+  ],
+  [
+   -54.497,
+   44.497,
+   145.0,
+   -44.497,
+   54.497,
+   508.0
+  ],
+  [
+   -54.497,
+   -54.497,
+   145.0,
+   -44.497,
+   -44.497,
+   508.0
+  ],
+  [
+   44.497,
+   -54.497,
+   145.0,
+   54.497,
+   -44.497,
+   508.0
+  ]
+ ],
+ "plugs": 8,
+ "health": []
+}

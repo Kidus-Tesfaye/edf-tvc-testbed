@@ -1,0 +1,22 @@
+{
+ "ok": true,
+ "fusion_version": "2705.1.30",
+ "share": "C:\\Users\\ephip\\Downloads\\Telegram Desktop\\to-share-v2\\to-share-v2",
+ "share_exists": true,
+ "read_test_first_line": "# EDF vehicle R3 - design report",
+ "write_test": true,
+ "project": "Capstone Design Parts",
+ "folder_existed": true,
+ "action": "already open: activated (resuming)",
+ "active_document": "EDF_PETG_Vehicle_R4_MIN",
+ "design_type": "parametric",
+ "display_units": "mm",
+ "internal_units": "cm (API)",
+ "user_parameters": 298,
+ "root_occurrences": [
+  "R4-FLIGHT Flight vehicle - assembly - see parts",
+  "R4-TETHER-KIT Removable tether kit - assembly - see parts",
+  "CHK-ZONES Check zones - hidden - never exported",
+  "CHK-FV-OPTION R3 fixed-vane option for the fit check - hidden - never exported"
+ ]
+}

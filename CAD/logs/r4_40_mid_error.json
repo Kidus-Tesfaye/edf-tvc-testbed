@@ -1,0 +1,20 @@
+{
+ "ok": false,
+ "times": {
+  "build_mid": 19.8
+ },
+ "R4-FL-01": {
+  "bodies": 1,
+  "bbox": [
+   -66.114,
+   -66.114,
+   360.0,
+   66.114,
+   66.114,
+   466.0
+  ],
+  "vol_cm3": 33.236,
+  "g_full_solid": 43.2
+ },
+ "traceback": "Traceback (most recent call last):\n  File \"<string>\", line 176, in run\n  File \"<string>\", line 121, in build_tray\n  File \"C:\\Users\\ephip\\Downloads\\Telegram Desktop\\to-share-v2\\to-share-v2\\r4 design\\scripts\\r4lib.py\", line 367, in body\n    raise RuntimeError('body %s not in %s' % (name, comp.name))\nRuntimeError: body tray not in R4-FL-03 Flight-controller tray with posts - PETG-CF - CAD estimate\n"
+}

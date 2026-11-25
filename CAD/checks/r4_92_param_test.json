@@ -1,0 +1,361 @@
+{
+ "ok": true,
+ "health_before": [],
+ "health_changed": [],
+ "health_after": [],
+ "followed": {
+  "leg_1 reach (max X)": {
+   "got": 7.071,
+   "expected": 7.071,
+   "ok": true
+  },
+  "foot_1 centre X": {
+   "got": 7.071,
+   "expected": 7.071,
+   "ok": true
+  },
+  "top plate Z min": {
+   "got": 2.0,
+   "expected": 2.0,
+   "ok": true
+  },
+  "tube_1 top Z": {
+   "got": 2.0,
+   "expected": 2.0,
+   "ok": true
+  },
+  "ESC Z min": {
+   "got": 2.0,
+   "expected": 2.0,
+   "ok": true
+  },
+  "battery top Z": {
+   "got": 2.0,
+   "expected": 2.0,
+   "ok": true
+  },
+  "vane head outer X": {
+   "got": 1.0,
+   "expected": 1.0,
+   "ok": true
+  },
+  "horn X min": {
+   "got": 1.0,
+   "expected": 1.0,
+   "ok": true
+  },
+  "servo X max": {
+   "got": 1.0,
+   "expected": 1.0,
+   "ok": true
+  },
+  "foot screw X (jointed hardware)": {
+   "got": 7.071,
+   "expected": 7.071,
+   "ok": true
+  },
+  "top clamp screw Z (jointed hardware)": {
+   "got": 2.0,
+   "expected": 2.0,
+   "ok": true
+  }
+ },
+ "servo_still_seated_on_bracket": {
+  "before": 0.0,
+  "changed": 0.0
+ },
+ "support_volume_changed_cm3": 0.2395,
+ "stops_touch_changed": {
+  "stop_gap_+23": 0.0,
+  "stop_gap_-23": 0.0
+ },
+ "restored_equal": true,
+ "params_back": {
+  "foot_r": "230 mm",
+  "batt_l": "140 mm",
+  "rp_head_t": "6 mm"
+ },
+ "not_followed_by_design": "harness corridors (script-dependent: re-run r4_85_harness.py); mass log (re-run r4_90_mass.py)",
+ "base": {
+  "leg_1_bbox": [
+   30.83,
+   30.83,
+   5.0,
+   170.635,
+   170.635,
+   151.0
+  ],
+  "foot_1_bbox": [
+   151.635,
+   151.635,
+   -15.0,
+   173.635,
+   173.635,
+   5.0
+  ],
+  "top_plate_bbox": [
+   -66.114,
+   -66.114,
+   493.0,
+   66.114,
+   66.114,
+   510.0
+  ],
+  "tube_1_bbox": [
+   44.497,
+   44.497,
+   145.0,
+   54.497,
+   54.497,
+   508.0
+  ],
+  "esc_bbox": [
+   -41.5,
+   -28.0,
+   508.0,
+   41.5,
+   7.0,
+   530.0
+  ],
+  "battery_bbox": [
+   -22.5,
+   -22.0,
+   363.0,
+   22.5,
+   22.0,
+   503.0
+  ],
+  "vane_V+X_bbox": [
+   22.0,
+   -11.0,
+   107.6,
+   50.0,
+   18.0,
+   139.6
+  ],
+  "horn_V+X_bbox": [
+   46.5,
+   -5.0,
+   125.0,
+   54.0,
+   23.0,
+   135.0
+  ],
+  "servo_V+X_bbox": [
+   50.75,
+   -30.85,
+   122.4,
+   84.45,
+   17.65,
+   137.6
+  ],
+  "support_vol_cm3": 68.9784,
+  "servo_to_support_mm": 0.0,
+  "foot_screw_bbox": [
+   159.785,
+   159.785,
+   -4.65,
+   165.485,
+   165.485,
+   13.0
+  ],
+  "top_clamp_screw_bbox": [
+   49.604,
+   49.144,
+   494.65,
+   66.114,
+   65.655,
+   500.35
+  ],
+  "stop_gap_+23": 0.0,
+  "stop_gap_-23": 0.0
+ },
+ "changed": {
+  "leg_1_bbox": [
+   30.83,
+   30.83,
+   5.0,
+   177.706,
+   177.706,
+   151.0
+  ],
+  "foot_1_bbox": [
+   158.706,
+   158.706,
+   -15.0,
+   180.706,
+   180.706,
+   5.0
+  ],
+  "top_plate_bbox": [
+   -66.114,
+   -66.114,
+   495.0,
+   66.114,
+   66.114,
+   512.0
+  ],
+  "tube_1_bbox": [
+   44.497,
+   44.497,
+   145.0,
+   54.497,
+   54.497,
+   510.0
+  ],
+  "esc_bbox": [
+   -41.5,
+   -28.0,
+   510.0,
+   41.5,
+   7.0,
+   532.0
+  ],
+  "battery_bbox": [
+   -22.5,
+   -22.0,
+   363.0,
+   22.5,
+   22.0,
+   505.0
+  ],
+  "vane_V+X_bbox": [
+   22.0,
+   -11.0,
+   107.6,
+   51.0,
+   18.0,
+   139.6
+  ],
+  "horn_V+X_bbox": [
+   47.5,
+   -5.0,
+   125.0,
+   55.0,
+   23.0,
+   135.0
+  ],
+  "servo_V+X_bbox": [
+   51.75,
+   -30.85,
+   122.4,
+   85.45,
+   17.65,
+   137.6
+  ],
+  "support_vol_cm3": 69.2179,
+  "servo_to_support_mm": 0.0,
+  "foot_screw_bbox": [
+   166.856,
+   166.856,
+   -4.65,
+   172.556,
+   172.556,
+   13.0
+  ],
+  "top_clamp_screw_bbox": [
+   49.604,
+   49.144,
+   496.65,
+   66.114,
+   65.655,
+   502.35
+  ],
+  "stop_gap_+23": 0.0,
+  "stop_gap_-23": 0.0
+ },
+ "back": {
+  "leg_1_bbox": [
+   30.83,
+   30.83,
+   5.0,
+   170.635,
+   170.635,
+   151.0
+  ],
+  "foot_1_bbox": [
+   151.635,
+   151.635,
+   -15.0,
+   173.635,
+   173.635,
+   5.0
+  ],
+  "top_plate_bbox": [
+   -66.114,
+   -66.114,
+   493.0,
+   66.114,
+   66.114,
+   510.0
+  ],
+  "tube_1_bbox": [
+   44.497,
+   44.497,
+   145.0,
+   54.497,
+   54.497,
+   508.0
+  ],
+  "esc_bbox": [
+   -41.5,
+   -28.0,
+   508.0,
+   41.5,
+   7.0,
+   530.0
+  ],
+  "battery_bbox": [
+   -22.5,
+   -22.0,
+   363.0,
+   22.5,
+   22.0,
+   503.0
+  ],
+  "vane_V+X_bbox": [
+   22.0,
+   -11.0,
+   107.6,
+   50.0,
+   18.0,
+   139.6
+  ],
+  "horn_V+X_bbox": [
+   46.5,
+   -5.0,
+   125.0,
+   54.0,
+   23.0,
+   135.0
+  ],
+  "servo_V+X_bbox": [
+   50.75,
+   -30.85,
+   122.4,
+   84.45,
+   17.65,
+   137.6
+  ],
+  "support_vol_cm3": 68.9784,
+  "servo_to_support_mm": 0.0,
+  "foot_screw_bbox": [
+   159.785,
+   159.785,
+   -4.65,
+   165.485,
+   165.485,
+   13.0
+  ],
+  "top_clamp_screw_bbox": [
+   49.604,
+   49.144,
+   494.65,
+   66.114,
+   65.655,
+   500.35
+  ],
+  "stop_gap_+23": 0.0,
+  "stop_gap_-23": 0.0
+ }
+}

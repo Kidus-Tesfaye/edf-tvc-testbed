@@ -1,0 +1,4 @@
+{
+ "ok": false,
+ "traceback": "Traceback (most recent call last):\n  File \"<string>\", line 166, in run\n  File \"<string>\", line 102, in proxy_material\n  File \"C:\\Users/ephip/AppData/Local/Autodesk/webdeploy/production/736d2b4c5e6b95e77c11721da222cf21c6a1fc1f/Api/Python/packages\\adsk\\core.py\", line 16261, in addByCopy\n    return _core.Materials_addByCopy(self, materialToCopy, name)\n           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: 3 : invalid parameter materialToCopy\n"
+}

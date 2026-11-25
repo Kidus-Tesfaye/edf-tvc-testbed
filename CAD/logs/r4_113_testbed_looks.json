@@ -1,0 +1,29 @@
+{
+ "ok": true,
+ "applied": {
+  "TB-AC": [
+   "Glass (Clear)",
+   3
+  ],
+  "TB-FR": [
+   "Aluminum - Satin",
+   22
+  ],
+  "TB-AN": [
+   "Steel - Satin",
+   24
+  ],
+  "TB-BS": null,
+  "TB-TL": [
+   "Plastic - Glossy (Black)",
+   8
+  ],
+  "TB-FL": [
+   "Plastic - Glossy (Yellow)",
+   4
+  ]
+ },
+ "saved": true,
+ "f3d": true,
+ "f3d_bytes": 1918314
+}

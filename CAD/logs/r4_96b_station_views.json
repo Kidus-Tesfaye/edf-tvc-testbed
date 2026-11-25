@@ -1,0 +1,15 @@
+{
+ "ok": true,
+ "views": [
+  "09_station_V+X_close_iso.png",
+  "09_station_V+X_close_from_-Y.png",
+  "10a_section_station_V+X_hinge_plane_Z130_from_above.png",
+  "10a_section_station_V+X_hinge_plane_Z130_iso.png",
+  "10b_section_station_V+X_plane_Y0_through_hinge_axis_from_-Y.png",
+  "11_station_V+X_pose_-stop_deg_along_hinge_axis.png",
+  "11_station_V+X_pose_-20_deg_along_hinge_axis.png",
+  "11_station_V+X_pose_0_deg_along_hinge_axis.png",
+  "11_station_V+X_pose_+20_deg_along_hinge_axis.png",
+  "11_station_V+X_pose_+stop_deg_along_hinge_axis.png"
+ ]
+}

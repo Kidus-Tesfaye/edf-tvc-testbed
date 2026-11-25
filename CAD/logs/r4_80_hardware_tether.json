@@ -1,0 +1,465 @@
+{
+ "ok": true,
+ "group": "tether",
+ "time_s": 40.2,
+ "placed": 32,
+ "fail": [],
+ "counts": {
+  "M4x16": 8,
+  "M4 nut": 8,
+  "M3x20": 8,
+  "M3 nut": 8
+ },
+ "rows": [
+  {
+   "id": "TT1-C1-S",
+   "hw": "M4x16",
+   "host": "R3-TT-01/collar_1",
+   "pt": [
+    44.55,
+    38.89,
+    405.0
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "collar clamp; blue locker"
+  },
+  {
+   "id": "TT1-C1-N",
+   "hw": "M4 nut",
+   "host": "R3-TT-01/collar_1",
+   "pt": [
+    38.89,
+    44.55,
+    405.0
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "plain nut"
+  },
+  {
+   "id": "TT1-C2-S",
+   "hw": "M4x16",
+   "host": "R3-TT-01/collar_1",
+   "pt": [
+    44.55,
+    38.89,
+    415.0
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "collar clamp; blue locker"
+  },
+  {
+   "id": "TT1-C2-N",
+   "hw": "M4 nut",
+   "host": "R3-TT-01/collar_1",
+   "pt": [
+    38.89,
+    44.55,
+    415.0
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "plain nut"
+  },
+  {
+   "id": "TS1-C1-S",
+   "hw": "M3x20",
+   "host": "R3-TT-03/stop_cap_R3-FR-11T_1",
+   "pt": [
+    60.81,
+    46.67,
+    427.5
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "backup stop cap, radially inward"
+  },
+  {
+   "id": "TS1-C1-N",
+   "hw": "M3 nut",
+   "host": "R3-TT-03/stop_base_1",
+   "pt": [
+    50.98,
+    36.84,
+    427.5
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": -30.0,
+   "note": "captive nut"
+  },
+  {
+   "id": "TS1-C2-S",
+   "hw": "M3x20",
+   "host": "R3-TT-03/stop_cap_R3-FR-11T_1",
+   "pt": [
+    46.67,
+    60.81,
+    427.5
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "backup stop cap, radially inward"
+  },
+  {
+   "id": "TS1-C2-N",
+   "hw": "M3 nut",
+   "host": "R3-TT-03/stop_base_1",
+   "pt": [
+    36.84,
+    50.98,
+    427.5
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": -30.0,
+   "note": "captive nut"
+  },
+  {
+   "id": "TT2-C1-S",
+   "hw": "M4x16",
+   "host": "R3-TT-01/collar_2",
+   "pt": [
+    -38.89,
+    44.55,
+    405.0
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "collar clamp; blue locker"
+  },
+  {
+   "id": "TT2-C1-N",
+   "hw": "M4 nut",
+   "host": "R3-TT-01/collar_2",
+   "pt": [
+    -44.55,
+    38.89,
+    405.0
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "plain nut"
+  },
+  {
+   "id": "TT2-C2-S",
+   "hw": "M4x16",
+   "host": "R3-TT-01/collar_2",
+   "pt": [
+    -38.89,
+    44.55,
+    415.0
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "collar clamp; blue locker"
+  },
+  {
+   "id": "TT2-C2-N",
+   "hw": "M4 nut",
+   "host": "R3-TT-01/collar_2",
+   "pt": [
+    -44.55,
+    38.89,
+    415.0
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "plain nut"
+  },
+  {
+   "id": "TS2-C1-S",
+   "hw": "M3x20",
+   "host": "R3-TT-03/stop_cap_R3-FR-11T_2",
+   "pt": [
+    -46.67,
+    60.81,
+    427.5
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "backup stop cap, radially inward"
+  },
+  {
+   "id": "TS2-C1-N",
+   "hw": "M3 nut",
+   "host": "R3-TT-03/stop_base_2",
+   "pt": [
+    -36.84,
+    50.98,
+    427.5
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": -30.0,
+   "note": "captive nut"
+  },
+  {
+   "id": "TS2-C2-S",
+   "hw": "M3x20",
+   "host": "R3-TT-03/stop_cap_R3-FR-11T_2",
+   "pt": [
+    -60.81,
+    46.67,
+    427.5
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "backup stop cap, radially inward"
+  },
+  {
+   "id": "TS2-C2-N",
+   "hw": "M3 nut",
+   "host": "R3-TT-03/stop_base_2",
+   "pt": [
+    -50.98,
+    36.84,
+    427.5
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": -30.0,
+   "note": "captive nut"
+  },
+  {
+   "id": "TT3-C1-S",
+   "hw": "M4x16",
+   "host": "R3-TT-01/collar_3",
+   "pt": [
+    -44.55,
+    -38.89,
+    405.0
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "collar clamp; blue locker"
+  },
+  {
+   "id": "TT3-C1-N",
+   "hw": "M4 nut",
+   "host": "R3-TT-01/collar_3",
+   "pt": [
+    -38.89,
+    -44.55,
+    405.0
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "plain nut"
+  },
+  {
+   "id": "TT3-C2-S",
+   "hw": "M4x16",
+   "host": "R3-TT-01/collar_3",
+   "pt": [
+    -44.55,
+    -38.89,
+    415.0
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "collar clamp; blue locker"
+  },
+  {
+   "id": "TT3-C2-N",
+   "hw": "M4 nut",
+   "host": "R3-TT-01/collar_3",
+   "pt": [
+    -38.89,
+    -44.55,
+    415.0
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "plain nut"
+  },
+  {
+   "id": "TS3-C1-S",
+   "hw": "M3x20",
+   "host": "R3-TT-03/stop_cap_R3-FR-11T_3",
+   "pt": [
+    -60.81,
+    -46.67,
+    427.5
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "backup stop cap, radially inward"
+  },
+  {
+   "id": "TS3-C1-N",
+   "hw": "M3 nut",
+   "host": "R3-TT-03/stop_base_3",
+   "pt": [
+    -50.98,
+    -36.84,
+    427.5
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": -30.0,
+   "note": "captive nut"
+  },
+  {
+   "id": "TS3-C2-S",
+   "hw": "M3x20",
+   "host": "R3-TT-03/stop_cap_R3-FR-11T_3",
+   "pt": [
+    -46.67,
+    -60.81,
+    427.5
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "backup stop cap, radially inward"
+  },
+  {
+   "id": "TS3-C2-N",
+   "hw": "M3 nut",
+   "host": "R3-TT-03/stop_base_3",
+   "pt": [
+    -36.84,
+    -50.98,
+    427.5
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": -30.0,
+   "note": "captive nut"
+  },
+  {
+   "id": "TT4-C1-S",
+   "hw": "M4x16",
+   "host": "R3-TT-01/collar_4",
+   "pt": [
+    38.89,
+    -44.55,
+    405.0
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "collar clamp; blue locker"
+  },
+  {
+   "id": "TT4-C1-N",
+   "hw": "M4 nut",
+   "host": "R3-TT-01/collar_4",
+   "pt": [
+    44.55,
+    -38.89,
+    405.0
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "plain nut"
+  },
+  {
+   "id": "TT4-C2-S",
+   "hw": "M4x16",
+   "host": "R3-TT-01/collar_4",
+   "pt": [
+    38.89,
+    -44.55,
+    415.0
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "collar clamp; blue locker"
+  },
+  {
+   "id": "TT4-C2-N",
+   "hw": "M4 nut",
+   "host": "R3-TT-01/collar_4",
+   "pt": [
+    44.55,
+    -38.89,
+    415.0
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "plain nut"
+  },
+  {
+   "id": "TS4-C1-S",
+   "hw": "M3x20",
+   "host": "R3-TT-03/stop_cap_R3-FR-11T_4",
+   "pt": [
+    46.67,
+    -60.81,
+    427.5
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "backup stop cap, radially inward"
+  },
+  {
+   "id": "TS4-C1-N",
+   "hw": "M3 nut",
+   "host": "R3-TT-03/stop_base_4",
+   "pt": [
+    36.84,
+    -50.98,
+    427.5
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": -30.0,
+   "note": "captive nut"
+  },
+  {
+   "id": "TS4-C2-S",
+   "hw": "M3x20",
+   "host": "R3-TT-03/stop_cap_R3-FR-11T_4",
+   "pt": [
+    60.81,
+    -46.67,
+    427.5
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": null,
+   "note": "backup stop cap, radially inward"
+  },
+  {
+   "id": "TS4-C2-N",
+   "hw": "M3 nut",
+   "host": "R3-TT-03/stop_base_4",
+   "pt": [
+    50.98,
+    -36.84,
+    427.5
+   ],
+   "pos_err": 0.0,
+   "dir_dot": 1.0,
+   "nut_rot": -30.0,
+   "note": "captive nut"
+  }
+ ],
+ "health": [],
+ "timeline": 675
+}

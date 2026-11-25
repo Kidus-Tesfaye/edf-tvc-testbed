@@ -1,0 +1,49 @@
+{
+ "ok": true,
+ "kids": [
+  "R4-VM-FIX",
+  "R4-VM-MOV"
+ ],
+ "vane_bbox_assembly": {
+  "V+X": [
+   22.0,
+   -10.0,
+   107.6,
+   50.0,
+   18.0,
+   139.6
+  ],
+  "V+Y": [
+   -18.0,
+   22.0,
+   107.6,
+   10.0,
+   50.0,
+   139.6
+  ],
+  "V-X": [
+   -50.0,
+   -18.0,
+   107.6,
+   -22.0,
+   10.0,
+   139.6
+  ],
+  "V-Y": [
+   -10.0,
+   -50.0,
+   107.6,
+   18.0,
+   -22.0,
+   139.6
+  ]
+ },
+ "joints": [
+  "R4J V+X vane revolute",
+  "R4J V+Y vane revolute",
+  "R4J V-X vane revolute",
+  "R4J V-Y vane revolute"
+ ],
+ "health": [],
+ "timeline": 173
+}
