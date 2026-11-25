@@ -1,0 +1,23 @@
+{
+  "source": "cad/R4_R4-FLIGHT.step",
+  "sourceSha256": "654361612c3bac7e40609372efecb4b171ae9367e725212e27aba1c72635ca78",
+  "objects": 115,
+  "triangles": 76779,
+  "boundsMetres": [
+    [
+      -0.173593,
+      -0.173593,
+      -0.015
+    ],
+    [
+      0.173593,
+      0.173593,
+      0.53
+    ]
+  ],
+  "movingVanes": 4,
+  "movingParts": 16,
+  "meshLinearDeflection_mm": 0.35,
+  "bodyCoordinates": "Original STEP CAD X,Y,Z; metres. Animation rotates CAD about simulated CG.",
+  "movingCoordinates": "Each station rotates by minus logged vane angle about its outward radial hinge axis at CAD Z=0.130 m. This gives the positive tangential reaction convention of r4_plant."
+}
