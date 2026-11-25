@@ -1,3 +1,9 @@
+# EDF thrust-vector control testbed
+
+The R4 simulation uses one EDF and four control vanes. [Simulation, results and 3D playback](simulation/r4/README.md) include the 5 m climb, 8 s hover and landing study.
+
+The September planning documents follow below.
+
 # EDF gimbal testbed
 
 Student group project (HCT, UAE): **active stabilisation of a vertical thrust vector** on one

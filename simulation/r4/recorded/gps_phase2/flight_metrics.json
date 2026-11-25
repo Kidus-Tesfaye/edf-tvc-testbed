@@ -1,0 +1,88 @@
+{
+  "case": "gps_phase2",
+  "wind_world_ms": [
+    1,
+    0,
+    0
+  ],
+  "gps_phase_rad": 1.8,
+  "mass_kg": 2.0128,
+  "ground_stiffness_N_m_per_foot": 8000,
+  "ground_damping_Ns_m_per_foot": 50,
+  "normal_arming_observed": true,
+  "native_mode_sequence": [
+    5,
+    5,
+    9
+  ],
+  "only_planned_modes": true,
+  "native_land_entered": true,
+  "liftoff_s": 108.388333333333,
+  "hover_start_s": 121.00000000000001,
+  "land_request_s": 129,
+  "touchdown_s": 140.701666666667,
+  "native_disarm_s": 144.273101,
+  "recording_end_s": 150.3,
+  "hover_completed": true,
+  "hover_height_min_m": 4.99136238777695,
+  "hover_height_max_m": 5.02593887032754,
+  "height_pass": true,
+  "max_radius_m": 0.5699813723521585,
+  "radius_1m_pass": true,
+  "radius_at_touchdown_m": 0.46215495749376484,
+  "radius_final_m": 0.45750107851806154,
+  "landing_duration_s": 11.701666666666995,
+  "airborne_duration_s": 32.313333333334,
+  "touchdown_CG_vertical_speed_m_s": -0.300161268423368,
+  "touchdown_fastest_foot_vertical_speed_m_s": -0.301074199739557,
+  "touchdown_horizontal_speed_m_s": 0.07142645876645373,
+  "touchdown_lean_deg": 0.1718127884998011,
+  "peak_flight_lean_deg": 1.1158782243093068,
+  "peak_post_contact_lean_deg": 0.33871865919624494,
+  "peak_ground_load_N": 63.897703062746,
+  "peak_ground_load_bodyweights": 3.2371583756524007,
+  "max_all_feet_rebound_clearance_m": 0.00861537623217679,
+  "significant_hop_intervals_s": [
+    [
+      140.788333333333,
+      140.9425
+    ]
+  ],
+  "tipped_guard_26deg": false,
+  "settled_last_second": true,
+  "native_disarm_observed": true,
+  "native_disarm_dataflash": true,
+  "premature_disarm": false,
+  "touchdown_to_disarm_s": 3.571434333333002,
+  "fan_below_point1N_s": 144.725,
+  "final_fan_thrust_N": 7.18626925159914e-18,
+  "final_PWM5_us": 1000.0,
+  "final_contact_count": 4,
+  "final_lean_deg": 0.004474624097278407,
+  "native_disarm_records": [
+    {
+      "mavpackettype": "ARM",
+      "TimeUS": 144273101,
+      "ArmState": 0,
+      "ArmChecks": 0,
+      "Forced": 0,
+      "Method": 13
+    }
+  ],
+  "native_fusion_messages": [
+    "EKF3 IMU0 is using GPS",
+    "Disarming motors"
+  ],
+  "phase_max_radius_m": {
+    "climb": 0.4425776162224647,
+    "hover": 0.5317923761480423,
+    "descent": 0.5699813723521585,
+    "after_touchdown": 0.46215495749376484
+  },
+  "native_horizontal_control_samples_during_descent": 110,
+  "native_landed_disarm_reason_verified": true,
+  "max_airborne_radius_m": 0.5699813723521585,
+  "first_1m_crossing": null,
+  "landing_model_pass": false,
+  "mission_pass": false
+}

@@ -1,0 +1,178 @@
+[
+  {
+    "name": "calm",
+    "label": "calm",
+    "profile": "gps_good",
+    "group": "flight",
+    "massScale": 1,
+    "thrustScale": 1,
+    "servoLagScale": 1,
+    "servoRateScale": 1,
+    "windWorld": [
+      0,
+      0,
+      0
+    ],
+    "seed": 2107,
+    "rangeNoiseStd": 0.02,
+    "rangeBias": 0,
+    "gpsPhase": 0,
+    "groundStiffnessScale": 1,
+    "groundDampingScale": 1,
+    "observerHz": 1200
+  },
+  {
+    "name": "wind_x1",
+    "label": "wind_x1",
+    "profile": "gps_good",
+    "group": "flight",
+    "massScale": 1,
+    "thrustScale": 1,
+    "servoLagScale": 1,
+    "servoRateScale": 1,
+    "windWorld": [
+      1,
+      0,
+      0
+    ],
+    "seed": 2107,
+    "rangeNoiseStd": 0.02,
+    "rangeBias": 0,
+    "gpsPhase": 0,
+    "groundStiffnessScale": 1,
+    "groundDampingScale": 1,
+    "observerHz": 1200
+  },
+  {
+    "name": "wind_nx1",
+    "label": "wind_nx1",
+    "profile": "gps_good",
+    "group": "flight",
+    "massScale": 1,
+    "thrustScale": 1,
+    "servoLagScale": 1,
+    "servoRateScale": 1,
+    "windWorld": [
+      -1,
+      0,
+      0
+    ],
+    "seed": 2107,
+    "rangeNoiseStd": 0.02,
+    "rangeBias": 0,
+    "gpsPhase": 0,
+    "groundStiffnessScale": 1,
+    "groundDampingScale": 1,
+    "observerHz": 20
+  },
+  {
+    "name": "wind_y1",
+    "label": "wind_y1",
+    "profile": "gps_good",
+    "group": "flight",
+    "massScale": 1,
+    "thrustScale": 1,
+    "servoLagScale": 1,
+    "servoRateScale": 1,
+    "windWorld": [
+      0,
+      1,
+      0
+    ],
+    "seed": 2107,
+    "rangeNoiseStd": 0.02,
+    "rangeBias": 0,
+    "gpsPhase": 0,
+    "groundStiffnessScale": 1,
+    "groundDampingScale": 1,
+    "observerHz": 20
+  },
+  {
+    "name": "wind_ny1",
+    "label": "wind_ny1",
+    "profile": "gps_good",
+    "group": "flight",
+    "massScale": 1,
+    "thrustScale": 1,
+    "servoLagScale": 1,
+    "servoRateScale": 1,
+    "windWorld": [
+      0,
+      -1,
+      0
+    ],
+    "seed": 2107,
+    "rangeNoiseStd": 0.02,
+    "rangeBias": 0,
+    "gpsPhase": 0,
+    "groundStiffnessScale": 1,
+    "groundDampingScale": 1,
+    "observerHz": 20
+  },
+  {
+    "name": "wind_x05",
+    "label": "wind_x05",
+    "profile": "gps_good",
+    "group": "flight",
+    "massScale": 1,
+    "thrustScale": 1,
+    "servoLagScale": 1,
+    "servoRateScale": 1,
+    "windWorld": [
+      0.5,
+      0,
+      0
+    ],
+    "seed": 2107,
+    "rangeNoiseStd": 0.02,
+    "rangeBias": 0,
+    "gpsPhase": 0,
+    "groundStiffnessScale": 1,
+    "groundDampingScale": 1,
+    "observerHz": 20
+  },
+  {
+    "name": "gps_phase2",
+    "label": "gps_phase2",
+    "profile": "gps_good",
+    "group": "flight",
+    "massScale": 1,
+    "thrustScale": 1,
+    "servoLagScale": 1,
+    "servoRateScale": 1,
+    "windWorld": [
+      1,
+      0,
+      0
+    ],
+    "seed": 2107,
+    "rangeNoiseStd": 0.02,
+    "rangeBias": 0,
+    "gpsPhase": 1.8,
+    "groundStiffnessScale": 1,
+    "groundDampingScale": 1,
+    "observerHz": 20
+  },
+  {
+    "name": "contact_stress",
+    "label": "contact_stress",
+    "profile": "gps_good",
+    "group": "flight",
+    "massScale": 1,
+    "thrustScale": 1,
+    "servoLagScale": 1,
+    "servoRateScale": 1,
+    "windWorld": [
+      1,
+      0,
+      0
+    ],
+    "seed": 2107,
+    "rangeNoiseStd": 0.02,
+    "rangeBias": 0,
+    "gpsPhase": 0,
+    "groundStiffnessScale": 2,
+    "groundDampingScale": 0.5,
+    "observerHz": 20
+  }
+]

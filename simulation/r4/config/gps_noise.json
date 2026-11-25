@@ -1,0 +1,10 @@
+{
+  "gps_good": {
+    "rateHz": 10,
+    "whiteStdM": 0.2,
+    "biasAmplitudeM": 0.3,
+    "periodN": 40,
+    "periodE": 55,
+    "phase": 0
+  }
+}

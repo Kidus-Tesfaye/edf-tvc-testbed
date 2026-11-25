@@ -1,0 +1,21 @@
+ArduPilot
+ArduCopter 4.7.3 beta, commit bf693f316b0144fb4fac3893956f80f4c277fa3f.
+Executable supplied unchanged. Corresponding source:
+https://github.com/ArduPilot/ardupilot/tree/bf693f316b0144fb4fac3893956f80f4c277fa3f
+https://github.com/ArduPilot/ardupilot/archive/bf693f316b0144fb4fac3893956f80f4c277fa3f.tar.gz
+
+Cygwin
+Runtime libraries are included with the Windows executable.
+Source packages: https://cygwin.com/packages/
+Licenses: https://cygwin.com/licensing.html
+
+pnet
+The UDP connector source, MATLAB wrapper and Windows MEX binary are in
+runtime/connector. Original notices are retained in the source files.
+
+Python dependencies
+pymavlink, NumPy, lxml and fastcrc are installed from requirements.txt.
+Their installed packages are not redistributed here.
+
+MATLAB
+MATLAB and Simulink are not redistributed. A separate license is required.
