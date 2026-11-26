@@ -42,8 +42,7 @@ edf-gimbal-testbed/
 │   ├── extracted_rows.{json,md}                        the 37 rows + links as first read out of the docx
 │   ├── check_pages.ps1                                 Word COM: page count, table span, link count, PDF export
 │   └── pdf2png.ps1                                     WinRT: render a PDF page to PNG for visual checks
-└── tools/
-    └── gap-statement-review.skill                      packaged copy of the audit skill (also installed in ~/.claude/skills)
+
 ```
 
 ## Status (2026-09-24)
